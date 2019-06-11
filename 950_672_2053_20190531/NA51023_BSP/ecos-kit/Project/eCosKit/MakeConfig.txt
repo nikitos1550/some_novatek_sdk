@@ -1,0 +1,57 @@
+BIN_NAME        = ecos-kit
+SCATTER         = eCosKit.lds
+
+#remove mark for SA-1 Emu's test
+#BOARD_ECOS_ADDR = 0x04000000
+#BOARD_ECOS_SIZE = 0x00800000
+#BIN_NAME = _FWMIPS2.bin
+
+#----------------------------------------------------------------------
+# multi regions in scatter description file or not
+# ON: Two or more load regions
+# OFF: Only one load region
+#----------------------------------------------------------------------
+MULTI_REGIONS = OFF
+
+#----------------------------------------------------------------------
+# set encrypt binary parameters
+# EBIN_METHOD
+#   CRC: CRC32
+#   SUM: Checksum
+# EBIN_BADDR
+#   Model name address in binary file (VersionInfo.s), should be 0x50
+# EBIN_MNAME
+#   Model name store in binary file (VersionInfo.s)
+# EBIN_PSTR
+#   Optional parameter, use as additional bytes to generate CRC or checksum
+#----------------------------------------------------------------------
+EBIN_METHOD = SUM
+
+EBIN_BADDR  = 0x450
+EBIN_MNAME  = ecos-kit
+EBIN_PSTR   =
+
+#----------------------------------------------------------------------
+# modelext build-in ON / OFF
+#----------------------------------------------------------------------
+# MODELEXT_BUILT_IN_ON
+# MODELEXT_BUILT_IN_OFF
+MODELEXT_BUILT_IN = MODELEXT_BUILT_IN_ON
+
+#----------------------------------------------------------------------
+# UI_STYLE parameters
+#----------------------------------------------------------------------
+UI_STYLE_ALL = UI_STYLE_SPORTCAM UI_STYLE_CARDV UI_STYLE_IPCAM UI_STYLE_TOUCH
+
+#----------------------------------------------------------------------
+# C define
+#----------------------------------------------------------------------
+
+MODELCONFIG_CFLAGS = \
+	-D_$(ASR)_ \
+
+C_DEFINE =
+
+C_DEFINE_EXT = \
+    $(MODELCONFIG_CFLAGS) \
+

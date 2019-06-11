@@ -1,0 +1,4 @@
+cc.c:23:7:cc_sendCore1CMD	32	static
+cc.c:127:7:cc_hwUnlockResource	0	static
+cc.c:152:8:cc_getHwResGrant	32	static
+cc.c:96:7:cc_hwLockResource	40	static

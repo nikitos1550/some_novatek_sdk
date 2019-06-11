@@ -1,0 +1,27 @@
+connect 'localhost:4444 /DS /T=1'
+
+sendln 'halt'
+wait '>'
+
+sendln 'reset init'
+wait '>'
+
+send 'load_image '
+send param2
+send '/eCosKit_Data/'
+send param3
+sendln '/FW96660T.bin 0x9F600000'
+wait '>'
+wait '>'
+
+strcompare param4 'Resume'
+if result=0 then
+    sendln 'reg pc 0x9F600000'
+    wait '>'
+    sendln 'resume'
+    wait '>'
+endif
+
+sendln 'exit'
+
+disconnect 0

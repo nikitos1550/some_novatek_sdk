@@ -1,0 +1,2 @@
+iocfg.c:80:6:sdio_power_cycle	0	static
+iocfg.c:133:6:iocfg_init	56	static

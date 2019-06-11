@@ -1,0 +1,9 @@
+cmd_exfat.c:21:5:do_exfat_fsload	40	static
+cmd_exfat.c:42:12:do_exfat_ls	40	static
+cmd_exfat.c:54:12:do_exfat_fsinfo	144	static
+cmd_exfat.c:87:12:do_exfat_fswrite	144	static
+cmd_exfat.c:138:12:do_exfat_fsrm	144	static
+cmd_exfat.c:180:12:do_exfat_fsrename	144	static
+cmd_exfat.c:222:12:do_write_wrapper	40	static
+cmd_exfat.c:236:12:do_rm_wrapper	40	static
+cmd_exfat.c:249:12:do_rename_wrapper	40	static

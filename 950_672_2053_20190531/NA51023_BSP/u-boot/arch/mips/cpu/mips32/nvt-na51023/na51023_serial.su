@@ -1,0 +1,6 @@
+na51023_serial.c:50:13:na51023_serial_setbrg	0	static
+na51023_serial.c:99:12:na51023_serial_tstc	0	static
+na51023_serial.c:70:13:na51023_serial_putc	32	static
+na51023_serial.c:86:12:na51023_serial_getc	32	static
+na51023_serial.c:110:12:na51023_serial_init	32	static
+na51023_serial.c:216:30:default_serial_console	0	static

@@ -1,0 +1,26 @@
+#----------------------------------------------------------------------
+# Set model here
+#
+# The corresponding peripheral device (e.g. Sensor) is referred to
+# ModelConfig_(MODEL).txt
+#
+# [OWNER LIST]
+# FPGA: Lincy
+# IPCAM1_EVB: Lincy
+# DVCAM1_EVB: Lincy
+# Q09_2     : Isiah
+# PW672     : Isiah
+#----------------------------------------------------------------------
+
+# FPGA
+# IPCAM1_EVB
+# DVCAM1_EVB
+# J511S
+# X1
+# JXW518
+# Q09_2
+# PW672
+# WH675_64M
+# WH675
+# WH850_672
+MODEL = X1

@@ -1,0 +1,11 @@
+make[1]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/u-boot'
+  CLEAN   examples/standalone
+  CLEAN   tools/env
+  CLEAN   tools
+  CLEAN   tools/lib tools/common
+  CLEAN   u-boot.lds include/autoconf.mk.dep include/autoconf.mk
+  CLEAN   u-boot.map u-boot.lz.bin u-boot.srec u-boot.bin u-boot u-boot.dis System.map
+  CLEAN   scripts/basic
+  CLEAN   include/config include/generated
+  CLEAN   include/config.h include/config.mk
+make[1]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/u-boot'

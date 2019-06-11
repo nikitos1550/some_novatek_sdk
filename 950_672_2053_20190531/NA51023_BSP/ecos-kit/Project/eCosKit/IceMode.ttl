@@ -1,0 +1,6 @@
+connect 'localhost:4444 /DS /T=1'
+
+sendln 'halt'
+wait '>'
+
+disconnect 0

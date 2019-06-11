@@ -1,0 +1,48 @@
+---- LOGFILE_FUNC Matches (47 in 25 files) ----
+_main.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+_main.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+_main.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+_main.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+_main.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+_main.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+PrjCfg_A7_N75.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_DVCam.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_DVCam_64M.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_FPGA.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_G600.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_IPCam.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_J511S.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_JXW518.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_P2PCam.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_PW672.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_Q09_2.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_R2.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_WH675.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_WH675_64M.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_WH850_672.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_WH950_672.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_X1.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    ENABLE
+PrjCfg_X1_675_WAV.h (Project):#define LOGFILE_FUNC                    DISABLE
+PrjCfg_X1_675_WAV.h (Project\DemoKit\SrcCode):#define LOGFILE_FUNC                    DISABLE
+SysCfg.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+SysCfg.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+SysCfg.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+SysCfg.c (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+SysCfg.h (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC==ENABLE)
+SysCfg.h (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC == ENABLE)
+SysCfg.h (Project\DemoKit\SrcCode\Kernel):#if (LOGFILE_FUNC == ENABLE)
+SysMain.c (Project\DemoKit\SrcCode\System):	#if (LOGFILE_FUNC==ENABLE)
+SysStrg_Exe.c (Project\DemoKit\SrcCode\System):#if (LOGFILE_FUNC==ENABLE)
+SysStrg_Exe.c (Project\DemoKit\SrcCode\System):#if (LOGFILE_FUNC == ENABLE && ECOS_DBG_MSG_FORCE_UART1_DIRECT == ENABLE)
+SysStrg_Exe.c (Project\DemoKit\SrcCode\System)://#error "LOGFILE_FUNC must turn off ECOS_DBG_MSG_FORCE_UART1_DIRECT"
+SysStrg_Exe.c (Project\DemoKit\SrcCode\System):#if (LOGFILE_FUNC==ENABLE)
+SysStrg_Exe.c (Project\DemoKit\SrcCode\System):#if (LOGFILE_FUNC==ENABLE)
+SysStrg_Exe.c (Project\DemoKit\SrcCode\System):#if (LOGFILE_FUNC==ENABLE)
+SysStrg_Exe.c (Project\DemoKit\SrcCode\System):#if (LOGFILE_FUNC==ENABLE)
+UIBackgroundObj.c (Project\DemoKit\SrcCode\UIApp\Background):#if (LOGFILE_FUNC==ENABLE)
+UIBackgroundObj.c (Project\DemoKit\SrcCode\UIApp\Background):#if (LOGFILE_FUNC==ENABLE)
+UIBackgroundObj.c (Project\DemoKit\SrcCode\UIApp\Background):#if (LOGFILE_FUNC==ENABLE)
+UIBackgroundObj.c (Project\DemoKit\SrcCode\UIApp\Background):#if (LOGFILE_FUNC==ENABLE)
+UIBackgroundObj.c (Project\DemoKit\SrcCode\UIApp\Background):#if (LOGFILE_FUNC==ENABLE)
+UIBackgroundObj.c (Project\DemoKit\SrcCode\UIApp\Background):#if (LOGFILE_FUNC==ENABLE)
+UIBackgroundObj.c (Project\DemoKit\SrcCode\UIApp\Background):#if (LOGFILE_FUNC==ENABLE)

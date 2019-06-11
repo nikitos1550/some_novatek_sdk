@@ -1,0 +1,11 @@
+eth_na51023.c:600:12:eqos_write_hwaddr	0	static
+eth_na51023.c:905:6:eqos_stop	0	static
+eth_na51023.c:953:5:eqos_send	48	static
+eth_na51023.c:367:13:eqos_inval_buffer	0	static
+eth_na51023.c:380:12:eqos_mdio_wait_idle.isra.0	0	static
+eth_na51023.c:459:12:eqos_mdio_write	56	static
+eth_na51023.c:415:12:eqos_mdio_read	48	static
+eth_na51023.c:643:12:eqos_start	64	static
+eth_na51023.c:996:5:eqos_free_pkt	40	static
+eth_na51023.c:1033:5:eqos_recv	48	static
+eth_na51023.c:1164:5:na51023_eth_initialize	48	static

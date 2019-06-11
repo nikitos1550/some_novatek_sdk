@@ -1,0 +1,2 @@
+nvt_ipc.c:62:5:nvt_ipc_sem_lock	48	static
+nvt_ipc.c:101:5:nvt_ipc_sem_unlock	64	static

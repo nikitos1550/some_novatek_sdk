@@ -1,0 +1,9 @@
+nvtpack.c:76:19:nvtpack_get_uitron_offset	40	static
+nvtpack.c:105:32:nvtpack_calc_nvt_sum	0	static
+nvtpack.c:119:30:nvtpack_verify	64	static
+nvtpack.c:169:30:nvtpack_get_partition	56	static
+nvtpack.c:219:30:nvtpack_enum_partition	56	static
+nvtpack.c:443:30:nvtpack_make_parition_pkg	72	static
+nvtpack.c:455:30:nvtpack_get_resource	56	static
+nvtpack.c:490:30:nvtpack_enum_resource	72	static
+nvtpack.c:525:30:nvtpack_make_resource_pkg	88	static

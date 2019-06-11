@@ -1,0 +1,3424 @@
+Archive member included because of file (symbol)
+
+/opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+                              lib/built-in.o (__lshrdi3)
+/opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+                              drivers/mmc/built-in.o (__ashldi3)
+
+分配公共符号
+公共符号            大小              文件
+
+info                0x4               drivers/mtd/spiflash/built-in.o
+console_buffer      0x401             common/built-in.o
+top_reg9            0x4               board/novatek/nvt-na51023/built-in.o
+get_exdentunused_block
+                    0x40000           fs/built-in.o
+top_reg3            0x4               board/novatek/nvt-na51023/built-in.o
+get_exdentfromdir_block
+                    0x40000           fs/built-in.o
+monitor_flash_len   0x4               arch/mips/lib/built-in.o
+save_addr           0x4               common/built-in.o
+top_reg4            0x4               board/novatek/nvt-na51023/built-in.o
+do_exfat_read_at_block
+                    0x40000           fs/built-in.o
+___strtok           0x4               lib/built-in.o
+top_reg7            0x4               board/novatek/nvt-na51023/built-in.o
+mtd_partitions      0x8               drivers/mtd/built-in.o
+env_ptr             0x4               common/built-in.o
+top_reg_sgpio0      0x4               board/novatek/nvt-na51023/built-in.o
+top_reg2            0x4               board/novatek/nvt-na51023/built-in.o
+mtd_table           0x80              drivers/mtd/built-in.o
+images              0x130             common/built-in.o
+top_reg_cgpio0      0x4               board/novatek/nvt-na51023/built-in.o
+top_reg_dgpio0      0x4               board/novatek/nvt-na51023/built-in.o
+top_reg5            0x4               board/novatek/nvt-na51023/built-in.o
+do_fat_read_at_block
+                    0x10000           fs/built-in.o
+top_reg8            0x4               board/novatek/nvt-na51023/built-in.o
+save_size           0x4               common/built-in.o
+top_reg_lgpio0      0x4               board/novatek/nvt-na51023/built-in.o
+na51023_time_start  0x4               arch/mips/lib/built-in.o
+top_reg_hgpi0       0x4               board/novatek/nvt-na51023/built-in.o
+get_contents_vexfatname_block
+                    0x40000           fs/built-in.o
+top_reg_pgpio0      0x4               board/novatek/nvt-na51023/built-in.o
+get_dentfromdir_block
+                    0x10000           fs/built-in.o
+aligned_buffer      0x4               drivers/mmc/built-in.o
+top_reg6            0x4               board/novatek/nvt-na51023/built-in.o
+top_reg1            0x4               board/novatek/nvt-na51023/built-in.o
+spi_flash_info      0xb0              drivers/mtd/spiflash/built-in.o
+get_contents_vfatname_block
+                    0x10000           fs/built-in.o
+
+舍弃的输入节
+
+ .data          0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+ .bss           0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+ .reginfo       0x0000000000000000       0x18 arch/mips/cpu/mips32/start.o
+ .pdr           0x0000000000000000       0x40 arch/mips/cpu/mips32/start.o
+ .reginfo       0x0000000000000000       0x18 board/novatek/nvt-na51023/built-in.o
+ .text.board_eth_init
+                0x0000000000000000        0x8 board/novatek/nvt-na51023/built-in.o
+ .text.get_board_rev
+                0x0000000000000000        0x8 board/novatek/nvt-na51023/built-in.o
+ .text.board_late_init
+                0x0000000000000000        0x8 board/novatek/nvt-na51023/built-in.o
+ .text.get_nvt_timer0_cnt
+                0x0000000000000000       0x10 board/novatek/nvt-na51023/built-in.o
+ .text.nvtpack_make_parition_pkg
+                0x0000000000000000      0x494 board/novatek/nvt-na51023/built-in.o
+ .text.nvtpack_get_resource
+                0x0000000000000000      0x168 board/novatek/nvt-na51023/built-in.o
+ .text.nvtpack_enum_resource
+                0x0000000000000000      0x158 board/novatek/nvt-na51023/built-in.o
+ .text.nvtpack_make_resource_pkg
+                0x0000000000000000      0x364 board/novatek/nvt-na51023/built-in.o
+ .text.GxDSP_Open
+                0x0000000000000000        0x8 board/novatek/nvt-na51023/built-in.o
+ .text.pll_setPLLEn
+                0x0000000000000000       0xa8 board/novatek/nvt-na51023/built-in.o
+ .text.pll_enableClock
+                0x0000000000000000       0x78 board/novatek/nvt-na51023/built-in.o
+ .text.pll_disableSystemReset
+                0x0000000000000000       0x78 board/novatek/nvt-na51023/built-in.o
+ .text.dma_enableChannel
+                0x0000000000000000      0x104 board/novatek/nvt-na51023/built-in.o
+ .text.dma_setAXIRequestCount
+                0x0000000000000000      0x18c board/novatek/nvt-na51023/built-in.o
+ .text.pmc_getPWRStatus
+                0x0000000000000000       0x3c board/novatek/nvt-na51023/built-in.o
+ .text.pmc_turnonPower
+                0x0000000000000000      0x168 board/novatek/nvt-na51023/built-in.o
+ .text.pmc_turnoffPower
+                0x0000000000000000      0x12c board/novatek/nvt-na51023/built-in.o
+ .text.dsp_setReg
+                0x0000000000000000       0x24 board/novatek/nvt-na51023/built-in.o
+ .text.dsp_getReg
+                0x0000000000000000       0x28 board/novatek/nvt-na51023/built-in.o
+ .text.dsp_setConfig
+                0x0000000000000000      0x19c board/novatek/nvt-na51023/built-in.o
+ .text.dsp_open
+                0x0000000000000000      0x1f0 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_isValidId
+                0x0000000000000000       0x38 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_clk_set_rate
+                0x0000000000000000      0x144 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_enable
+                0x0000000000000000       0x6c board/novatek/nvt-na51023/built-in.o
+ .text.pwm_disable
+                0x0000000000000000       0x68 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_config
+                0x0000000000000000      0x3e0 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_pwmConfigClockDiv
+                0x0000000000000000      0x134 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_wait
+                0x0000000000000000      0x108 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_pwmEnable
+                0x0000000000000000       0x6c board/novatek/nvt-na51023/built-in.o
+ .text.pwm_pwmDisable
+                0x0000000000000000       0x68 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_pwmConfig
+                0x0000000000000000      0x19c board/novatek/nvt-na51023/built-in.o
+ .text.pwm_pwmReload
+                0x0000000000000000       0x74 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_open
+                0x0000000000000000       0xf0 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_setup_start
+                0x0000000000000000      0x1e0 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_reload
+                0x0000000000000000      0x150 board/novatek/nvt-na51023/built-in.o
+ .text.pwm_close
+                0x0000000000000000      0x1b4 board/novatek/nvt-na51023/built-in.o
+ .rodata.GUID_RES
+                0x0000000000000000       0x10 board/novatek/nvt-na51023/built-in.o
+ .rodata.dma_setAXIRequestCount
+                0x0000000000000000       0x20 board/novatek/nvt-na51023/built-in.o
+ .rodata.dsp_setConfig
+                0x0000000000000000       0x34 board/novatek/nvt-na51023/built-in.o
+ .rodata.pwm_clk_set_rate
+                0x0000000000000000       0x40 board/novatek/nvt-na51023/built-in.o
+ .rodata.pwm_pwmConfigClockDiv
+                0x0000000000000000       0x1c board/novatek/nvt-na51023/built-in.o
+ .rodata.vpwmclkdiv
+                0x0000000000000000       0x40 board/novatek/nvt-na51023/built-in.o
+ .data.rel.local.boardinfo
+                0x0000000000000000        0x4 board/novatek/nvt-na51023/built-in.o
+ .data.div      0x0000000000000000        0x4 board/novatek/nvt-na51023/built-in.o
+ .bss           0x0000000000000000        0x0 board/novatek/nvt-na51023/built-in.o
+ .bss.nvt_tm0_cnt_end
+                0x0000000000000000        0x4 board/novatek/nvt-na51023/built-in.o
+ .bss.nvt_tm0_cnt_beg
+                0x0000000000000000        0x4 board/novatek/nvt-na51023/built-in.o
+ .bss.uiPMCPD2OnSts
+                0x0000000000000000        0x4 board/novatek/nvt-na51023/built-in.o
+ .bss.uiPMCPD1OnSts
+                0x0000000000000000        0x4 board/novatek/nvt-na51023/built-in.o
+ .bss.check     0x0000000000000000        0x4 board/novatek/nvt-na51023/built-in.o
+ .pdr           0x0000000000000000      0xe60 board/novatek/nvt-na51023/built-in.o
+ .reginfo       0x0000000000000000       0x18 arch/mips/cpu/mips32/built-in.o
+ .text._machine_restart
+                0x0000000000000000        0x8 arch/mips/cpu/mips32/built-in.o
+ .text.write_one_tlb
+                0x0000000000000000       0x24 arch/mips/cpu/mips32/built-in.o
+ .text.cpu_eth_init
+                0x0000000000000000        0x8 arch/mips/cpu/mips32/built-in.o
+ .text.interrupt_init
+                0x0000000000000000        0x8 arch/mips/cpu/mips32/built-in.o
+ .data          0x0000000000000000        0x0 arch/mips/cpu/mips32/built-in.o
+ .bss           0x0000000000000000        0x0 arch/mips/cpu/mips32/built-in.o
+ .pdr           0x0000000000000000      0x2a0 arch/mips/cpu/mips32/built-in.o
+ .reginfo       0x0000000000000000       0x18 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .text          0x0000000000000000        0x0 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .data          0x0000000000000000        0x0 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .bss           0x0000000000000000        0x0 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .pdr           0x0000000000000000       0xc0 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .reginfo       0x0000000000000000       0x18 arch/mips/lib/built-in.o
+ .text          0x0000000000000000        0x0 arch/mips/lib/built-in.o
+ .text.__board_early_init_f
+                0x0000000000000000        0x8 arch/mips/lib/built-in.o
+ .rodata.mips_io_port_base
+                0x0000000000000000        0x4 arch/mips/lib/built-in.o
+ .data          0x0000000000000000        0x0 arch/mips/lib/built-in.o
+ .bss           0x0000000000000000        0x0 arch/mips/lib/built-in.o
+ .pdr           0x0000000000000000      0x1e0 arch/mips/lib/built-in.o
+ .reginfo       0x0000000000000000       0x18 common/built-in.o
+ .text          0x0000000000000000        0x0 common/built-in.o
+ .text.cmd_process_error
+                0x0000000000000000       0x50 common/built-in.o
+ .text.hash_finish_crc32
+                0x0000000000000000       0x50 common/built-in.o
+ .text.hash_update_crc32
+                0x0000000000000000       0x4c common/built-in.o
+ .text.hash_init_crc32
+                0x0000000000000000       0x48 common/built-in.o
+ .text.hash_lookup_algo
+                0x0000000000000000       0x58 common/built-in.o
+ .text.hash_show
+                0x0000000000000000       0xac common/built-in.o
+ .text.hash_block
+                0x0000000000000000       0xa4 common/built-in.o
+ .text.hex1_bin
+                0x0000000000000000       0x48 common/built-in.o
+ .text.hex2_bin
+                0x0000000000000000       0x80 common/built-in.o
+ .text.srec_decode
+                0x0000000000000000      0x2b4 common/built-in.o
+ .text.CYGACC_COMM_IF_GETC_TIMEOUT
+                0x0000000000000000       0x98 common/built-in.o
+ .text.xyzModem_flush
+                0x0000000000000000       0x64 common/built-in.o
+ .text.xyzModem_get_hdr
+                0x0000000000000000      0x33c common/built-in.o
+ .text.xyzModem_stream_open
+                0x0000000000000000      0x2d4 common/built-in.o
+ .text.xyzModem_stream_read
+                0x0000000000000000      0x310 common/built-in.o
+ .text.xyzModem_stream_close
+                0x0000000000000000       0x70 common/built-in.o
+ .text.xyzModem_stream_terminate
+                0x0000000000000000      0x120 common/built-in.o
+ .text.xyzModem_error
+                0x0000000000000000       0xa4 common/built-in.o
+ .text.bootm_maybe_autostart
+                0x0000000000000000       0xb4 common/built-in.o
+ .text.env_flags_parse_varaccess_from_binflags
+                0x0000000000000000       0x30 common/built-in.o
+ .text.splash_screen_prepare
+                0x0000000000000000        0x8 common/built-in.o
+ .text.get_env_id
+                0x0000000000000000       0x18 common/built-in.o
+ .text.getenv_hex
+                0x0000000000000000       0x74 common/built-in.o
+ .text.env_import
+                0x0000000000000000      0x120 common/built-in.o
+ .text.env_export
+                0x0000000000000000       0xc4 common/built-in.o
+ .text.serial_printf
+                0x0000000000000000       0x6c common/built-in.o
+ .text.confirm_yesno
+                0x0000000000000000      0x15c common/built-in.o
+ .text.disable_ctrlc
+                0x0000000000000000       0x1c common/built-in.o
+ .text.dbg      0x0000000000000000       0x10 common/built-in.o
+ .text.realloc  0x0000000000000000      0x5d0 common/built-in.o
+ .text.valloc   0x0000000000000000       0x1c common/built-in.o
+ .text.pvalloc  0x0000000000000000       0x24 common/built-in.o
+ .text.cfree    0x0000000000000000       0x18 common/built-in.o
+ .text.malloc_usable_size
+                0x0000000000000000       0x54 common/built-in.o
+ .text.mallopt  0x0000000000000000       0x88 common/built-in.o
+ .text.getenv_bootm_mapsize
+                0x0000000000000000       0x60 common/built-in.o
+ .text.get_table_entry_id
+                0x0000000000000000       0x74 common/built-in.o
+ .text.genimg_get_os_id
+                0x0000000000000000       0x28 common/built-in.o
+ .text.genimg_get_arch_id
+                0x0000000000000000       0x28 common/built-in.o
+ .text.genimg_get_type_id
+                0x0000000000000000       0x28 common/built-in.o
+ .text.genimg_get_comp_id
+                0x0000000000000000       0x28 common/built-in.o
+ .text.image_setup_linux
+                0x0000000000000000       0x4c common/built-in.o
+ .text.get_ram_size
+                0x0000000000000000      0x128 common/built-in.o
+ .text.get_effective_memsize
+                0x0000000000000000        0xc common/built-in.o
+ .rodata.srec_decode
+                0x0000000000000000       0x28 common/built-in.o
+ .rodata.xyzModem_error
+                0x0000000000000000       0x20 common/built-in.o
+ .rodata.__func__.3548
+                0x0000000000000000        0xc common/built-in.o
+ .rodata.__func__.3541
+                0x0000000000000000        0xc common/built-in.o
+ .data          0x0000000000000000        0x0 common/built-in.o
+ .data.rel.hash_algo
+                0x0000000000000000       0x1c common/built-in.o
+ .data.mmap_threshold
+                0x0000000000000000        0x4 common/built-in.o
+ .bss           0x0000000000000000        0x0 common/built-in.o
+ .bss.xyz       0x0000000000000000      0x434 common/built-in.o
+ .bss.n_mmaps_max
+                0x0000000000000000        0x4 common/built-in.o
+ .pdr           0x0000000000000000     0x1f00 common/built-in.o
+ .reginfo       0x0000000000000000       0x18 disk/built-in.o
+ .text          0x0000000000000000        0x0 disk/built-in.o
+ .text.get_dev  0x0000000000000000       0x18 disk/built-in.o
+ .data          0x0000000000000000        0x0 disk/built-in.o
+ .bss           0x0000000000000000        0x0 disk/built-in.o
+ .pdr           0x0000000000000000      0x1c0 disk/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/built-in.o
+ .text          0x0000000000000000        0x0 drivers/built-in.o
+ .text.mktime   0x0000000000000000       0xa0 drivers/built-in.o
+ .data          0x0000000000000000        0x0 drivers/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/built-in.o
+ .pdr           0x0000000000000000       0x60 drivers/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/input/built-in.o
+ .text          0x0000000000000000        0x0 drivers/input/built-in.o
+ .text.input_tstc
+                0x0000000000000000       0x5c drivers/input/built-in.o
+ .text.input_getc
+                0x0000000000000000       0x68 drivers/input/built-in.o
+ .text.input_send_keycodes
+                0x0000000000000000      0x48c drivers/input/built-in.o
+ .text.input_add_table
+                0x0000000000000000       0x40 drivers/input/built-in.o
+ .text.input_set_delays
+                0x0000000000000000        0xc drivers/input/built-in.o
+ .text.input_init
+                0x0000000000000000       0xd8 drivers/input/built-in.o
+ .text.input_stdio_register
+                0x0000000000000000       0x90 drivers/input/built-in.o
+ .rodata.str1.4
+                0x0000000000000000       0x18 drivers/input/built-in.o
+ .rodata.CSWTCH.28
+                0x0000000000000000       0x10 drivers/input/built-in.o
+ .rodata.kbd_plain_xlate
+                0x0000000000000000       0x64 drivers/input/built-in.o
+ .data          0x0000000000000000        0x0 drivers/input/built-in.o
+ .data.rel.ro.local.kbd_to_ansi364
+                0x0000000000000000       0x20 drivers/input/built-in.o
+ .data.kbd_ctrl_xlate
+                0x0000000000000000       0x64 drivers/input/built-in.o
+ .data.kbd_shift_xlate
+                0x0000000000000000       0x64 drivers/input/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/input/built-in.o
+ .comment       0x0000000000000000       0x37 drivers/input/built-in.o
+ .pdr           0x0000000000000000       0xe0 drivers/input/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x50 drivers/input/built-in.o
+ .debug_info    0x0000000000000000      0xfa0 drivers/input/built-in.o
+ .debug_abbrev  0x0000000000000000      0x34e drivers/input/built-in.o
+ .debug_line    0x0000000000000000      0x2f2 drivers/input/built-in.o
+ .debug_frame   0x0000000000000000       0xf8 drivers/input/built-in.o
+ .debug_str     0x0000000000000000      0x6b7 drivers/input/built-in.o
+ .debug_loc     0x0000000000000000      0x9e9 drivers/input/built-in.o
+ .debug_ranges  0x0000000000000000      0x1d0 drivers/input/built-in.o
+ .gnu.attributes
+                0x0000000000000000       0x10 drivers/input/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/input/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/mmc/built-in.o
+ .text          0x0000000000000000        0x0 drivers/mmc/built-in.o
+ .text.mmc_register
+                0x0000000000000000       0x40 drivers/mmc/built-in.o
+ .text.mmc_destroy
+                0x0000000000000000       0x18 drivers/mmc/built-in.o
+ .text.board_mmc_init
+                0x0000000000000000        0x8 drivers/mmc/built-in.o
+ .text.mmc_set_preinit
+                0x0000000000000000        0x8 drivers/mmc/built-in.o
+ .text.sdhci_set_ios
+                0x0000000000000000      0x248 drivers/mmc/built-in.o
+ .text.sdhci_init
+                0x0000000000000000      0x200 drivers/mmc/built-in.o
+ .text.sdhci_reset
+                0x0000000000000000       0xac drivers/mmc/built-in.o
+ .text.sdhci_send_command
+                0x0000000000000000      0x484 drivers/mmc/built-in.o
+ .text.add_sdhci
+                0x0000000000000000      0x1dc drivers/mmc/built-in.o
+ .text.sdiohost_setupdatatransferpio
+                0x0000000000000000      0x1a4 drivers/mmc/built-in.o
+ .text.sdiohost_writeblock
+                0x0000000000000000      0x25c drivers/mmc/built-in.o
+ .text.sdiohost_readblock
+                0x0000000000000000      0x210 drivers/mmc/built-in.o
+ .rodata.__func__.3811
+                0x0000000000000000       0x10 drivers/mmc/built-in.o
+ .rodata.__func__.4494
+                0x0000000000000000        0xc drivers/mmc/built-in.o
+ .rodata.__func__.4482
+                0x0000000000000000        0xc drivers/mmc/built-in.o
+ .rodata.__func__.4458
+                0x0000000000000000       0x10 drivers/mmc/built-in.o
+ .rodata.__func__.4385
+                0x0000000000000000        0xc drivers/mmc/built-in.o
+ .rodata.__func__.4416
+                0x0000000000000000       0x14 drivers/mmc/built-in.o
+ .rodata.__func__.4438
+                0x0000000000000000       0x14 drivers/mmc/built-in.o
+ .data          0x0000000000000000        0x0 drivers/mmc/built-in.o
+ .data.cmd_timeout.4437
+                0x0000000000000000        0x4 drivers/mmc/built-in.o
+ .data.rel.ro.sdhci_ops
+                0x0000000000000000       0x14 drivers/mmc/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/mmc/built-in.o
+ .pdr           0x0000000000000000      0x9e0 drivers/mmc/built-in.o
+ COMMON         0x0000000000000000        0x4 drivers/mmc/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/mtd/built-in.o
+ .text          0x0000000000000000        0x0 drivers/mtd/built-in.o
+ .text.del_mtd_device
+                0x0000000000000000       0x6c drivers/mtd/built-in.o
+ .text.get_mtd_device
+                0x0000000000000000       0x94 drivers/mtd/built-in.o
+ .text.put_mtd_device
+                0x0000000000000000       0x40 drivers/mtd/built-in.o
+ .text.mtd_read
+                0x0000000000000000       0xc4 drivers/mtd/built-in.o
+ .text.mtd_write
+                0x0000000000000000       0x94 drivers/mtd/built-in.o
+ .text.mtd_panic_write
+                0x0000000000000000       0x9c drivers/mtd/built-in.o
+ .text.mtd_read_oob
+                0x0000000000000000       0x24 drivers/mtd/built-in.o
+ .text.mtd_get_fact_prot_info
+                0x0000000000000000       0x24 drivers/mtd/built-in.o
+ .text.mtd_read_fact_prot_reg
+                0x0000000000000000       0x30 drivers/mtd/built-in.o
+ .text.mtd_get_user_prot_info
+                0x0000000000000000       0x24 drivers/mtd/built-in.o
+ .text.mtd_read_user_prot_reg
+                0x0000000000000000       0x30 drivers/mtd/built-in.o
+ .text.mtd_write_user_prot_reg
+                0x0000000000000000       0x30 drivers/mtd/built-in.o
+ .text.mtd_lock_user_prot_reg
+                0x0000000000000000       0x28 drivers/mtd/built-in.o
+ .text.mtd_lock
+                0x0000000000000000       0x90 drivers/mtd/built-in.o
+ .text.mtd_unlock
+                0x0000000000000000       0x90 drivers/mtd/built-in.o
+ .text.mtd_block_isbad
+                0x0000000000000000       0x54 drivers/mtd/built-in.o
+ .text.mtd_block_markbad
+                0x0000000000000000       0x6c drivers/mtd/built-in.o
+ .text.part_write_oob
+                0x0000000000000000       0xbc drivers/mtd/built-in.o
+ .text.part_sync
+                0x0000000000000000       0x20 drivers/mtd/built-in.o
+ .text.part_block_isbad
+                0x0000000000000000       0x34 drivers/mtd/built-in.o
+ .text.part_block_markbad
+                0x0000000000000000       0x6c drivers/mtd/built-in.o
+ .text.part_unlock
+                0x0000000000000000       0x38 drivers/mtd/built-in.o
+ .text.part_lock
+                0x0000000000000000       0x38 drivers/mtd/built-in.o
+ .text.part_get_fact_prot_info
+                0x0000000000000000       0x18 drivers/mtd/built-in.o
+ .text.part_get_user_prot_info
+                0x0000000000000000       0x18 drivers/mtd/built-in.o
+ .text.part_lock_user_prot_reg
+                0x0000000000000000       0x18 drivers/mtd/built-in.o
+ .text.part_write_user_prot_reg
+                0x0000000000000000       0x18 drivers/mtd/built-in.o
+ .text.part_read_fact_prot_reg
+                0x0000000000000000       0x18 drivers/mtd/built-in.o
+ .text.part_read_user_prot_reg
+                0x0000000000000000       0x18 drivers/mtd/built-in.o
+ .text.part_read_oob
+                0x0000000000000000      0x104 drivers/mtd/built-in.o
+ .text.part_write
+                0x0000000000000000       0x38 drivers/mtd/built-in.o
+ .text.part_read
+                0x0000000000000000       0xc0 drivers/mtd/built-in.o
+ .text.del_mtd_partitions
+                0x0000000000000000       0xcc drivers/mtd/built-in.o
+ .text.add_mtd_partitions
+                0x0000000000000000      0x758 drivers/mtd/built-in.o
+ .rodata.__FUNCTION__.3855
+                0x0000000000000000       0x14 drivers/mtd/built-in.o
+ .data          0x0000000000000000        0x0 drivers/mtd/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/mtd/built-in.o
+ .pdr           0x0000000000000000      0x4e0 drivers/mtd/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/mtd/nvt_flash_spi/built-in.o
+ .text          0x0000000000000000        0x0 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_read_flash_ecc_corrected
+                0x0000000000000000       0xa0 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_reset
+                0x0000000000000000       0x8c drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_read_status
+                0x0000000000000000      0x11c drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_write_status
+                0x0000000000000000       0xe0 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_read_config
+                0x0000000000000000       0xa8 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spi_nand_unlock_BP.part.4
+                0x0000000000000000       0xb8 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_erase_block
+                0x0000000000000000      0x1bc drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spiNand_readPage
+                0x0000000000000000      0x528 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_read_operation
+                0x0000000000000000       0x58 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_write_operation_single
+                0x0000000000000000      0x638 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_store_cache
+                0x0000000000000000        0x8 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_write_spare_sram
+                0x0000000000000000      0x100 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_read_page_spare_data
+                0x0000000000000000       0x54 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_read_ecc_corrected
+                0x0000000000000000       0x34 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_dummy_read
+                0x0000000000000000        0x8 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_host_set_fifo_enable
+                0x0000000000000000       0x30 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_host_set_cpu_access_err
+                0x0000000000000000       0x38 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_host_set_cpu_access_spare
+                0x0000000000000000       0x38 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_host_correct_reedsolomon_ecc
+                0x0000000000000000      0x1c0 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_host_correct_secondary_ecc
+                0x0000000000000000      0x16c drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_hostGetMultipageSelect
+                0x0000000000000000       0x14 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_hostSetupPageSize
+                0x0000000000000000       0x3c drivers/mtd/nvt_flash_spi/built-in.o
+ .data          0x0000000000000000        0x0 drivers/mtd/nvt_flash_spi/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/mtd/nvt_flash_spi/built-in.o
+ .pdr           0x0000000000000000      0x680 drivers/mtd/nvt_flash_spi/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/mtd/spiflash/built-in.o
+ .text          0x0000000000000000        0x0 drivers/mtd/spiflash/built-in.o
+ .rodata.ext_spi_flash_params_table
+                0x0000000000000000        0x0 drivers/mtd/spiflash/built-in.o
+ .data          0x0000000000000000        0x0 drivers/mtd/spiflash/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/mtd/spiflash/built-in.o
+ .pdr           0x0000000000000000      0x180 drivers/mtd/spiflash/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/net/built-in.o
+ .text          0x0000000000000000        0x0 drivers/net/built-in.o
+ .text.eqos_write_hwaddr
+                0x0000000000000000       0x6c drivers/net/built-in.o
+ .text.eqos_stop
+                0x0000000000000000       0xbc drivers/net/built-in.o
+ .text.eqos_send
+                0x0000000000000000      0x14c drivers/net/built-in.o
+ .text.eqos_inval_buffer
+                0x0000000000000000       0x28 drivers/net/built-in.o
+ .text.eqos_mdio_wait_idle.isra.0
+                0x0000000000000000       0x34 drivers/net/built-in.o
+ .text.eqos_mdio_write
+                0x0000000000000000      0x13c drivers/net/built-in.o
+ .text.eqos_mdio_read
+                0x0000000000000000      0x124 drivers/net/built-in.o
+ .text.eqos_start
+                0x0000000000000000      0x550 drivers/net/built-in.o
+ .text.eqos_free_pkt
+                0x0000000000000000       0xd4 drivers/net/built-in.o
+ .text.eqos_recv
+                0x0000000000000000      0x100 drivers/net/built-in.o
+ .text.na51023_eth_initialize
+                0x0000000000000000      0x4a4 drivers/net/built-in.o
+ .rodata.str1.4
+                0x0000000000000000      0x284 drivers/net/built-in.o
+ .rodata.__func__.4478
+                0x0000000000000000       0x14 drivers/net/built-in.o
+ .rodata.__func__.4503
+                0x0000000000000000        0xc drivers/net/built-in.o
+ .rodata.__func__.4436
+                0x0000000000000000       0x10 drivers/net/built-in.o
+ .rodata.__func__.4447
+                0x0000000000000000       0x10 drivers/net/built-in.o
+ .rodata.__func__.4585
+                0x0000000000000000       0x18 drivers/net/built-in.o
+ .data          0x0000000000000000        0x0 drivers/net/built-in.o
+ .data.mdc_div  0x0000000000000000        0x1 drivers/net/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/net/built-in.o
+ .comment       0x0000000000000000       0x37 drivers/net/built-in.o
+ .pdr           0x0000000000000000      0x160 drivers/net/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x70 drivers/net/built-in.o
+ .debug_info    0x0000000000000000     0x1dce drivers/net/built-in.o
+ .debug_abbrev  0x0000000000000000      0x3cd drivers/net/built-in.o
+ .debug_line    0x0000000000000000      0x569 drivers/net/built-in.o
+ .debug_frame   0x0000000000000000      0x188 drivers/net/built-in.o
+ .debug_str     0x0000000000000000      0xc94 drivers/net/built-in.o
+ .debug_loc     0x0000000000000000      0xcfe drivers/net/built-in.o
+ .debug_ranges  0x0000000000000000      0x248 drivers/net/built-in.o
+ .gnu.attributes
+                0x0000000000000000       0x10 drivers/net/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/net/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/serial/built-in.o
+ .text          0x0000000000000000        0x0 drivers/serial/built-in.o
+ .text.serial_null
+                0x0000000000000000        0x8 drivers/serial/built-in.o
+ .text.serial_register
+                0x0000000000000000       0x20 drivers/serial/built-in.o
+ .text.serial_reinit_all
+                0x0000000000000000       0x4c drivers/serial/built-in.o
+ .data          0x0000000000000000        0x0 drivers/serial/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/serial/built-in.o
+ .pdr           0x0000000000000000      0x2a0 drivers/serial/built-in.o
+ .reginfo       0x0000000000000000       0x18 drivers/spi/built-in.o
+ .text          0x0000000000000000        0x0 drivers/spi/built-in.o
+ .text.spi_set_wordlen
+                0x0000000000000000       0x50 drivers/spi/built-in.o
+ .text.spi_do_alloc_slave
+                0x0000000000000000       0xa0 drivers/spi/built-in.o
+ .rodata.str1.4
+                0x0000000000000000       0x1c drivers/spi/built-in.o
+ .data          0x0000000000000000        0x0 drivers/spi/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/spi/built-in.o
+ .comment       0x0000000000000000       0x37 drivers/spi/built-in.o
+ .pdr           0x0000000000000000       0x40 drivers/spi/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x28 drivers/spi/built-in.o
+ .debug_info    0x0000000000000000      0x416 drivers/spi/built-in.o
+ .debug_abbrev  0x0000000000000000      0x165 drivers/spi/built-in.o
+ .debug_line    0x0000000000000000      0x11f drivers/spi/built-in.o
+ .debug_frame   0x0000000000000000       0x5c drivers/spi/built-in.o
+ .debug_str     0x0000000000000000      0x3a8 drivers/spi/built-in.o
+ .debug_loc     0x0000000000000000      0x144 drivers/spi/built-in.o
+ .debug_ranges  0x0000000000000000       0x18 drivers/spi/built-in.o
+ .gnu.attributes
+                0x0000000000000000       0x10 drivers/spi/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/spi/built-in.o
+ .reginfo       0x0000000000000000       0x18 fs/built-in.o
+ .text          0x0000000000000000        0x0 fs/built-in.o
+ .text.file_exists
+                0x0000000000000000       0x60 fs/built-in.o
+ .text.do_save  0x0000000000000000      0x1d4 fs/built-in.o
+ .text.fat_register_device
+                0x0000000000000000       0xb8 fs/built-in.o
+ .text.file_fat_read
+                0x0000000000000000       0x24 fs/built-in.o
+ .text.file_getfsname
+                0x0000000000000000       0x24 fs/built-in.o
+ .text.file_cd  0x0000000000000000      0x254 fs/built-in.o
+ .text.file_detectfs
+                0x0000000000000000       0x64 fs/built-in.o
+ .text.file_ls  0x0000000000000000       0xc8 fs/built-in.o
+ .text.file_read
+                0x0000000000000000       0xe0 fs/built-in.o
+ .text.exfat_register_device
+                0x0000000000000000       0xb8 fs/built-in.o
+ .text.file_exfat_read
+                0x0000000000000000       0x24 fs/built-in.o
+ .data          0x0000000000000000        0x0 fs/built-in.o
+ .data.file_cwd
+                0x0000000000000000      0x200 fs/built-in.o
+ .data.current_filesystem
+                0x0000000000000000        0x4 fs/built-in.o
+ .data.rel.ro.filesystems
+                0x0000000000000000       0x18 fs/built-in.o
+ .bss           0x0000000000000000        0x0 fs/built-in.o
+ .pdr           0x0000000000000000      0xce0 fs/built-in.o
+ .reginfo       0x0000000000000000       0x18 lib/built-in.o
+ .text          0x0000000000000000        0x0 lib/built-in.o
+ .text.LzmaDec_DecodeToBuf
+                0x0000000000000000      0x16c lib/built-in.o
+ .text.LzmaDec_Free
+                0x0000000000000000       0x58 lib/built-in.o
+ .text.LzmaDec_Allocate
+                0x0000000000000000       0xfc lib/built-in.o
+ .text.inflateInit_
+                0x0000000000000000       0x24 lib/built-in.o
+ .text.crc7     0x0000000000000000       0x40 lib/built-in.o
+ .text.crc8     0x0000000000000000       0x48 lib/built-in.o
+ .text.cyg_crc16
+                0x0000000000000000       0x5c lib/built-in.o
+ .text.initcall_run_list
+                0x0000000000000000       0xa0 lib/built-in.o
+ .text.lmb_dump_all
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.lmb_free
+                0x0000000000000000       0xec lib/built-in.o
+ .text.lmb_is_reserved
+                0x0000000000000000       0x54 lib/built-in.o
+ .text.arch_lmb_reserve
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.ldiv     0x0000000000000000       0x34 lib/built-in.o
+ .text.md5      0x0000000000000000       0xac lib/built-in.o
+ .text.string_to_ip
+                0x0000000000000000       0xb0 lib/built-in.o
+ .text.strmhz   0x0000000000000000       0xac lib/built-in.o
+ .text.display_options
+                0x0000000000000000       0x3c lib/built-in.o
+ .text.crc32_wd_buf
+                0x0000000000000000       0x70 lib/built-in.o
+ .text.strncasecmp
+                0x0000000000000000       0xac lib/built-in.o
+ .text.strcasecmp
+                0x0000000000000000       0x18 lib/built-in.o
+ .text.strncat  0x0000000000000000       0x4c lib/built-in.o
+ .text.strrchr  0x0000000000000000       0x6c lib/built-in.o
+ .text.strspn   0x0000000000000000       0x38 lib/built-in.o
+ .text.strtok   0x0000000000000000       0xb4 lib/built-in.o
+ .text.strsep   0x0000000000000000       0x68 lib/built-in.o
+ .text.strswab  0x0000000000000000       0x48 lib/built-in.o
+ .text.bcopy    0x0000000000000000       0x2c lib/built-in.o
+ .text.memmove_4byte_align
+                0x0000000000000000       0x78 lib/built-in.o
+ .text.memscan  0x0000000000000000       0x2c lib/built-in.o
+ .text.memchr   0x0000000000000000       0x34 lib/built-in.o
+ .text.memchr_inv
+                0x0000000000000000       0xe4 lib/built-in.o
+ .text.tick_to_time
+                0x0000000000000000       0x98 lib/built-in.o
+ .text.get_ticks
+                0x0000000000000000       0x58 lib/built-in.o
+ .text.timer_init
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.get_timer
+                0x0000000000000000       0x54 lib/built-in.o
+ .text.timer_get_us
+                0x0000000000000000       0x58 lib/built-in.o
+ .text.__udelay
+                0x0000000000000000      0x114 lib/built-in.o
+ .text.ustrtoul
+                0x0000000000000000       0xb0 lib/built-in.o
+ .text.ustrtoull
+                0x0000000000000000       0xd0 lib/built-in.o
+ .text.__assert_fail
+                0x0000000000000000       0x2c lib/built-in.o
+ .text.print_grouped_ull
+                0x0000000000000000       0xec lib/built-in.o
+ .rodata.crc7_syndrome_table
+                0x0000000000000000      0x100 lib/built-in.o
+ .rodata.crc16_tab
+                0x0000000000000000      0x200 lib/built-in.o
+ .data          0x0000000000000000        0x0 lib/built-in.o
+ .data.rel.ro.local.z_errmsg
+                0x0000000000000000       0x28 lib/built-in.o
+ .bss           0x0000000000000000        0x0 lib/built-in.o
+ .pdr           0x0000000000000000     0x10c0 lib/built-in.o
+ COMMON         0x0000000000000000        0x4 lib/built-in.o
+ .data          0x0000000000000000        0x0 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .reginfo       0x0000000000000000       0x18 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .pdr           0x0000000000000000       0x20 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+ .reginfo       0x0000000000000000       0x18 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+ .pdr           0x0000000000000000       0x20 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x0000000000000000 0xffffffffffffffff
+
+链结器命令稿和内存映射
+
+段 .text 的地址设置为 0x3900000
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x4)
+
+.text           0x0000000003900000    0x32cf0
+ arch/mips/cpu/mips32/start.o(.text.startup*)
+ .text.startup  0x0000000003900000      0x194 arch/mips/cpu/mips32/start.o
+                0x0000000003900000                _start_nvt
+                0x0000000000000300                . = 0x300
+ *fill*         0x0000000003900194      0x16c 
+ board/novatek/nvt-na51023/built-in.o(.data.bininfo*)
+ .data.bininfo  0x0000000003900300       0x80 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900300                gHeadInfo
+ *(.text*)
+ .text          0x0000000003900380      0x1f0 arch/mips/cpu/mips32/start.o
+                0x0000000003900380                _start
+                0x0000000003900460                relocate_code
+ .text          0x0000000003900570       0x10 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900570                lowlevel_init
+ .text.nvt_handle_fw_auto
+                0x0000000003900580      0x68c board/novatek/nvt-na51023/built-in.o
+ .text.initdram
+                0x0000000003900c0c        0x8 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900c0c                initdram
+ .text.checkboard
+                0x0000000003900c14       0x38 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900c14                checkboard
+ .text.board_early_init_f
+                0x0000000003900c4c       0x34 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900c4c                board_early_init_f
+ .text.board_mmc_init
+                0x0000000003900c80       0x78 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900c80                board_mmc_init
+ .text.misc_init_r
+                0x0000000003900cf8      0x110 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900cf8                misc_init_r
+ .text.do_nvt_bootm_cmd
+                0x0000000003900e08       0x90 board/novatek/nvt-na51023/built-in.o
+                0x0000000003900e08                do_nvt_bootm_cmd
+ .text.nvt_on_partition_enum_copy_to_dest
+                0x0000000003900e98      0x2cc board/novatek/nvt-na51023/built-in.o
+ .text.nvt_on_itron_partition_enum_copy_to_dest
+                0x0000000003901164      0x1a4 board/novatek/nvt-na51023/built-in.o
+ .text.do_nvt_update_all_cmd
+                0x0000000003901308      0x100 board/novatek/nvt-na51023/built-in.o
+                0x0000000003901308                do_nvt_update_all_cmd
+ .text.nvt_runfw_bin_unpack_to_dest.constprop.1
+                0x0000000003901408      0x230 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_runfw_bin_chk_valid.constprop.2
+                0x0000000003901638       0xa8 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_boot_itron_bin_auto
+                0x00000000039016e0      0x5fc board/novatek/nvt-na51023/built-in.o
+ .text.do_nvt_booti_cmd
+                0x0000000003901cdc       0x78 board/novatek/nvt-na51023/built-in.o
+                0x0000000003901cdc                do_nvt_booti_cmd
+ .text.do_nvt_bootd_cmd
+                0x0000000003901d54       0x4c board/novatek/nvt-na51023/built-in.o
+                0x0000000003901d54                do_nvt_bootd_cmd
+ .text.parsing_sdio_driving
+                0x0000000003901da0       0x80 board/novatek/nvt-na51023/built-in.o
+                0x0000000003901da0                parsing_sdio_driving
+ .text.do_nvt_boot_cmd
+                0x0000000003901e20      0x9c4 board/novatek/nvt-na51023/built-in.o
+                0x0000000003901e20                do_nvt_boot_cmd
+ .text.nvt_flash_mtdpart_config
+                0x00000000039027e4      0x658 board/novatek/nvt-na51023/built-in.o
+                0x00000000039027e4                nvt_flash_mtdpart_config
+ .text.nvt_modelext_init_bininfo_replace
+                0x0000000003902e3c      0x2e8 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_modelext_bininfo_init
+                0x0000000003903124      0x138 board/novatek/nvt-na51023/built-in.o
+                0x0000000003903124                nvt_modelext_bininfo_init
+ .text.nvt_ipc_init
+                0x000000000390325c      0x120 board/novatek/nvt-na51023/built-in.o
+                0x000000000390325c                nvt_ipc_init
+ .text.nvt_detect_fw_tbin
+                0x000000000390337c       0xf0 board/novatek/nvt-na51023/built-in.o
+                0x000000000390337c                nvt_detect_fw_tbin
+ .text.nvt_modelext_init
+                0x000000000390346c      0x1f4 board/novatek/nvt-na51023/built-in.o
+                0x000000000390346c                nvt_modelext_init
+ .text.lz_uncompress
+                0x0000000003903660       0xf8 board/novatek/nvt-na51023/built-in.o
+                0x0000000003903660                lz_uncompress
+ .text.get_part
+                0x0000000003903758       0xe4 board/novatek/nvt-na51023/built-in.o
+                0x0000000003903758                get_part
+ .text.nvt_disable_mem_protect
+                0x000000000390383c       0x10 board/novatek/nvt-na51023/built-in.o
+                0x000000000390383c                nvt_disable_mem_protect
+ .text.get_nvt_bin_name
+                0x000000000390384c      0x29c board/novatek/nvt-na51023/built-in.o
+                0x000000000390384c                get_nvt_bin_name
+ .text.nvt_check_is_fw_update_fw
+                0x0000000003903ae8       0x28 board/novatek/nvt-na51023/built-in.o
+                0x0000000003903ae8                nvt_check_is_fw_update_fw
+ .text.nvt_board_init
+                0x0000000003903b10      0x41c board/novatek/nvt-na51023/built-in.o
+                0x0000000003903b10                nvt_board_init
+ .text.nvt_fs_set_blk_dev
+                0x0000000003903f2c       0xcc board/novatek/nvt-na51023/built-in.o
+                0x0000000003903f2c                nvt_fs_set_blk_dev
+ .text.nvt_fw_load_tbin
+                0x0000000003903ff8      0x130 board/novatek/nvt-na51023/built-in.o
+                0x0000000003903ff8                nvt_fw_load_tbin
+ .text.nvt_get_cpu_os_type
+                0x0000000003904128       0xb4 board/novatek/nvt-na51023/built-in.o
+                0x0000000003904128                nvt_get_cpu_os_type
+ .text.nvt_get_32bits_data
+                0x00000000039041dc       0x70 board/novatek/nvt-na51023/built-in.o
+                0x00000000039041dc                nvt_get_32bits_data
+ .text.nvtpack_get_uitron_offset
+                0x000000000390424c       0xfc board/novatek/nvt-na51023/built-in.o
+ .text.nvtpack_calc_nvt_sum
+                0x0000000003904348       0x3c board/novatek/nvt-na51023/built-in.o
+                0x0000000003904348                nvtpack_calc_nvt_sum
+ .text.nvtpack_verify
+                0x0000000003904384      0x21c board/novatek/nvt-na51023/built-in.o
+                0x0000000003904384                nvtpack_verify
+ .text.nvtpack_get_partition
+                0x00000000039045a0      0x1c0 board/novatek/nvt-na51023/built-in.o
+                0x00000000039045a0                nvtpack_get_partition
+ .text.nvtpack_enum_partition
+                0x0000000003904760      0x1c4 board/novatek/nvt-na51023/built-in.o
+                0x0000000003904760                nvtpack_enum_partition
+ .text.int_set_config
+                0x0000000003904924       0x64 board/novatek/nvt-na51023/built-in.o
+                0x0000000003904924                int_set_config
+ .text.nvt_ipc_sem_lock
+                0x0000000003904988      0x108 board/novatek/nvt-na51023/built-in.o
+                0x0000000003904988                nvt_ipc_sem_lock
+ .text.nvt_ipc_sem_unlock
+                0x0000000003904a90      0x150 board/novatek/nvt-na51023/built-in.o
+                0x0000000003904a90                nvt_ipc_sem_unlock
+ .text.pinmux_config_tv
+                0x0000000003904be0       0x54 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_lcd
+                0x0000000003904c34       0x58 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_audio
+                0x0000000003904c8c      0x1fc board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_pwm
+                0x0000000003904e88      0x7e8 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_eth
+                0x0000000003905670      0x2f0 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_remote
+                0x0000000003905960       0xd8 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_spi
+                0x0000000003905a38      0x5b0 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_uart
+                0x0000000003905fe8      0x4c0 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_sif
+                0x00000000039064a8      0x22c board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_i2c
+                0x00000000039066d4      0x13c board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_mipi_lvds
+                0x0000000003906810      0x194 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_sensor2
+                0x00000000039069a4      0x160 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_sensor
+                0x0000000003906b04      0x718 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_nand
+                0x000000000390721c       0xfc board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_sdio3
+                0x0000000003907318       0xd4 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_sdio2
+                0x00000000039073ec       0xe8 board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_config_sdio
+                0x00000000039074d4       0xdc board/novatek/nvt-na51023/built-in.o
+ .text.pinmux_init
+                0x00000000039075b0      0x2a8 board/novatek/nvt-na51023/built-in.o
+                0x00000000039075b0                pinmux_init
+ .text.MemCheck_CalcCheckSum16Bit
+                0x0000000003907858       0x34 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_read_partitions
+                0x000000000390788c       0xb4 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_on_partition_enum_mtd_readback
+                0x0000000003907940      0x238 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_update_partitions
+                0x0000000003907b78       0xe0 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_on_partition_enum_update
+                0x0000000003907c58      0x268 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_chk_all_in_one_valid
+                0x0000000003907ec0      0x580 board/novatek/nvt-na51023/built-in.o
+                0x0000000003907ec0                nvt_chk_all_in_one_valid
+ .text.nvt_on_partition_enum_sanity
+                0x0000000003908440       0x84 board/novatek/nvt-na51023/built-in.o
+ .text.nvt_check_should_rename_updfw
+                0x00000000039084c4       0xe8 board/novatek/nvt-na51023/built-in.o
+                0x00000000039084c4                nvt_check_should_rename_updfw
+ .text.nvt_rename_updfw
+                0x00000000039085ac      0x1e4 board/novatek/nvt-na51023/built-in.o
+                0x00000000039085ac                nvt_rename_updfw
+ .text.nvt_create_delfw
+                0x0000000003908790       0x7c board/novatek/nvt-na51023/built-in.o
+                0x0000000003908790                nvt_create_delfw
+ .text.nvt_delete_delfw
+                0x000000000390880c       0x70 board/novatek/nvt-na51023/built-in.o
+                0x000000000390880c                nvt_delete_delfw
+ .text.nvt_process_all_in_one
+                0x000000000390887c      0x6f8 board/novatek/nvt-na51023/built-in.o
+                0x000000000390887c                nvt_process_all_in_one
+ .text.nvt_fw_update
+                0x0000000003908f74      0x2c0 board/novatek/nvt-na51023/built-in.o
+                0x0000000003908f74                nvt_fw_update
+ .text.cc_sendCore1CMD
+                0x0000000003909234       0xa0 board/novatek/nvt-na51023/built-in.o
+                0x0000000003909234                cc_sendCore1CMD
+ .text.cc_hwUnlockResource
+                0x00000000039092d4       0x5c board/novatek/nvt-na51023/built-in.o
+                0x00000000039092d4                cc_hwUnlockResource
+ .text.cc_getHwResGrant
+                0x0000000003909330       0x7c board/novatek/nvt-na51023/built-in.o
+                0x0000000003909330                cc_getHwResGrant
+ .text.cc_hwLockResource
+                0x00000000039093ac       0xc0 board/novatek/nvt-na51023/built-in.o
+                0x00000000039093ac                cc_hwLockResource
+ .text.sdio_power_cycle
+                0x000000000390946c        0x8 board/novatek/nvt-na51023/built-in.o
+                0x000000000390946c                sdio_power_cycle
+ .text.iocfg_init
+                0x0000000003909474      0x158 board/novatek/nvt-na51023/built-in.o
+                0x0000000003909474                iocfg_init
+ .text.nvt_rtc_init
+                0x00000000039095cc      0x144 board/novatek/nvt-na51023/built-in.o
+                0x00000000039095cc                nvt_rtc_init
+ .text          0x0000000003909710      0x160 arch/mips/cpu/mips32/built-in.o
+                0x0000000003909710                mips_init_icache
+                0x0000000003909768                mips_init_dcache
+                0x00000000039097c4                mips_cache_reset
+                0x000000000390980c                dcache_status
+                0x0000000003909830                dcache_disable
+                0x000000000390984c                dcache_enable
+ .text.do_reset
+                0x0000000003909870       0x4c arch/mips/cpu/mips32/built-in.o
+                0x0000000003909870                do_reset
+ .text.flush_cache
+                0x00000000039098bc       0x30 arch/mips/cpu/mips32/built-in.o
+                0x00000000039098bc                flush_cache
+ .text.flush_dcache_range
+                0x00000000039098ec       0x24 arch/mips/cpu/mips32/built-in.o
+                0x00000000039098ec                flush_dcache_range
+ .text.invalidate_dcache_range
+                0x0000000003909910       0x24 arch/mips/cpu/mips32/built-in.o
+                0x0000000003909910                invalidate_dcache_range
+ .text.enable_interrupts
+                0x0000000003909934        0x8 arch/mips/cpu/mips32/built-in.o
+                0x0000000003909934                enable_interrupts
+ .text.disable_interrupts
+                0x000000000390993c        0x8 arch/mips/cpu/mips32/built-in.o
+                0x000000000390993c                disable_interrupts
+ .text.timer_init
+                0x0000000003909944       0x1c arch/mips/cpu/mips32/built-in.o
+                0x0000000003909944                timer_init
+ .text.get_timer
+                0x0000000003909960       0x58 arch/mips/cpu/mips32/built-in.o
+                0x0000000003909960                get_timer
+ .text.__udelay
+                0x00000000039099b8       0x34 arch/mips/cpu/mips32/built-in.o
+                0x00000000039099b8                __udelay
+ .text.get_ticks
+                0x00000000039099ec       0x34 arch/mips/cpu/mips32/built-in.o
+                0x00000000039099ec                get_ticks
+ .text.get_tbclk
+                0x0000000003909a20        0x8 arch/mips/cpu/mips32/built-in.o
+                0x0000000003909a20                get_tbclk
+ .text.na51023_serial_setbrg
+                0x0000000003909a28       0x30 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .text.na51023_serial_tstc
+                0x0000000003909a58       0x10 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .text.na51023_serial_putc
+                0x0000000003909a68       0x74 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .text.na51023_serial_getc
+                0x0000000003909adc       0x44 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .text.na51023_serial_init
+                0x0000000003909b20      0x100 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .text.default_serial_console
+                0x0000000003909c20       0x18 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+                0x0000000003909c20                default_serial_console
+ .text.display_banner
+                0x0000000003909c38       0x3c arch/mips/lib/built-in.o
+ .text.init_baudrate
+                0x0000000003909c74       0x54 arch/mips/lib/built-in.o
+ .text.init_func_ram
+                0x0000000003909cc8       0x94 arch/mips/lib/built-in.o
+ .text.board_init_f
+                0x0000000003909d5c      0x110 arch/mips/lib/built-in.o
+                0x0000000003909d5c                board_init_f
+ .text.initr_spiflash
+                0x0000000003909e6c       0x64 arch/mips/lib/built-in.o
+                0x0000000003909e6c                initr_spiflash
+ .text.board_init_r
+                0x0000000003909ed0      0x158 arch/mips/lib/built-in.o
+                0x0000000003909ed0                board_init_r
+ .text._machine_restart
+                0x000000000390a028       0x84 arch/mips/lib/built-in.o
+                0x000000000390a028                _machine_restart
+ .text.linux_cmdline_set
+                0x000000000390a0ac       0x9c arch/mips/lib/built-in.o
+ .text.boot_cmdline_linux
+                0x000000000390a148      0x358 arch/mips/lib/built-in.o
+ .text.linux_env_set
+                0x000000000390a4a0      0x104 arch/mips/lib/built-in.o
+ .text.boot_prep_linux
+                0x000000000390a5a4      0x1fc arch/mips/lib/built-in.o
+ .text.boot_jump_linux.isra.0
+                0x000000000390a7a0       0x68 arch/mips/lib/built-in.o
+ .text.arch_lmb_reserve
+                0x000000000390a808       0x2c arch/mips/lib/built-in.o
+                0x000000000390a808                arch_lmb_reserve
+ .text.do_bootm_linux
+                0x000000000390a834       0xd0 arch/mips/lib/built-in.o
+                0x000000000390a834                do_bootm_linux
+ .text.show_boot_progress
+                0x000000000390a904        0x8 common/built-in.o
+                0x000000000390a904                show_boot_progress
+ .text.main_loop
+                0x000000000390a90c       0x68 common/built-in.o
+                0x000000000390a90c                main_loop
+ .text.find_cmd_tbl
+                0x000000000390a974      0x108 common/built-in.o
+                0x000000000390a974                find_cmd_tbl
+ .text.find_cmd
+                0x000000000390aa7c       0x40 common/built-in.o
+                0x000000000390aa7c                find_cmd
+ .text.cmd_usage
+                0x000000000390aabc       0x9c common/built-in.o
+                0x000000000390aabc                cmd_usage
+ .text._do_help
+                0x000000000390ab58      0x21c common/built-in.o
+                0x000000000390ab58                _do_help
+ .text.var_complete
+                0x000000000390ad74       0x84 common/built-in.o
+                0x000000000390ad74                var_complete
+ .text.cmd_auto_complete
+                0x000000000390adf8      0x5ec common/built-in.o
+                0x000000000390adf8                cmd_auto_complete
+ .text.cmd_get_data_size
+                0x000000000390b3e4       0x94 common/built-in.o
+                0x000000000390b3e4                cmd_get_data_size
+ .text.cmd_process
+                0x000000000390b478      0x140 common/built-in.o
+                0x000000000390b478                cmd_process
+ .text.dummy    0x000000000390b5b8        0x8 common/built-in.o
+ .text.get_version
+                0x000000000390b5c0        0x8 common/built-in.o
+                0x000000000390b5c0                get_version
+ .text.jumptable_init
+                0x000000000390b5c8      0x174 common/built-in.o
+                0x000000000390b5c8                jumptable_init
+ .text.hash_command
+                0x000000000390b73c      0x104 common/built-in.o
+                0x000000000390b73c                hash_command
+ .text.cli_simple_parse_line
+                0x000000000390b840       0xc8 common/built-in.o
+                0x000000000390b840                cli_simple_parse_line
+ .text.cli_simple_run_command
+                0x000000000390b908      0x3fc common/built-in.o
+                0x000000000390b908                cli_simple_run_command
+ .text.cli_simple_loop
+                0x000000000390bd04       0xc0 common/built-in.o
+                0x000000000390bd04                cli_simple_loop
+ .text.cli_simple_run_command_list
+                0x000000000390bdc4       0xa0 common/built-in.o
+                0x000000000390bdc4                cli_simple_run_command_list
+ .text.run_command
+                0x000000000390be64       0x38 common/built-in.o
+                0x000000000390be64                run_command
+ .text.run_command_repeatable
+                0x000000000390be9c       0x18 common/built-in.o
+                0x000000000390be9c                run_command_repeatable
+ .text.run_command_list
+                0x000000000390beb4       0xf4 common/built-in.o
+                0x000000000390beb4                run_command_list
+ .text.cli_loop
+                0x000000000390bfa8       0x18 common/built-in.o
+                0x000000000390bfa8                cli_loop
+ .text.cli_init
+                0x000000000390bfc0        0x8 common/built-in.o
+                0x000000000390bfc0                cli_init
+ .text.delete_char.part.0
+                0x000000000390bfc8      0x150 common/built-in.o
+ .text.cread_add_char
+                0x000000000390c118      0x158 common/built-in.o
+ .text.cli_readline_into_buffer
+                0x000000000390c270      0xcac common/built-in.o
+                0x000000000390c270                cli_readline_into_buffer
+ .text.cli_readline
+                0x000000000390cf1c       0x20 common/built-in.o
+                0x000000000390cf1c                cli_readline
+ .text.bootdelay_process
+                0x000000000390cf3c       0x88 common/built-in.o
+                0x000000000390cf3c                bootdelay_process
+ .text.autoboot_command
+                0x000000000390cfc4      0x16c common/built-in.o
+                0x000000000390cfc4                autoboot_command
+ .text.do_go_exec
+                0x000000000390d130       0x10 common/built-in.o
+                0x000000000390d130                do_go_exec
+ .text.do_go    0x000000000390d140       0xb8 common/built-in.o
+ .text.do_bootm
+                0x000000000390d1f8      0x15c common/built-in.o
+                0x000000000390d1f8                do_bootm
+ .text.bootm_find_ramdisk_fdt
+                0x000000000390d354       0x74 common/built-in.o
+                0x000000000390d354                bootm_find_ramdisk_fdt
+ .text.bootm_disable_interrupts
+                0x000000000390d3c8       0x18 common/built-in.o
+                0x000000000390d3c8                bootm_disable_interrupts
+ .text.do_bootm_states
+                0x000000000390d3e0      0xa50 common/built-in.o
+                0x000000000390d3e0                do_bootm_states
+ .text.copy_args
+                0x000000000390de30       0xa8 common/built-in.o
+ .text.do_bootm_rtems
+                0x000000000390ded8       0x78 common/built-in.o
+ .text.do_bootm_plan9
+                0x000000000390df50      0x120 common/built-in.o
+ .text.do_bootm_standalone
+                0x000000000390e070       0xac common/built-in.o
+ .text.do_bootm_netbsd
+                0x000000000390e11c      0x188 common/built-in.o
+ .text.arch_preboot_os
+                0x000000000390e2a4        0x8 common/built-in.o
+                0x000000000390e2a4                arch_preboot_os
+ .text.boot_selected_os
+                0x000000000390e2ac       0xa4 common/built-in.o
+                0x000000000390e2ac                boot_selected_os
+ .text.bootm_os_get_boot_func
+                0x000000000390e350       0x24 common/built-in.o
+                0x000000000390e350                bootm_os_get_boot_func
+ .text.do_help  0x000000000390e374       0x70 common/built-in.o
+ .text.do_version
+                0x000000000390e3e4       0x78 common/built-in.o
+ .text.env_attr_walk
+                0x000000000390e45c      0x1b8 common/built-in.o
+                0x000000000390e45c                env_attr_walk
+ .text.env_attr_lookup
+                0x000000000390e614      0x228 common/built-in.o
+                0x000000000390e614                env_attr_lookup
+ .text.clear_callback
+                0x000000000390e83c        0xc common/built-in.o
+ .text.find_env_callback
+                0x000000000390e848       0xa8 common/built-in.o
+ .text.on_callbacks
+                0x000000000390e8f0       0x80 common/built-in.o
+ .text.set_callback
+                0x000000000390e970       0xbc common/built-in.o
+ .text.env_callback_init
+                0x000000000390ea2c      0x114 common/built-in.o
+                0x000000000390ea2c                env_callback_init
+ .text.clear_flags
+                0x000000000390eb40        0xc common/built-in.o
+ .text.on_flags
+                0x000000000390eb4c       0x80 common/built-in.o
+ .text.env_flags_parse_vartype
+                0x000000000390ebcc       0x94 common/built-in.o
+                0x000000000390ebcc                env_flags_parse_vartype
+ .text.env_flags_parse_varaccess
+                0x000000000390ec60       0x90 common/built-in.o
+                0x000000000390ec60                env_flags_parse_varaccess
+ .text.set_flags
+                0x000000000390ecf0       0xe4 common/built-in.o
+ .text.env_flags_init
+                0x000000000390edd4      0x120 common/built-in.o
+                0x000000000390edd4                env_flags_init
+ .text.env_flags_validate
+                0x000000000390eef4      0x2cc common/built-in.o
+                0x000000000390eef4                env_flags_validate
+ .text.env_relocate_spec
+                0x000000000390f1c0        0x8 common/built-in.o
+                0x000000000390f1c0                env_relocate_spec
+ .text.env_init
+                0x000000000390f1c8       0x24 common/built-in.o
+                0x000000000390f1c8                env_init
+ .text.do_fat_fsload
+                0x000000000390f1ec       0x38 common/built-in.o
+                0x000000000390f1ec                do_fat_fsload
+ .text.do_fat_ls
+                0x000000000390f224       0x38 common/built-in.o
+ .text.do_fat_fsinfo
+                0x000000000390f25c       0xe8 common/built-in.o
+ .text.do_fat_fswrite
+                0x000000000390f344      0x178 common/built-in.o
+ .text.do_fat_fsrename
+                0x000000000390f4bc      0x140 common/built-in.o
+ .text.do_fat_fsrm
+                0x000000000390f5fc      0x138 common/built-in.o
+ .text.do_exfat_fsload
+                0x000000000390f734       0x38 common/built-in.o
+                0x000000000390f734                do_exfat_fsload
+ .text.do_exfat_ls
+                0x000000000390f76c       0x38 common/built-in.o
+ .text.do_exfat_fsinfo
+                0x000000000390f7a4       0xe8 common/built-in.o
+ .text.do_exfat_fswrite
+                0x000000000390f88c      0x178 common/built-in.o
+ .text.do_exfat_fsrm
+                0x000000000390fa04      0x138 common/built-in.o
+ .text.do_exfat_fsrename
+                0x000000000390fb3c      0x140 common/built-in.o
+ .text.do_write_wrapper
+                0x000000000390fc7c       0x34 common/built-in.o
+ .text.do_rm_wrapper
+                0x000000000390fcb0       0x34 common/built-in.o
+ .text.do_rename_wrapper
+                0x000000000390fce4       0x34 common/built-in.o
+ .text.do_mem_mw
+                0x000000000390fd18      0x12c common/built-in.o
+ .text.do_mem_loop
+                0x000000000390fe44      0x154 common/built-in.o
+ .text.do_mem_md
+                0x000000000390ff98      0x148 common/built-in.o
+ .text.do_mem_cmp
+                0x00000000039100e0      0x1e0 common/built-in.o
+ .text.do_mem_base
+                0x00000000039102c0       0x6c common/built-in.o
+ .text.do_mem_cp
+                0x000000000391032c      0x148 common/built-in.o
+ .text.do_mem_crc
+                0x0000000003910474       0x68 common/built-in.o
+ .text.mod_mem.isra.2
+                0x00000000039104dc      0x208 common/built-in.o
+ .text.do_mem_mm
+                0x00000000039106e4       0x1c common/built-in.o
+ .text.do_mem_nm
+                0x0000000003910700       0x1c common/built-in.o
+ .text.do_mmcops
+                0x000000000391071c      0x130 common/built-in.o
+ .text.init_mmc_device
+                0x000000000391084c       0x90 common/built-in.o
+ .text.do_mmc_rescan
+                0x00000000039108dc       0x40 common/built-in.o
+ .text.do_mmc_list
+                0x000000000391091c       0x34 common/built-in.o
+ .text.do_mmc_dev
+                0x0000000003910950      0x188 common/built-in.o
+ .text.do_mmc_part
+                0x0000000003910ad8       0xa0 common/built-in.o
+ .text.do_mmc_erase
+                0x0000000003910b78      0x164 common/built-in.o
+ .text.do_mmc_write
+                0x0000000003910cdc      0x18c common/built-in.o
+ .text.do_mmc_read
+                0x0000000003910e68      0x168 common/built-in.o
+ .text.do_mmcinfo
+                0x0000000003910fd0      0x2d0 common/built-in.o
+ .text.do_mmc_setdsr
+                0x00000000039112a0      0x100 common/built-in.o
+ .text.part_delall
+                0x00000000039113a0       0x78 common/built-in.o
+ .text.memsize_parse
+                0x0000000003911418       0xc4 common/built-in.o
+ .text.mtd_part_info
+                0x00000000039114dc       0xd8 common/built-in.o
+ .text.memsize_format
+                0x00000000039115b4       0x90 common/built-in.o
+ .text.index_partitions
+                0x0000000003911644       0xe8 common/built-in.o
+ .text.current_save
+                0x000000000391172c      0x120 common/built-in.o
+ .text.part_sort_add
+                0x000000000391184c      0x168 common/built-in.o
+ .text.device_del
+                0x00000000039119b4       0xbc common/built-in.o
+ .text.generate_mtdparts_save.constprop.7
+                0x0000000003911a70      0x3a4 common/built-in.o
+ .text.device_delall.constprop.9
+                0x0000000003911e14       0xb0 common/built-in.o
+ .text.mtd_devices_init
+                0x0000000003911ec4       0x4c common/built-in.o
+ .text.get_mtd_info.constprop.10
+                0x0000000003911f10       0xd4 common/built-in.o
+ .text.part_validate
+                0x0000000003911fe4      0x440 common/built-in.o
+ .text.device_find
+                0x0000000003912424       0x54 common/built-in.o
+                0x0000000003912424                device_find
+ .text.device_parse
+                0x0000000003912478      0x6ac common/built-in.o
+ .text.mtd_id_parse
+                0x0000000003912b24      0x190 common/built-in.o
+                0x0000000003912b24                mtd_id_parse
+ .text.find_dev_and_part
+                0x0000000003912cb4      0x250 common/built-in.o
+                0x0000000003912cb4                find_dev_and_part
+ .text.mtdparts_init
+                0x0000000003912f04      0x894 common/built-in.o
+                0x0000000003912f04                mtdparts_init
+ .text.do_chpart
+                0x0000000003913798      0x13c common/built-in.o
+ .text.do_mtdparts
+                0x00000000039138d4      0x800 common/built-in.o
+ .text.bytes_per_second
+                0x00000000039140d4       0x74 common/built-in.o
+ .text.do_spi_flash
+                0x0000000003914148      0x960 common/built-in.o
+ .text.do_env_delete
+                0x0000000003914aa8       0xec common/built-in.o
+ .text.do_env   0x0000000003914b94       0xb8 common/built-in.o
+ .text.env_print
+                0x0000000003914c4c      0x100 common/built-in.o
+ .text.do_env_print
+                0x0000000003914d4c      0x13c common/built-in.o
+ .text.do_env_import
+                0x0000000003914e88      0x32c common/built-in.o
+ .text.do_env_default
+                0x00000000039151b4       0xc8 common/built-in.o
+ .text._do_env_set.isra.1
+                0x000000000391527c      0x234 common/built-in.o
+ .text.do_env_set
+                0x00000000039154b0       0x34 common/built-in.o
+ .text.setenv   0x00000000039154e4       0x78 common/built-in.o
+                0x00000000039154e4                setenv
+ .text.setenv_ulong
+                0x000000000391555c       0x4c common/built-in.o
+                0x000000000391555c                setenv_ulong
+ .text.setenv_hex
+                0x00000000039155a8       0x68 common/built-in.o
+                0x00000000039155a8                setenv_hex
+ .text.do_env_export
+                0x0000000003915610      0x34c common/built-in.o
+ .text.envmatch
+                0x000000000391595c       0xbc common/built-in.o
+                0x000000000391595c                envmatch
+ .text.getenv_f
+                0x0000000003915a18      0x134 common/built-in.o
+                0x0000000003915a18                getenv_f
+ .text.getenv   0x0000000003915b4c       0x98 common/built-in.o
+                0x0000000003915b4c                getenv
+ .text.getenv_ulong
+                0x0000000003915be4       0x74 common/built-in.o
+                0x0000000003915be4                getenv_ulong
+ .text.env_get_char_spec
+                0x0000000003915c58       0x10 common/built-in.o
+                0x0000000003915c58                env_get_char_spec
+ .text.env_get_addr
+                0x0000000003915c68       0x30 common/built-in.o
+                0x0000000003915c68                env_get_addr
+ .text.env_get_char_memory
+                0x0000000003915c98       0x34 common/built-in.o
+                0x0000000003915c98                env_get_char_memory
+ .text.env_get_char
+                0x0000000003915ccc       0x40 common/built-in.o
+                0x0000000003915ccc                env_get_char
+ .text.getenv_yesno
+                0x0000000003915d0c       0x64 common/built-in.o
+                0x0000000003915d0c                getenv_yesno
+ .text.getenv_default
+                0x0000000003915d70       0x64 common/built-in.o
+                0x0000000003915d70                getenv_default
+ .text.set_default_env
+                0x0000000003915dd4       0xf0 common/built-in.o
+                0x0000000003915dd4                set_default_env
+ .text.set_default_vars
+                0x0000000003915ec4       0x50 common/built-in.o
+                0x0000000003915ec4                set_default_vars
+ .text.env_relocate
+                0x0000000003915f14       0x2c common/built-in.o
+                0x0000000003915f14                env_relocate
+ .text.env_complete
+                0x0000000003915f40      0x160 common/built-in.o
+                0x0000000003915f40                env_complete
+ .text.console_setfile
+                0x00000000039160a0       0xe0 common/built-in.o
+ .text.fgetc    0x0000000003916180       0x38 common/built-in.o
+                0x0000000003916180                fgetc
+ .text.ftstc    0x00000000039161b8       0x38 common/built-in.o
+                0x00000000039161b8                ftstc
+ .text.fputc    0x00000000039161f0       0x3c common/built-in.o
+                0x00000000039161f0                fputc
+ .text.fputs    0x000000000391622c       0x38 common/built-in.o
+                0x000000000391622c                fputs
+ .text.fprintf  0x0000000003916264       0x74 common/built-in.o
+                0x0000000003916264                fprintf
+ .text.getc     0x00000000039162d8       0x44 common/built-in.o
+                0x00000000039162d8                getc
+ .text.tstc     0x000000000391631c       0x44 common/built-in.o
+                0x000000000391631c                tstc
+ .text.putc     0x0000000003916360       0x44 common/built-in.o
+                0x0000000003916360                putc
+ .text.puts     0x00000000039163a4       0x44 common/built-in.o
+                0x00000000039163a4                puts
+ .text.printf   0x00000000039163e8       0x7c common/built-in.o
+                0x00000000039163e8                printf
+ .text.vprintf  0x0000000003916464       0x60 common/built-in.o
+                0x0000000003916464                vprintf
+ .text.ctrlc    0x00000000039164c4       0x90 common/built-in.o
+                0x00000000039164c4                ctrlc
+ .text.had_ctrlc
+                0x0000000003916554       0x18 common/built-in.o
+                0x0000000003916554                had_ctrlc
+ .text.clear_ctrlc
+                0x000000000391656c       0x18 common/built-in.o
+                0x000000000391656c                clear_ctrlc
+ .text.search_device
+                0x0000000003916584       0x58 common/built-in.o
+                0x0000000003916584                search_device
+ .text.console_assign
+                0x00000000039165dc       0x88 common/built-in.o
+                0x00000000039165dc                console_assign
+ .text.on_console
+                0x0000000003916664      0x114 common/built-in.o
+ .text.console_init_f
+                0x0000000003916778       0x14 common/built-in.o
+                0x0000000003916778                console_init_f
+ .text.stdio_print_current_devices
+                0x000000000391678c      0x110 common/built-in.o
+                0x000000000391678c                stdio_print_current_devices
+ .text.console_init_r
+                0x000000000391689c      0x15c common/built-in.o
+                0x000000000391689c                console_init_r
+ .text.sbrk     0x00000000039169f8       0x9c common/built-in.o
+                0x00000000039169f8                sbrk
+ .text.mem_malloc_init
+                0x0000000003916a94       0x38 common/built-in.o
+                0x0000000003916a94                mem_malloc_init
+ .text.malloc_trim
+                0x0000000003916acc      0x110 common/built-in.o
+                0x0000000003916acc                malloc_trim
+ .text.free     0x0000000003916bdc      0x248 common/built-in.o
+                0x0000000003916bdc                free
+ .text.malloc   0x0000000003916e24      0x6bc common/built-in.o
+                0x0000000003916e24                malloc
+ .text.calloc   0x00000000039174e0      0x10c common/built-in.o
+                0x00000000039174e0                calloc
+ .text.memalign
+                0x00000000039175ec      0x18c common/built-in.o
+                0x00000000039175ec                memalign
+ .text.on_loadaddr
+                0x0000000003917778       0x58 common/built-in.o
+ .text.image_check_hcrc
+                0x00000000039177d0       0x80 common/built-in.o
+                0x00000000039177d0                image_check_hcrc
+ .text.image_check_dcrc
+                0x0000000003917850       0x64 common/built-in.o
+                0x0000000003917850                image_check_dcrc
+ .text.image_multi_count
+                0x00000000039178b4       0x28 common/built-in.o
+                0x00000000039178b4                image_multi_count
+ .text.image_multi_getimg
+                0x00000000039178dc       0xd8 common/built-in.o
+                0x00000000039178dc                image_multi_getimg
+ .text.getenv_bootm_low
+                0x00000000039179b4       0x5c common/built-in.o
+                0x00000000039179b4                getenv_bootm_low
+ .text.getenv_bootm_size
+                0x0000000003917a10       0x94 common/built-in.o
+                0x0000000003917a10                getenv_bootm_size
+ .text.memmove_wd
+                0x0000000003917aa4       0x24 common/built-in.o
+                0x0000000003917aa4                memmove_wd
+ .text.genimg_print_size
+                0x0000000003917ac8       0x5c common/built-in.o
+                0x0000000003917ac8                genimg_print_size
+ .text.genimg_print_time
+                0x0000000003917b24       0x68 common/built-in.o
+                0x0000000003917b24                genimg_print_time
+ .text.get_table_entry_name
+                0x0000000003917b8c       0x24 common/built-in.o
+                0x0000000003917b8c                get_table_entry_name
+ .text.genimg_get_os_name
+                0x0000000003917bb0       0x28 common/built-in.o
+                0x0000000003917bb0                genimg_get_os_name
+ .text.genimg_get_arch_name
+                0x0000000003917bd8       0x28 common/built-in.o
+                0x0000000003917bd8                genimg_get_arch_name
+ .text.genimg_get_type_name
+                0x0000000003917c00       0x28 common/built-in.o
+                0x0000000003917c00                genimg_get_type_name
+ .text.genimg_get_comp_name
+                0x0000000003917c28       0x28 common/built-in.o
+                0x0000000003917c28                genimg_get_comp_name
+ .text.image_print_contents
+                0x0000000003917c50      0x280 common/built-in.o
+                0x0000000003917c50                image_print_contents
+ .text.genimg_get_format
+                0x0000000003917ed0       0x20 common/built-in.o
+                0x0000000003917ed0                genimg_get_format
+ .text.genimg_get_image
+                0x0000000003917ef0        0x8 common/built-in.o
+                0x0000000003917ef0                genimg_get_image
+ .text.genimg_has_config
+                0x0000000003917ef8        0x8 common/built-in.o
+                0x0000000003917ef8                genimg_has_config
+ .text.boot_get_ramdisk
+                0x0000000003917f00      0x344 common/built-in.o
+                0x0000000003917f00                boot_get_ramdisk
+ .text.boot_ramdisk_high
+                0x0000000003918244      0x1b8 common/built-in.o
+                0x0000000003918244                boot_ramdisk_high
+ .text.stdio_serial_putc
+                0x00000000039183fc       0x18 common/built-in.o
+                0x00000000039183fc                stdio_serial_putc
+ .text.stdio_serial_puts
+                0x0000000003918414       0x18 common/built-in.o
+                0x0000000003918414                stdio_serial_puts
+ .text.stdio_serial_getc
+                0x000000000391842c       0x18 common/built-in.o
+                0x000000000391842c                stdio_serial_getc
+ .text.stdio_serial_tstc
+                0x0000000003918444       0x18 common/built-in.o
+                0x0000000003918444                stdio_serial_tstc
+ .text.stdio_get_list
+                0x000000000391845c       0x18 common/built-in.o
+                0x000000000391845c                stdio_get_list
+ .text.stdio_get_by_name
+                0x0000000003918474       0x9c common/built-in.o
+                0x0000000003918474                stdio_get_by_name
+ .text.stdio_clone
+                0x0000000003918510       0x7c common/built-in.o
+                0x0000000003918510                stdio_clone
+ .text.stdio_register_dev
+                0x000000000391858c       0x7c common/built-in.o
+                0x000000000391858c                stdio_register_dev
+ .text.stdio_register
+                0x0000000003918608       0x18 common/built-in.o
+                0x0000000003918608                stdio_register
+ .text.stdio_init
+                0x0000000003918620       0xc4 common/built-in.o
+                0x0000000003918620                stdio_init
+ .text.get_dev_hwpart
+                0x00000000039186e4      0x120 disk/built-in.o
+                0x00000000039186e4                get_dev_hwpart
+ .text.dev_print
+                0x0000000003918804      0x260 disk/built-in.o
+                0x0000000003918804                dev_print
+ .text.init_part
+                0x0000000003918a64       0x48 disk/built-in.o
+                0x0000000003918a64                init_part
+ .text.print_part
+                0x0000000003918aac      0x12c disk/built-in.o
+                0x0000000003918aac                print_part
+ .text.get_partition_info
+                0x0000000003918bd8       0x4c disk/built-in.o
+                0x0000000003918bd8                get_partition_info
+ .text.get_device
+                0x0000000003918c24      0x1a0 disk/built-in.o
+                0x0000000003918c24                get_device
+ .text.get_device_and_partition
+                0x0000000003918dc4      0x528 disk/built-in.o
+                0x0000000003918dc4                get_device_and_partition
+ .text.test_block_type
+                0x00000000039192ec       0xb4 disk/built-in.o
+ .text.print_partition_extended
+                0x00000000039193a0      0x338 disk/built-in.o
+ .text.get_partition_info_extended.constprop.2
+                0x00000000039196d8      0x3b0 disk/built-in.o
+ .text.test_part_dos
+                0x0000000003919a88       0xa4 disk/built-in.o
+                0x0000000003919a88                test_part_dos
+ .text.print_part_dos
+                0x0000000003919b2c       0x64 disk/built-in.o
+                0x0000000003919b2c                print_part_dos
+ .text.get_partition_info_dos
+                0x0000000003919b90       0x44 disk/built-in.o
+                0x0000000003919b90                get_partition_info_dos
+ .text.GregorianDay
+                0x0000000003919bd4      0x114 drivers/built-in.o
+                0x0000000003919bd4                GregorianDay
+ .text.to_tm    0x0000000003919ce8       0xec drivers/built-in.o
+                0x0000000003919ce8                to_tm
+ .text.mmc_set_ios
+                0x0000000003919dd4       0x24 drivers/mmc/built-in.o
+ .text.mmc_set_capacity
+                0x0000000003919df8       0xe0 drivers/mmc/built-in.o
+ .text.board_mmc_getwp
+                0x0000000003919ed8        0x8 drivers/mmc/built-in.o
+                0x0000000003919ed8                board_mmc_getwp
+ .text.mmc_getwp
+                0x0000000003919ee0       0x68 drivers/mmc/built-in.o
+                0x0000000003919ee0                mmc_getwp
+ .text.board_mmc_getcd
+                0x0000000003919f48        0x8 drivers/mmc/built-in.o
+                0x0000000003919f48                board_mmc_getcd
+ .text.mmc_send_cmd
+                0x0000000003919f50       0x14 drivers/mmc/built-in.o
+                0x0000000003919f50                mmc_send_cmd
+ .text.mmc_go_idle
+                0x0000000003919f64       0x7c drivers/mmc/built-in.o
+ .text.mmc_send_op_cond_iter
+                0x0000000003919fe0       0xbc drivers/mmc/built-in.o
+ .text.mmc_send_ext_csd
+                0x000000000391a09c       0x60 drivers/mmc/built-in.o
+ .text.mmc_send_status
+                0x000000000391a0fc      0x140 drivers/mmc/built-in.o
+                0x000000000391a0fc                mmc_send_status
+ .text.mmc_switch.constprop.8
+                0x000000000391a23c       0x80 drivers/mmc/built-in.o
+ .text.mmc_set_blocklen
+                0x000000000391a2bc       0x5c drivers/mmc/built-in.o
+                0x000000000391a2bc                mmc_set_blocklen
+ .text.find_mmc_device
+                0x000000000391a318       0x60 drivers/mmc/built-in.o
+                0x000000000391a318                find_mmc_device
+ .text.mmc_bread
+                0x000000000391a378      0x1e8 drivers/mmc/built-in.o
+ .text.mmc_switch_part
+                0x000000000391a560       0xa0 drivers/mmc/built-in.o
+                0x000000000391a560                mmc_switch_part
+ .text.mmc_select_hwpart
+                0x000000000391a600       0x80 drivers/mmc/built-in.o
+                0x000000000391a600                mmc_select_hwpart
+ .text.mmc_getcd
+                0x000000000391a680       0x68 drivers/mmc/built-in.o
+                0x000000000391a680                mmc_getcd
+ .text.mmc_set_clock
+                0x000000000391a6e8       0x38 drivers/mmc/built-in.o
+                0x000000000391a6e8                mmc_set_clock
+ .text.mmc_startup
+                0x000000000391a720      0xf40 drivers/mmc/built-in.o
+ .text.mmc_create
+                0x000000000391b660      0x124 drivers/mmc/built-in.o
+                0x000000000391b660                mmc_create
+ .text.mmc_start_init
+                0x000000000391b784      0x350 drivers/mmc/built-in.o
+                0x000000000391b784                mmc_start_init
+ .text.mmc_init
+                0x000000000391bad4      0x168 drivers/mmc/built-in.o
+                0x000000000391bad4                mmc_init
+ .text.mmc_get_dev
+                0x000000000391bc3c       0x64 drivers/mmc/built-in.o
+                0x000000000391bc3c                mmc_get_dev
+ .text.mmc_set_dsr
+                0x000000000391bca0       0x10 drivers/mmc/built-in.o
+                0x000000000391bca0                mmc_set_dsr
+ .text.cpu_mmc_init
+                0x000000000391bcb0        0x8 drivers/mmc/built-in.o
+                0x000000000391bcb0                cpu_mmc_init
+ .text.print_mmc_devices
+                0x000000000391bcb8       0xb8 drivers/mmc/built-in.o
+                0x000000000391bcb8                print_mmc_devices
+ .text.get_mmc_num
+                0x000000000391bd70       0x50 drivers/mmc/built-in.o
+                0x000000000391bd70                get_mmc_num
+ .text.mmc_initialize
+                0x000000000391bdc0       0xb8 drivers/mmc/built-in.o
+                0x000000000391bdc0                mmc_initialize
+ .text.mmc_dump_boot_info
+                0x000000000391be78      0x238 drivers/mmc/built-in.o
+                0x000000000391be78                mmc_dump_boot_info
+ .text.mmc_berase
+                0x000000000391c0b0      0x25c drivers/mmc/built-in.o
+                0x000000000391c0b0                mmc_berase
+ .text.mmc_bwrite
+                0x000000000391c30c      0x208 drivers/mmc/built-in.o
+                0x000000000391c30c                mmc_bwrite
+ .text.sdiohost_getreg
+                0x000000000391c514       0x40 drivers/mmc/built-in.o
+ .text.sdiohost_setreg
+                0x000000000391c554       0x40 drivers/mmc/built-in.o
+ .text.sdiohost_setinputdelay
+                0x000000000391c594       0x90 drivers/mmc/built-in.o
+ .text.pad_setdrivingsink
+                0x000000000391c624       0xf0 drivers/mmc/built-in.o
+ .text.sdiohost_setpaddriving
+                0x000000000391c714      0x140 drivers/mmc/built-in.o
+ .text.mmc_host_reset
+                0x000000000391c854        0x8 drivers/mmc/built-in.o
+ .text.mmc_host_getcd
+                0x000000000391c85c        0x8 drivers/mmc/built-in.o
+ .text.sdiohost_setphyclkindly.constprop.2
+                0x000000000391c864       0x5c drivers/mmc/built-in.o
+ .text.sdiohost_setbuswidth
+                0x000000000391c8c0       0x24 drivers/mmc/built-in.o
+                0x000000000391c8c0                sdiohost_setbuswidth
+ .text.sdiohost_enclkout
+                0x000000000391c8e4       0x70 drivers/mmc/built-in.o
+                0x000000000391c8e4                sdiohost_enclkout
+ .text.sdiohost_setclktype
+                0x000000000391c954       0x78 drivers/mmc/built-in.o
+                0x000000000391c954                sdiohost_setclktype
+ .text.sdiohost_setclkcmdtype
+                0x000000000391c9cc       0x78 drivers/mmc/built-in.o
+                0x000000000391c9cc                sdiohost_setclkcmdtype
+ .text.pll_get_sdioclock_rate
+                0x000000000391ca44       0x40 drivers/mmc/built-in.o
+                0x000000000391ca44                pll_get_sdioclock_rate
+ .text.pll_set_sdioclock_rate
+                0x000000000391ca84       0x74 drivers/mmc/built-in.o
+                0x000000000391ca84                pll_set_sdioclock_rate
+ .text.nvt_clk_set_rate
+                0x000000000391caf8       0x38 drivers/mmc/built-in.o
+                0x000000000391caf8                nvt_clk_set_rate
+ .text.sdiohost_setbusclk
+                0x000000000391cb30      0x11c drivers/mmc/built-in.o
+                0x000000000391cb30                sdiohost_setbusclk
+ .text.sdiohost_getrdy
+                0x000000000391cc4c       0x38 drivers/mmc/built-in.o
+                0x000000000391cc4c                sdiohost_getrdy
+ .text.sdiohost_reset
+                0x000000000391cc84       0xb8 drivers/mmc/built-in.o
+                0x000000000391cc84                sdiohost_reset
+ .text.host_set_ios
+                0x000000000391cd3c      0x184 drivers/mmc/built-in.o
+ .text.sdiohost_resetdata
+                0x000000000391cec0      0x168 drivers/mmc/built-in.o
+                0x000000000391cec0                sdiohost_resetdata
+ .text.sdiohost_setdatatimeout
+                0x000000000391d028       0x20 drivers/mmc/built-in.o
+                0x000000000391d028                sdiohost_setdatatimeout
+ .text.sdiohost_delayd
+                0x000000000391d048       0x64 drivers/mmc/built-in.o
+                0x000000000391d048                sdiohost_delayd
+ .text.sdiohost_setblksize
+                0x000000000391d0ac       0x64 drivers/mmc/built-in.o
+                0x000000000391d0ac                sdiohost_setblksize
+ .text.sdiohost_setupdatatransferdma
+                0x000000000391d110      0x208 drivers/mmc/built-in.o
+                0x000000000391d110                sdiohost_setupdatatransferdma
+ .text.sdiohost_getstatus
+                0x000000000391d318       0x1c drivers/mmc/built-in.o
+                0x000000000391d318                sdiohost_getstatus
+ .text.sdiohost_setstatus
+                0x000000000391d334       0x20 drivers/mmc/built-in.o
+                0x000000000391d334                sdiohost_setstatus
+ .text.sdiohost_clrfifoen
+                0x000000000391d354       0x5c drivers/mmc/built-in.o
+                0x000000000391d354                sdiohost_clrfifoen
+ .text.sdiohost_getfifodir
+                0x000000000391d3b0       0x38 drivers/mmc/built-in.o
+                0x000000000391d3b0                sdiohost_getfifodir
+ .text.sdiohost_waitfifoempty
+                0x000000000391d3e8       0x68 drivers/mmc/built-in.o
+                0x000000000391d3e8                sdiohost_waitfifoempty
+ .text.sdiohost_getlongrsp
+                0x000000000391d450       0xb4 drivers/mmc/built-in.o
+                0x000000000391d450                sdiohost_getlongrsp
+ .text.sdiohost_getshortrsp
+                0x000000000391d504       0x44 drivers/mmc/built-in.o
+                0x000000000391d504                sdiohost_getshortrsp
+ .text.sdiohost_sendcmd
+                0x000000000391d548      0x4b8 drivers/mmc/built-in.o
+                0x000000000391d548                sdiohost_sendcmd
+ .text.sdiohost_sendsdcmd
+                0x000000000391da00       0xbc drivers/mmc/built-in.o
+                0x000000000391da00                sdiohost_sendsdcmd
+ .text.mmc_nvt_start_command
+                0x000000000391dabc       0x5c drivers/mmc/built-in.o
+                0x000000000391dabc                mmc_nvt_start_command
+ .text.host_request
+                0x000000000391db18      0x1c8 drivers/mmc/built-in.o
+ .text.nvt_mmc_init
+                0x000000000391dce0      0x62c drivers/mmc/built-in.o
+                0x000000000391dce0                nvt_mmc_init
+ .text.add_mtd_device
+                0x000000000391e30c       0xa8 drivers/mtd/built-in.o
+                0x000000000391e30c                add_mtd_device
+ .text.get_mtd_device_nm
+                0x000000000391e3b4       0xb4 drivers/mtd/built-in.o
+                0x000000000391e3b4                get_mtd_device_nm
+ .text.mtd_erase
+                0x000000000391e468       0xe0 drivers/mtd/built-in.o
+                0x000000000391e468                mtd_erase
+ .text.part_erase
+                0x000000000391e548       0xcc drivers/mtd/built-in.o
+ .text.mtd_erase_callback
+                0x000000000391e614       0x98 drivers/mtd/built-in.o
+                0x000000000391e614                mtd_erase_callback
+ .text.led_set_gpio_high.isra.0
+                0x000000000391e6ac       0x48 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.led_set_gpio_low
+                0x000000000391e6f4       0x44 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.led_flicker
+                0x000000000391e738       0x90 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.nand_cmd_read_id
+                0x000000000391e7c8       0xa8 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391e7c8                nand_cmd_read_id
+ .text.nand_cmd_wait_complete
+                0x000000000391e870      0x12c drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391e870                nand_cmd_wait_complete
+ .text.spiflash_wait_ready
+                0x000000000391e99c       0xc0 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spiflash_enable_write_latch
+                0x000000000391ea5c       0x8c drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spiflash_disable_write_latch
+                0x000000000391eae8       0x8c drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spiflash_page_program
+                0x000000000391eb74      0x358 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spinor_erase_sector
+                0x000000000391eecc      0x174 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391eecc                spinor_erase_sector
+ .text.spinor_program_operation
+                0x000000000391f040      0x18c drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391f040                spinor_program_operation
+ .text.spinor_read_status
+                0x000000000391f1cc       0xc4 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391f1cc                spinor_read_status
+ .text.spiflash_read_data
+                0x000000000391f290      0x3a0 drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spinor_pio_operation
+                0x000000000391f630      0x38c drivers/mtd/nvt_flash_spi/built-in.o
+ .text.spinor_read_operation
+                0x000000000391f9bc      0x268 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391f9bc                spinor_read_operation
+ .text.spinor_write_status
+                0x000000000391fc24      0x144 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391fc24                spinor_write_status
+ .text.spiflash_boot_detect
+                0x000000000391fd68       0x20 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391fd68                spiflash_boot_detect
+ .text.nand_host_setup_transfer
+                0x000000000391fd88      0x148 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391fd88                nand_host_setup_transfer
+ .text.nand_host_send_command
+                0x000000000391fed0       0x24 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391fed0                nand_host_send_command
+ .text.nand_host_receive_data
+                0x000000000391fef4       0x94 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391fef4                nand_host_receive_data
+ .text.nand_host_transmit_data
+                0x000000000391ff88       0x98 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000391ff88                nand_host_transmit_data
+ .text.nand_host_check_ready
+                0x0000000003920020        0x8 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003920020                nand_host_check_ready
+ .text.nand_dll_reset
+                0x0000000003920028       0x34 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003920028                nand_dll_reset
+ .text.nand_hostSetNandType
+                0x000000000392005c       0x60 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000392005c                nand_hostSetNandType
+ .text.nand_hostSetupAddressCycle
+                0x00000000039200bc       0x44 drivers/mtd/nvt_flash_spi/built-in.o
+                0x00000000039200bc                nand_hostSetupAddressCycle
+ .text.nand_hostSetupStatusCheckBit
+                0x0000000003920100       0x24 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003920100                nand_hostSetupStatusCheckBit
+ .text.nand_hostSetSPIIORegister
+                0x0000000003920124       0x28 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003920124                nand_hostSetSPIIORegister
+ .text.nand_hostConfigChipSelOperationMode
+                0x000000000392014c       0x18 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000392014c                nand_hostConfigChipSelOperationMode
+ .text.nand_hostSetCSActive
+                0x0000000003920164       0x18 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003920164                nand_hostSetCSActive
+ .text.nand_host_settiming2
+                0x000000000392017c       0x5c drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000392017c                nand_host_settiming2
+ .text.spi_flash_mtd_sync
+                0x00000000039201d8        0x8 drivers/mtd/spiflash/built-in.o
+ .text.spi_flash_mtd_write
+                0x00000000039201e0       0x90 drivers/mtd/spiflash/built-in.o
+ .text.spi_flash_mtd_read
+                0x0000000003920270       0x90 drivers/mtd/spiflash/built-in.o
+ .text.nvt_spinor_read_ops
+                0x0000000003920300       0x70 drivers/mtd/spiflash/built-in.o
+                0x0000000003920300                nvt_spinor_read_ops
+ .text.nvt_spinor_erase_ops
+                0x0000000003920370       0xe0 drivers/mtd/spiflash/built-in.o
+                0x0000000003920370                nvt_spinor_erase_ops
+ .text.nvt_spinor_write_ops
+                0x0000000003920450       0x7c drivers/mtd/spiflash/built-in.o
+                0x0000000003920450                nvt_spinor_write_ops
+ .text.spi_flash_mtd_erase
+                0x00000000039204cc       0xb8 drivers/mtd/spiflash/built-in.o
+ .text.nvt_spinor_status_ops
+                0x0000000003920584       0x70 drivers/mtd/spiflash/built-in.o
+ .text.nvt_spinor_write_status
+                0x00000000039205f4       0x70 drivers/mtd/spiflash/built-in.o
+                0x00000000039205f4                nvt_spinor_write_status
+ .text.spi_flash_mtd_register
+                0x0000000003920664       0xf8 drivers/mtd/spiflash/built-in.o
+                0x0000000003920664                spi_flash_mtd_register
+ .text.spi_flash_probe
+                0x000000000392075c      0x824 drivers/mtd/spiflash/built-in.o
+                0x000000000392075c                spi_flash_probe
+ .text.spi_flash_free
+                0x0000000003920f80       0x18 drivers/mtd/spiflash/built-in.o
+                0x0000000003920f80                spi_flash_free
+ .text.serial_stub_start
+                0x0000000003920f98       0x10 drivers/serial/built-in.o
+                0x0000000003920f98                serial_stub_start
+ .text.serial_stub_stop
+                0x0000000003920fa8       0x10 drivers/serial/built-in.o
+                0x0000000003920fa8                serial_stub_stop
+ .text.serial_stub_putc
+                0x0000000003920fb8       0x10 drivers/serial/built-in.o
+                0x0000000003920fb8                serial_stub_putc
+ .text.serial_stub_puts
+                0x0000000003920fc8       0x10 drivers/serial/built-in.o
+                0x0000000003920fc8                serial_stub_puts
+ .text.serial_stub_getc
+                0x0000000003920fd8       0x10 drivers/serial/built-in.o
+                0x0000000003920fd8                serial_stub_getc
+ .text.serial_stub_tstc
+                0x0000000003920fe8       0x10 drivers/serial/built-in.o
+                0x0000000003920fe8                serial_stub_tstc
+ .text.get_current
+                0x0000000003920ff8       0x64 drivers/serial/built-in.o
+ .text.serial_stdio_init
+                0x000000000392105c       0xe4 drivers/serial/built-in.o
+                0x000000000392105c                serial_stdio_init
+ .text.serial_assign
+                0x0000000003921140       0x74 drivers/serial/built-in.o
+                0x0000000003921140                serial_assign
+ .text.serial_initialize
+                0x00000000039211b4       0x3c drivers/serial/built-in.o
+                0x00000000039211b4                serial_initialize
+ .text.serial_init
+                0x00000000039211f0       0x48 drivers/serial/built-in.o
+                0x00000000039211f0                serial_init
+ .text.serial_setbrg
+                0x0000000003921238       0x3c drivers/serial/built-in.o
+                0x0000000003921238                serial_setbrg
+ .text.on_baudrate
+                0x0000000003921274      0x15c drivers/serial/built-in.o
+ .text.serial_getc
+                0x00000000039213d0       0x3c drivers/serial/built-in.o
+                0x00000000039213d0                serial_getc
+ .text.serial_tstc
+                0x000000000392140c       0x3c drivers/serial/built-in.o
+                0x000000000392140c                serial_tstc
+ .text.serial_putc
+                0x0000000003921448       0x48 drivers/serial/built-in.o
+                0x0000000003921448                serial_putc
+ .text.serial_puts
+                0x0000000003921490       0x40 drivers/serial/built-in.o
+                0x0000000003921490                serial_puts
+ .text.default_serial_puts
+                0x00000000039214d0       0x64 drivers/serial/built-in.o
+                0x00000000039214d0                default_serial_puts
+ .text.fs_probe_unsupported
+                0x0000000003921534       0x38 fs/built-in.o
+ .text.fs_ls_unsupported
+                0x000000000392156c        0x8 fs/built-in.o
+ .text.fs_exists_unsupported
+                0x0000000003921574        0x8 fs/built-in.o
+ .text.fs_read_unsupported
+                0x000000000392157c        0x8 fs/built-in.o
+ .text.fs_write_unsupported
+                0x0000000003921584        0x8 fs/built-in.o
+ .text.fs_close_unsupported
+                0x000000000392158c        0x8 fs/built-in.o
+ .text.fs_get_info
+                0x0000000003921594       0x44 fs/built-in.o
+ .text.fs_close
+                0x00000000039215d8       0x50 fs/built-in.o
+ .text.fs_rm_unsupported
+                0x0000000003921628       0x38 fs/built-in.o
+ .text.fs_rename_unsupported
+                0x0000000003921660       0x38 fs/built-in.o
+ .text.fs_set_blk_dev
+                0x0000000003921698       0xfc fs/built-in.o
+                0x0000000003921698                fs_set_blk_dev
+ .text.fs_ls    0x0000000003921794       0x74 fs/built-in.o
+                0x0000000003921794                fs_ls
+ .text.fs_exists
+                0x0000000003921808       0x68 fs/built-in.o
+                0x0000000003921808                fs_exists
+ .text.fs_read  0x0000000003921870       0xb8 fs/built-in.o
+                0x0000000003921870                fs_read
+ .text.fs_write
+                0x0000000003921928       0xb0 fs/built-in.o
+                0x0000000003921928                fs_write
+ .text.fs_rename
+                0x00000000039219d8       0x70 fs/built-in.o
+                0x00000000039219d8                fs_rename
+ .text.fs_rm    0x0000000003921a48       0x68 fs/built-in.o
+                0x0000000003921a48                fs_rm
+ .text.do_load  0x0000000003921ab0      0x2b0 fs/built-in.o
+                0x0000000003921ab0                do_load
+ .text.do_ls    0x0000000003921d60       0xac fs/built-in.o
+                0x0000000003921d60                do_ls
+ .text.do_write
+                0x0000000003921e0c      0x12c fs/built-in.o
+                0x0000000003921e0c                do_write
+ .text.do_rm    0x0000000003921f38       0xb0 fs/built-in.o
+                0x0000000003921f38                do_rm
+ .text.do_rename
+                0x0000000003921fe8       0xb8 fs/built-in.o
+                0x0000000003921fe8                do_rename
+ .text.downcase
+                0x00000000039220a0       0x98 fs/built-in.o
+ .text.disk_read
+                0x0000000003922138       0x98 fs/built-in.o
+ .text.get_fatent
+                0x00000000039221d0      0x1b4 fs/built-in.o
+ .text.mkcksum  0x0000000003922384       0x64 fs/built-in.o
+ .text.check_overflow
+                0x00000000039223e8       0x64 fs/built-in.o
+ .text.disk_write
+                0x000000000392244c      0x138 fs/built-in.o
+ .text.flush_fat_buffer
+                0x0000000003922584       0xd0 fs/built-in.o
+ .text.set_fatent_value
+                0x0000000003922654      0x170 fs/built-in.o
+ .text.get_fatent_value
+                0x00000000039227c4      0x25c fs/built-in.o
+ .text.clear_fatent
+                0x0000000003922a20       0xd4 fs/built-in.o
+ .text.get_cluster
+                0x0000000003922af4      0x410 fs/built-in.o
+ .text.get_name
+                0x0000000003922f04      0x118 fs/built-in.o
+ .text.set_cluster
+                0x000000000392301c      0x12c fs/built-in.o
+ .text.set_contents
+                0x0000000003923148      0x280 fs/built-in.o
+ .text.read_bootsectandvi
+                0x00000000039233c8      0x190 fs/built-in.o
+ .text.set_name
+                0x0000000003923558      0x1b8 fs/built-in.o
+ .text.slot2str
+                0x0000000003923710       0xc4 fs/built-in.o
+ .text.get_vfatname
+                0x00000000039237d4      0x260 fs/built-in.o
+ .text.remove_directory_entry
+                0x0000000003923a34      0x644 fs/built-in.o
+ .text.do_fat_rm
+                0x0000000003924078      0x248 fs/built-in.o
+ .text.find_directory_entry.isra.3
+                0x00000000039242c0      0x4e0 fs/built-in.o
+ .text.flush_dir_table.constprop.7
+                0x00000000039247a0      0x174 fs/built-in.o
+ .text.fill_dir_slot.constprop.6
+                0x0000000003924914      0x2f8 fs/built-in.o
+ .text.do_fat_write
+                0x0000000003924c0c      0x490 fs/built-in.o
+ .text.do_fat_rename
+                0x000000000392509c      0x41c fs/built-in.o
+ .text.fat_set_blk_dev
+                0x00000000039254b8      0x128 fs/built-in.o
+                0x00000000039254b8                fat_set_blk_dev
+ .text.do_fat_read_at
+                0x00000000039255e0      0xd64 fs/built-in.o
+                0x00000000039255e0                do_fat_read_at
+ .text.do_fat_read
+                0x0000000003926344       0x48 fs/built-in.o
+                0x0000000003926344                do_fat_read
+ .text.file_fat_detectfs
+                0x000000000392638c      0x1ac fs/built-in.o
+                0x000000000392638c                file_fat_detectfs
+ .text.file_fat_ls
+                0x0000000003926538       0x20 fs/built-in.o
+                0x0000000003926538                file_fat_ls
+ .text.fat_exists
+                0x0000000003926558       0x4c fs/built-in.o
+                0x0000000003926558                fat_exists
+ .text.file_fat_read_at
+                0x00000000039265a4       0x7c fs/built-in.o
+                0x00000000039265a4                file_fat_read_at
+ .text.fat_read_file
+                0x0000000003926620       0x74 fs/built-in.o
+                0x0000000003926620                fat_read_file
+ .text.fat_close
+                0x0000000003926694        0x8 fs/built-in.o
+                0x0000000003926694                fat_close
+ .text.file_fat_write
+                0x000000000392669c       0x6c fs/built-in.o
+                0x000000000392669c                file_fat_write
+ .text.fat_write_file
+                0x0000000003926708       0x6c fs/built-in.o
+                0x0000000003926708                fat_write_file
+ .text.file_fat_rename
+                0x0000000003926774       0x68 fs/built-in.o
+                0x0000000003926774                file_fat_rename
+ .text.file_fat_rm
+                0x00000000039267dc       0x54 fs/built-in.o
+                0x00000000039267dc                file_fat_rm
+ .text.set_checksum
+                0x0000000003926830       0x5c fs/built-in.o
+ .text.exslot2str
+                0x000000000392688c       0xe8 fs/built-in.o
+ .text.flush_exfat_buffer
+                0x0000000003926974       0x68 fs/built-in.o
+ .text.read_exbootsectandvi
+                0x00000000039269dc      0x11c fs/built-in.o
+ .text.set_exfatname
+                0x0000000003926af8       0xe8 fs/built-in.o
+ .text.set_namehash
+                0x0000000003926be0       0xf0 fs/built-in.o
+ .text.get_exfatent
+                0x0000000003926cd0      0x14c fs/built-in.o
+ .text.get_exfatname
+                0x0000000003926e1c      0x204 fs/built-in.o
+ .text.find_exfatdirent.isra.2
+                0x0000000003927020      0x1c8 fs/built-in.o
+ .text.set_cluster.constprop.5
+                0x00000000039271e8      0x12c fs/built-in.o
+ .text.remove_exfatdirent
+                0x0000000003927314      0x398 fs/built-in.o
+ .text.do_exfat_rm
+                0x00000000039276ac      0x53c fs/built-in.o
+ .text.write_exfatdirent
+                0x0000000003927be8      0x728 fs/built-in.o
+ .text.do_exfat_rename
+                0x0000000003928310      0x47c fs/built-in.o
+ .text.do_exfat_write.isra.3
+                0x000000000392878c      0x2e8 fs/built-in.o
+ .text.exfat_set_blk_dev
+                0x0000000003928a74       0xf4 fs/built-in.o
+                0x0000000003928a74                exfat_set_blk_dev
+ .text.do_exfat_read_at
+                0x0000000003928b68      0x770 fs/built-in.o
+                0x0000000003928b68                do_exfat_read_at
+ .text.do_exfat_read
+                0x00000000039292d8       0x48 fs/built-in.o
+                0x00000000039292d8                do_exfat_read
+ .text.file_exfat_detectfs
+                0x0000000003929320      0x1ac fs/built-in.o
+                0x0000000003929320                file_exfat_detectfs
+ .text.file_exfat_ls
+                0x00000000039294cc       0x20 fs/built-in.o
+                0x00000000039294cc                file_exfat_ls
+ .text.exfat_exists
+                0x00000000039294ec       0x4c fs/built-in.o
+                0x00000000039294ec                exfat_exists
+ .text.file_exfat_read_at
+                0x0000000003929538       0x7c fs/built-in.o
+                0x0000000003929538                file_exfat_read_at
+ .text.exfat_read_file
+                0x00000000039295b4       0x74 fs/built-in.o
+                0x00000000039295b4                exfat_read_file
+ .text.exfat_close
+                0x0000000003929628        0x8 fs/built-in.o
+                0x0000000003929628                exfat_close
+ .text.file_exfat_write
+                0x0000000003929630       0x64 fs/built-in.o
+                0x0000000003929630                file_exfat_write
+ .text.exfat_write_file
+                0x0000000003929694       0x6c fs/built-in.o
+                0x0000000003929694                exfat_write_file
+ .text.file_exfat_rename
+                0x0000000003929700       0x1c fs/built-in.o
+                0x0000000003929700                file_exfat_rename
+ .text.file_exfat_rm
+                0x000000000392971c       0x1c fs/built-in.o
+                0x000000000392971c                file_exfat_rm
+ .text.LzmaDec_WriteRem
+                0x0000000003929738       0xa0 lib/built-in.o
+ .text.LzmaDec_DecodeReal2
+                0x00000000039297d8      0xed4 lib/built-in.o
+ .text.LzmaDec_TryDummy
+                0x000000000392a6ac      0x70c lib/built-in.o
+ .text.LzmaDec_InitDicAndState
+                0x000000000392adb8       0x34 lib/built-in.o
+                0x000000000392adb8                LzmaDec_InitDicAndState
+ .text.LzmaDec_Init
+                0x000000000392adec       0x20 lib/built-in.o
+                0x000000000392adec                LzmaDec_Init
+ .text.LzmaDec_DecodeToDic
+                0x000000000392ae0c      0x3dc lib/built-in.o
+                0x000000000392ae0c                LzmaDec_DecodeToDic
+ .text.LzmaDec_FreeProbs
+                0x000000000392b1e8       0x34 lib/built-in.o
+                0x000000000392b1e8                LzmaDec_FreeProbs
+ .text.LzmaDec_AllocateProbs2
+                0x000000000392b21c       0xa0 lib/built-in.o
+ .text.LzmaProps_Decode
+                0x000000000392b2bc       0xa0 lib/built-in.o
+                0x000000000392b2bc                LzmaProps_Decode
+ .text.LzmaDec_AllocateProbs
+                0x000000000392b35c       0xa4 lib/built-in.o
+                0x000000000392b35c                LzmaDec_AllocateProbs
+ .text.LzmaDecode
+                0x000000000392b400      0x138 lib/built-in.o
+                0x000000000392b400                LzmaDecode
+ .text.SzFree   0x000000000392b538       0x18 lib/built-in.o
+ .text.SzAlloc  0x000000000392b550       0x18 lib/built-in.o
+ .text.lzmaBuffToBuffDecompress
+                0x000000000392b568      0x124 lib/built-in.o
+                0x000000000392b568                lzmaBuffToBuffDecompress
+ .text.lzo1x_decompress_safe
+                0x000000000392b68c      0x67c lib/built-in.o
+                0x000000000392b68c                lzo1x_decompress_safe
+ .text.lzop_decompress
+                0x000000000392bd08      0x1d4 lib/built-in.o
+                0x000000000392bd08                lzop_decompress
+ .text.zcalloc  0x000000000392bedc       0x18 lib/built-in.o
+                0x000000000392bedc                zcalloc
+ .text.zcfree   0x000000000392bef4       0x18 lib/built-in.o
+                0x000000000392bef4                zcfree
+ .text.inflate_fast
+                0x000000000392bf0c      0x590 lib/built-in.o
+                0x000000000392bf0c                inflate_fast
+ .text.inflate_table
+                0x000000000392c49c      0x534 lib/built-in.o
+                0x000000000392c49c                inflate_table
+ .text.inflateReset
+                0x000000000392c9d0       0x74 lib/built-in.o
+                0x000000000392c9d0                inflateReset
+ .text.inflateInit2_
+                0x000000000392ca44      0x138 lib/built-in.o
+                0x000000000392ca44                inflateInit2_
+ .text.inflateEnd
+                0x000000000392cb7c       0x74 lib/built-in.o
+                0x000000000392cb7c                inflateEnd
+ .text.adler32  0x000000000392cbf0      0x318 lib/built-in.o
+                0x000000000392cbf0                adler32
+ .text.inflate  0x000000000392cf08     0x16f0 lib/built-in.o
+                0x000000000392cf08                inflate
+ .text.gzalloc  0x000000000392e5f8       0x24 lib/built-in.o
+                0x000000000392e5f8                gzalloc
+ .text.gzfree   0x000000000392e61c       0x18 lib/built-in.o
+                0x000000000392e61c                gzfree
+ .text.zunzip   0x000000000392e634      0x178 lib/built-in.o
+                0x000000000392e634                zunzip
+ .text.gunzip   0x000000000392e7ac       0xe0 lib/built-in.o
+                0x000000000392e7ac                gunzip
+ .text.lmb_add_region
+                0x000000000392e88c      0x1a8 lib/built-in.o
+ .text.lmb_init
+                0x000000000392ea34       0x28 lib/built-in.o
+                0x000000000392ea34                lmb_init
+ .text.lmb_add  0x000000000392ea5c       0x1c lib/built-in.o
+                0x000000000392ea5c                lmb_add
+ .text.lmb_reserve
+                0x000000000392ea78       0x1c lib/built-in.o
+                0x000000000392ea78                lmb_reserve
+ .text.lmb_overlaps_region
+                0x000000000392ea94       0x5c lib/built-in.o
+                0x000000000392ea94                lmb_overlaps_region
+ .text.__lmb_alloc_base
+                0x000000000392eaf0      0x16c lib/built-in.o
+                0x000000000392eaf0                __lmb_alloc_base
+ .text.lmb_alloc_base
+                0x000000000392ec5c       0x74 lib/built-in.o
+                0x000000000392ec5c                lmb_alloc_base
+ .text.lmb_alloc
+                0x000000000392ecd0       0x18 lib/built-in.o
+                0x000000000392ecd0                lmb_alloc
+ .text.board_lmb_reserve
+                0x000000000392ece8        0x8 lib/built-in.o
+                0x000000000392ece8                board_lmb_reserve
+ .text.byteReverse
+                0x000000000392ecf0       0x40 lib/built-in.o
+ .text.MD5Transform
+                0x000000000392ed30      0xa88 lib/built-in.o
+ .text.MD5Update
+                0x000000000392f7b8      0x180 lib/built-in.o
+ .text.MD5Final
+                0x000000000392f938      0x160 lib/built-in.o
+ .text.md5_wd   0x000000000392fa98       0xac lib/built-in.o
+                0x000000000392fa98                md5_wd
+ .text.qsort    0x000000000392fb44      0x148 lib/built-in.o
+                0x000000000392fb44                qsort
+ .text.strcmp_compar
+                0x000000000392fc8c       0x1c lib/built-in.o
+                0x000000000392fc8c                strcmp_compar
+ .text.cmpkey   0x000000000392fca8       0x24 lib/built-in.o
+ .text._hdelete.isra.1
+                0x000000000392fccc       0x90 lib/built-in.o
+ .text.drop_var_from_set.part.2
+                0x000000000392fd5c       0x9c lib/built-in.o
+ .text.match_string.isra.3
+                0x000000000392fdf8       0x80 lib/built-in.o
+ .text.hcreate_r
+                0x000000000392fe78       0xc0 lib/built-in.o
+                0x000000000392fe78                hcreate_r
+ .text.hdestroy_r
+                0x000000000392ff38       0xb8 lib/built-in.o
+                0x000000000392ff38                hdestroy_r
+ .text.hmatch_r
+                0x000000000392fff0       0xf0 lib/built-in.o
+                0x000000000392fff0                hmatch_r
+ .text.hsearch_r
+                0x00000000039300e0      0x520 lib/built-in.o
+                0x00000000039300e0                hsearch_r
+ .text.hdelete_r
+                0x0000000003930600      0x118 lib/built-in.o
+                0x0000000003930600                hdelete_r
+ .text.hexport_r
+                0x0000000003930718      0x398 lib/built-in.o
+                0x0000000003930718                hexport_r
+ .text.himport_r
+                0x0000000003930ab0      0x480 lib/built-in.o
+                0x0000000003930ab0                himport_r
+ .text.hwalk_r  0x0000000003930f30       0x84 lib/built-in.o
+                0x0000000003930f30                hwalk_r
+ .text.print_size
+                0x0000000003930fb4      0x1f4 lib/built-in.o
+                0x0000000003930fb4                print_size
+ .text.print_buffer
+                0x00000000039311a8      0x278 lib/built-in.o
+                0x00000000039311a8                print_buffer
+ .text.crc32_no_comp
+                0x0000000003931420      0x13c lib/built-in.o
+                0x0000000003931420                crc32_no_comp
+ .text.crc32    0x000000000393155c       0x34 lib/built-in.o
+                0x000000000393155c                crc32
+ .text.crc32_wd
+                0x0000000003931590       0x18 lib/built-in.o
+                0x0000000003931590                crc32_wd
+ .text.__div64_32
+                0x00000000039315a8      0x114 lib/built-in.o
+                0x00000000039315a8                __div64_32
+ .text.hang     0x00000000039316bc       0x40 lib/built-in.o
+                0x00000000039316bc                hang
+ .text.skip_spaces
+                0x00000000039316fc       0x3c lib/built-in.o
+                0x00000000039316fc                skip_spaces
+ .text.strim    0x0000000003931738       0x90 lib/built-in.o
+                0x0000000003931738                strim
+ .text.strcpy   0x00000000039317c8       0x24 lib/built-in.o
+                0x00000000039317c8                strcpy
+ .text.strncpy  0x00000000039317ec       0x2c lib/built-in.o
+                0x00000000039317ec                strncpy
+ .text.strcat   0x0000000003931818       0x38 lib/built-in.o
+                0x0000000003931818                strcat
+ .text.strcmp   0x0000000003931850       0x2c lib/built-in.o
+                0x0000000003931850                strcmp
+ .text.strncmp  0x000000000393187c       0x3c lib/built-in.o
+                0x000000000393187c                strncmp
+ .text.strchr   0x00000000039318b8       0x30 lib/built-in.o
+                0x00000000039318b8                strchr
+ .text.strlen   0x00000000039318e8       0x20 lib/built-in.o
+                0x00000000039318e8                strlen
+ .text.strnlen  0x0000000003931908       0x28 lib/built-in.o
+                0x0000000003931908                strnlen
+ .text.strdup   0x0000000003931930       0x80 lib/built-in.o
+                0x0000000003931930                strdup
+ .text.strpbrk  0x00000000039319b0       0x3c lib/built-in.o
+                0x00000000039319b0                strpbrk
+ .text.memset   0x00000000039319ec       0x80 lib/built-in.o
+                0x00000000039319ec                memset
+ .text.memcpy   0x0000000003931a6c       0x78 lib/built-in.o
+                0x0000000003931a6c                memcpy
+ .text.memmove  0x0000000003931ae4       0x58 lib/built-in.o
+                0x0000000003931ae4                memmove
+ .text.memcmp   0x0000000003931b3c       0x38 lib/built-in.o
+                0x0000000003931b3c                memcmp
+ .text.strstr   0x0000000003931b74       0xcc lib/built-in.o
+                0x0000000003931b74                strstr
+ .text.udelay   0x0000000003931c40       0x7c lib/built-in.o
+                0x0000000003931c40                udelay
+ .text.mdelay   0x0000000003931cbc       0x4c lib/built-in.o
+                0x0000000003931cbc                mdelay
+ .text.put_dec  0x0000000003931d08      0x270 lib/built-in.o
+ .text.number.isra.1
+                0x0000000003931f78      0x348 lib/built-in.o
+ .text.simple_strtoul
+                0x00000000039322c0       0xe4 lib/built-in.o
+                0x00000000039322c0                simple_strtoul
+ .text.strict_strtoul
+                0x00000000039323a4       0xbc lib/built-in.o
+                0x00000000039323a4                strict_strtoul
+ .text.simple_strtol
+                0x0000000003932460       0x4c lib/built-in.o
+                0x0000000003932460                simple_strtol
+ .text.simple_strtoull
+                0x00000000039324ac      0x104 lib/built-in.o
+                0x00000000039324ac                simple_strtoull
+ .text.vsprintf
+                0x00000000039325b0      0x5a0 lib/built-in.o
+                0x00000000039325b0                vsprintf
+ .text.sprintf  0x0000000003932b50       0x3c lib/built-in.o
+                0x0000000003932b50                sprintf
+ .text.panic    0x0000000003932b8c       0x80 lib/built-in.o
+                0x0000000003932b8c                panic
+ .text.simple_itoa
+                0x0000000003932c0c       0x50 lib/built-in.o
+                0x0000000003932c0c                simple_itoa
+ *fill*         0x0000000003932c5c        0x4 
+ .text          0x0000000003932c60       0x50 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+                0x0000000003932c60                __lshrdi3
+ .text          0x0000000003932cb0       0x40 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+                0x0000000003932cb0                __ashldi3
+                0x0000000003932cf0                . = ALIGN (0x4)
+
+.rodata         0x0000000003932cf0     0x9e54
+ *(SORT(.rodata*))
+ .rodata        0x0000000003932cf0       0x30 drivers/built-in.o
+ .rodata.CSWTCH.66
+                0x0000000003932d20       0x18 common/built-in.o
+ .rodata.GUID_FW
+                0x0000000003932d38       0x10 board/novatek/nvt-na51023/built-in.o
+ .rodata.GUID_FW2
+                0x0000000003932d48       0x10 board/novatek/nvt-na51023/built-in.o
+ .rodata.__FUNCTION__.3861
+                0x0000000003932d58        0xc drivers/mmc/built-in.o
+ .rodata.__FUNCTION__.5297
+                0x0000000003932d64       0x14 board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.3525
+                0x0000000003932d78       0x10 common/built-in.o
+ .rodata.__func__.3927
+                0x0000000003932d88       0x10 common/built-in.o
+ .rodata.__func__.3964
+                0x0000000003932d98       0x10 common/built-in.o
+ .rodata.__func__.4594
+                0x0000000003932da8       0x1c board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.5250
+                0x0000000003932dc4       0x14 board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.5803
+                0x0000000003932dd8       0x1c board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.5814
+                0x0000000003932df4       0x1c board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.5963
+                0x0000000003932e10       0x20 board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.5972
+                0x0000000003932e30       0x14 board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.6019
+                0x0000000003932e44       0x10 board/novatek/nvt-na51023/built-in.o
+ .rodata.__func__.6050
+                0x0000000003932e54       0x18 drivers/mtd/nvt_flash_spi/built-in.o
+ .rodata.__func__.6064
+                0x0000000003932e6c       0x1c drivers/mtd/nvt_flash_spi/built-in.o
+ .rodata._ctype
+                0x0000000003932e88      0x100 lib/built-in.o
+                0x0000000003932e88                _ctype
+ .rodata.cli_readline_into_buffer
+                0x0000000003932f88       0x20 common/built-in.o
+ .rodata.crc_table
+                0x0000000003932fa8      0x400 lib/built-in.o
+ .rodata.dbase.3697
+                0x00000000039333a8       0x40 lib/built-in.o
+ .rodata.default_environment
+                0x00000000039333e8       0x84 common/built-in.o
+                0x00000000039333e8                default_environment
+ .rodata.delims.3406
+                0x000000000393346c        0x4 common/built-in.o
+ .rodata.dev_print
+                0x0000000003933470       0x24 disk/built-in.o
+ .rodata.dext.3698
+                0x0000000003933494       0x40 lib/built-in.o
+ .rodata.digits.3405
+                0x00000000039334d4       0x10 lib/built-in.o
+ .rodata.distfix
+                0x00000000039334e4       0x80 lib/built-in.o
+ .rodata.env_flags_varaccess_mask
+                0x0000000003933564       0x10 common/built-in.o
+ .rodata.env_flags_varaccess_rep
+                0x0000000003933574        0x8 common/built-in.o
+ .rodata.env_flags_vartype_rep
+                0x000000000393357c        0x8 common/built-in.o
+ .rodata.erase_seq
+                0x0000000003933584        0x4 common/built-in.o
+ .rodata.ext_csd_bits.3788
+                0x0000000003933588       0x18 drivers/mmc/built-in.o
+ .rodata.ext_to_hostcaps.3789
+                0x00000000039335a0       0x20 drivers/mmc/built-in.o
+ .rodata.fbase  0x00000000039335c0       0x10 drivers/mmc/built-in.o
+ .rodata.file_exfat_detectfs
+                0x00000000039335d0       0x20 fs/built-in.o
+ .rodata.file_fat_detectfs
+                0x00000000039335f0       0x20 fs/built-in.o
+ .rodata.get_partition_info_extended.constprop.2
+                0x0000000003933610       0x20 disk/built-in.o
+ .rodata.inflate
+                0x0000000003933630       0x74 lib/built-in.o
+ .rodata.latchs.3791
+                0x00000000039336a4       0x18 drivers/mmc/built-in.o
+ .rodata.lbase.3695
+                0x00000000039336bc       0x40 lib/built-in.o
+ .rodata.lenfix
+                0x00000000039336fc      0x800 lib/built-in.o
+ .rodata.lext.3696
+                0x0000000003933efc       0x40 lib/built-in.o
+ .rodata.lzop_magic
+                0x0000000003933f3c        0xc lib/built-in.o
+ .rodata.mmc_dump_boot_info
+                0x0000000003933f48       0x1c drivers/mmc/built-in.o
+ .rodata.mmc_set_capacity
+                0x0000000003933f64       0x20 drivers/mmc/built-in.o
+ .rodata.mmc_startup
+                0x0000000003933f84       0x30 drivers/mmc/built-in.o
+ .rodata.multipliers
+                0x0000000003933fb4       0x40 drivers/mmc/built-in.o
+ .rodata.names.3517
+                0x0000000003933ff4        0x8 lib/built-in.o
+ .rodata.nvt_chk_all_in_one_valid
+                0x0000000003933ffc       0x2c board/novatek/nvt-na51023/built-in.o
+ .rodata.nvt_flash_mtdpart_config
+                0x0000000003934028       0x34 board/novatek/nvt-na51023/built-in.o
+ .rodata.order.3791
+                0x000000000393405c       0x28 lib/built-in.o
+ .rodata.print_part
+                0x0000000003934084       0x24 disk/built-in.o
+ .rodata.rtc_day_of_year
+                0x00000000039340a8        0x8 board/novatek/nvt-na51023/built-in.o
+ .rodata.spi_read_cmds_array
+                0x00000000039340b0        0x8 drivers/mtd/spiflash/built-in.o
+ .rodata.str1.4
+                0x00000000039340b8     0x30cf board/novatek/nvt-na51023/built-in.o
+                                       0x328c (松开之前的大小)
+ *fill*         0x0000000003937187        0x1 
+ .rodata.str1.4
+                0x0000000003937188       0x16 arch/mips/cpu/mips32/built-in.o
+                                         0x18 (松开之前的大小)
+ *fill*         0x000000000393719e        0x2 
+ .rodata.str1.4
+                0x00000000039371a0      0x117 arch/mips/lib/built-in.o
+                                        0x138 (松开之前的大小)
+ *fill*         0x00000000039372b7        0x1 
+ .rodata.str1.4
+                0x00000000039372b8     0x365f common/built-in.o
+                                       0x3ed4 (松开之前的大小)
+ *fill*         0x000000000393a917        0x1 
+ .rodata.str1.4
+                0x000000000393a918      0x4a2 disk/built-in.o
+                                        0x4c8 (松开之前的大小)
+ *fill*         0x000000000393adba        0x2 
+ .rodata.str1.4
+                0x000000000393adbc      0x768 drivers/mmc/built-in.o
+                                        0x7c8 (松开之前的大小)
+ .rodata.str1.4
+                0x000000000393b524      0x202 drivers/mtd/built-in.o
+                                        0x204 (松开之前的大小)
+ *fill*         0x000000000393b726        0x2 
+ .rodata.str1.4
+                0x000000000393b728      0x20d drivers/mtd/nvt_flash_spi/built-in.o
+                                        0x210 (松开之前的大小)
+ *fill*         0x000000000393b935        0x3 
+ .rodata.str1.4
+                0x000000000393b938      0x5e6 drivers/mtd/spiflash/built-in.o
+                                        0x5f0 (松开之前的大小)
+ *fill*         0x000000000393bf1e        0x2 
+ .rodata.str1.4
+                0x000000000393bf20       0x90 drivers/serial/built-in.o
+                                         0x9c (松开之前的大小)
+ .rodata.str1.4
+                0x000000000393bfb0      0x684 fs/built-in.o
+                                        0x9cc (松开之前的大小)
+ .rodata.str1.4
+                0x000000000393c634      0x4c4 lib/built-in.o
+                                        0x4e8 (松开之前的大小)
+ .rodata.tab_seq
+                0x000000000393caf8        0xc common/built-in.o
+ .rodata.version_string
+                0x000000000393cb04       0x28 common/built-in.o
+                0x000000000393cb04                version_string
+ .rodata.widths.3790
+                0x000000000393cb2c       0x18 drivers/mmc/built-in.o
+                0x000000000393cb44                . = ALIGN (0x4)
+
+.data           0x000000000393cb50     0x1db8
+ *(.data*)
+ .data          0x000000000393cb50       0x60 board/novatek/nvt-na51023/built-in.o
+ .data.rel.ro.local.pinmux_config_hdl
+                0x000000000393cbb0       0x44 board/novatek/nvt-na51023/built-in.o
+ .data.should_rename.5961
+                0x000000000393cbf4        0x4 board/novatek/nvt-na51023/built-in.o
+ .data.rel.na51023_serial_drv
+                0x000000000393cbf8       0x30 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .data.rel.init_sequence
+                0x000000000393cc28       0x28 arch/mips/lib/built-in.o
+                0x000000000393cc28                init_sequence
+ .data.hist_cur
+                0x000000000393cc50        0x4 common/built-in.o
+ .data.bootm_help_text
+                0x000000000393cc54      0x248 common/built-in.o
+ .data.rel.local.cmd_bootm_sub
+                0x000000000393ce9c       0xe0 common/built-in.o
+ .data.rel.ro.boot_os
+                0x000000000393cf7c       0x60 common/built-in.o
+ .data.first_call
+                0x000000000393cfdc        0x8 common/built-in.o
+ .data.dp_last_length
+                0x000000000393cfe4        0x4 common/built-in.o
+ .data.rel.local.cmd_mmc
+                0x000000000393cfe8       0xfc common/built-in.o
+ .data.curr_device
+                0x000000000393d0e4        0x4 common/built-in.o
+ .data.mtdparts_help_text
+                0x000000000393d0e8      0x4d4 common/built-in.o
+ .data.env_help_text
+                0x000000000393d5bc      0x19c common/built-in.o
+ .data.rel.local.cmd_env_sub
+                0x000000000393d758       0xa8 common/built-in.o
+ .data.env_id   0x000000000393d800        0x4 common/built-in.o
+ .data.rel.env_htab
+                0x000000000393d804       0x10 common/built-in.o
+                0x000000000393d804                env_htab
+ .data.sbrk_base
+                0x000000000393d814        0x4 common/built-in.o
+ .data.trim_threshold
+                0x000000000393d818        0x4 common/built-in.o
+ .data.rel.local.av_
+                0x000000000393d81c      0x408 common/built-in.o
+ .data.rel.ro.local.uimage_comp
+                0x000000000393dc24       0x48 common/built-in.o
+ .data.rel.ro.local.uimage_type
+                0x000000000393dc6c       0xf0 common/built-in.o
+ .data.rel.ro.local.uimage_os
+                0x000000000393dd5c       0x6c common/built-in.o
+ .data.rel.ro.local.uimage_arch
+                0x000000000393ddc8      0x120 common/built-in.o
+ .data.rel.local.stdio_names
+                0x000000000393dee8        0xc common/built-in.o
+                0x000000000393dee8                stdio_names
+ .data.rel.ro.block_drvr
+                0x000000000393def4       0x18 disk/built-in.o
+ .data.month_days
+                0x000000000393df0c       0x30 drivers/built-in.o
+ .data.cur_dev_num
+                0x000000000393df3c        0x4 drivers/mmc/built-in.o
+ .data.dev_name_2
+                0x000000000393df40        0xc drivers/mmc/built-in.o
+ .data.dev_name_1
+                0x000000000393df4c        0xc drivers/mmc/built-in.o
+ .data.dev_name_0
+                0x000000000393df58        0xc drivers/mmc/built-in.o
+ .data.rel.ro.local.nvt_hsmmc_ops
+                0x000000000393df64       0x14 drivers/mmc/built-in.o
+ .data.rel.ro.local.spi_flash_params_table
+                0x000000000393df78      0x918 drivers/mtd/spiflash/built-in.o
+                0x000000000393df78                spi_flash_params_table
+ .data.rel.fstypes
+                0x000000000393e890       0x78 fs/built-in.o
+
+.got.plt        0x000000000393e908        0x0
+ .got.plt       0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+                0x000000000393e908                . = .
+                0x0000000003946900                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got            0x000000000393e910      0x8ac
+ *(.got)
+ .got           0x000000000393e910      0x8ac arch/mips/cpu/mips32/start.o
+                0x000000000393e910                _GLOBAL_OFFSET_TABLE_
+                0x000000000000022b                num_got_entries = (SIZEOF (.got) >> 0x2)
+                0x000000000393f1bc                . = ALIGN (0x4)
+
+.sdata
+ *(.sdata*)
+                0x000000000393f1bc                . = ALIGN (0x4)
+
+.u_boot_list    0x000000000393f1bc      0x4dc
+ *(SORT(.u_boot_list*))
+ .u_boot_list_2_cmd_1
+                0x000000000393f1bc        0x0 common/built-in.o
+ .u_boot_list_2_cmd_2_base
+                0x000000000393f1bc       0x1c common/built-in.o
+                0x000000000393f1bc                _u_boot_list_2_cmd_2_base
+ .u_boot_list_2_cmd_2_bootm
+                0x000000000393f1d8       0x1c common/built-in.o
+                0x000000000393f1d8                _u_boot_list_2_cmd_2_bootm
+ .u_boot_list_2_cmd_2_chpart
+                0x000000000393f1f4       0x1c common/built-in.o
+                0x000000000393f1f4                _u_boot_list_2_cmd_2_chpart
+ .u_boot_list_2_cmd_2_cmp
+                0x000000000393f210       0x1c common/built-in.o
+                0x000000000393f210                _u_boot_list_2_cmd_2_cmp
+ .u_boot_list_2_cmd_2_cp
+                0x000000000393f22c       0x1c common/built-in.o
+                0x000000000393f22c                _u_boot_list_2_cmd_2_cp
+ .u_boot_list_2_cmd_2_crc32
+                0x000000000393f248       0x1c common/built-in.o
+                0x000000000393f248                _u_boot_list_2_cmd_2_crc32
+ .u_boot_list_2_cmd_2_env
+                0x000000000393f264       0x1c common/built-in.o
+                0x000000000393f264                _u_boot_list_2_cmd_2_env
+ .u_boot_list_2_cmd_2_exfatinfo
+                0x000000000393f280       0x1c common/built-in.o
+                0x000000000393f280                _u_boot_list_2_cmd_2_exfatinfo
+ .u_boot_list_2_cmd_2_exfatload
+                0x000000000393f29c       0x1c common/built-in.o
+                0x000000000393f29c                _u_boot_list_2_cmd_2_exfatload
+ .u_boot_list_2_cmd_2_exfatls
+                0x000000000393f2b8       0x1c common/built-in.o
+                0x000000000393f2b8                _u_boot_list_2_cmd_2_exfatls
+ .u_boot_list_2_cmd_2_exfatrename
+                0x000000000393f2d4       0x1c common/built-in.o
+                0x000000000393f2d4                _u_boot_list_2_cmd_2_exfatrename
+ .u_boot_list_2_cmd_2_exfatrm
+                0x000000000393f2f0       0x1c common/built-in.o
+                0x000000000393f2f0                _u_boot_list_2_cmd_2_exfatrm
+ .u_boot_list_2_cmd_2_exfatwrite
+                0x000000000393f30c       0x1c common/built-in.o
+                0x000000000393f30c                _u_boot_list_2_cmd_2_exfatwrite
+ .u_boot_list_2_cmd_2_fatinfo
+                0x000000000393f328       0x1c common/built-in.o
+                0x000000000393f328                _u_boot_list_2_cmd_2_fatinfo
+ .u_boot_list_2_cmd_2_fatload
+                0x000000000393f344       0x1c common/built-in.o
+                0x000000000393f344                _u_boot_list_2_cmd_2_fatload
+ .u_boot_list_2_cmd_2_fatls
+                0x000000000393f360       0x1c common/built-in.o
+                0x000000000393f360                _u_boot_list_2_cmd_2_fatls
+ .u_boot_list_2_cmd_2_fatrename
+                0x000000000393f37c       0x1c common/built-in.o
+                0x000000000393f37c                _u_boot_list_2_cmd_2_fatrename
+ .u_boot_list_2_cmd_2_fatrm
+                0x000000000393f398       0x1c common/built-in.o
+                0x000000000393f398                _u_boot_list_2_cmd_2_fatrm
+ .u_boot_list_2_cmd_2_fatwrite
+                0x000000000393f3b4       0x1c common/built-in.o
+                0x000000000393f3b4                _u_boot_list_2_cmd_2_fatwrite
+ .u_boot_list_2_cmd_2_go
+                0x000000000393f3d0       0x1c common/built-in.o
+                0x000000000393f3d0                _u_boot_list_2_cmd_2_go
+ .u_boot_list_2_cmd_2_help
+                0x000000000393f3ec       0x1c common/built-in.o
+                0x000000000393f3ec                _u_boot_list_2_cmd_2_help
+ .u_boot_list_2_cmd_2_loop
+                0x000000000393f408       0x1c common/built-in.o
+                0x000000000393f408                _u_boot_list_2_cmd_2_loop
+ .u_boot_list_2_cmd_2_md
+                0x000000000393f424       0x1c common/built-in.o
+                0x000000000393f424                _u_boot_list_2_cmd_2_md
+ .u_boot_list_2_cmd_2_mm
+                0x000000000393f440       0x1c common/built-in.o
+                0x000000000393f440                _u_boot_list_2_cmd_2_mm
+ .u_boot_list_2_cmd_2_mmc
+                0x000000000393f45c       0x1c common/built-in.o
+                0x000000000393f45c                _u_boot_list_2_cmd_2_mmc
+ .u_boot_list_2_cmd_2_mmcinfo
+                0x000000000393f478       0x1c common/built-in.o
+                0x000000000393f478                _u_boot_list_2_cmd_2_mmcinfo
+ .u_boot_list_2_cmd_2_mtdparts
+                0x000000000393f494       0x1c common/built-in.o
+                0x000000000393f494                _u_boot_list_2_cmd_2_mtdparts
+ .u_boot_list_2_cmd_2_mw
+                0x000000000393f4b0       0x1c common/built-in.o
+                0x000000000393f4b0                _u_boot_list_2_cmd_2_mw
+ .u_boot_list_2_cmd_2_nm
+                0x000000000393f4cc       0x1c common/built-in.o
+                0x000000000393f4cc                _u_boot_list_2_cmd_2_nm
+ .u_boot_list_2_cmd_2_nvt_boot
+                0x000000000393f4e8       0x1c board/novatek/nvt-na51023/built-in.o
+                0x000000000393f4e8                _u_boot_list_2_cmd_2_nvt_boot
+ .u_boot_list_2_cmd_2_nvt_bootd
+                0x000000000393f504       0x1c board/novatek/nvt-na51023/built-in.o
+                0x000000000393f504                _u_boot_list_2_cmd_2_nvt_bootd
+ .u_boot_list_2_cmd_2_nvt_booti
+                0x000000000393f520       0x1c board/novatek/nvt-na51023/built-in.o
+                0x000000000393f520                _u_boot_list_2_cmd_2_nvt_booti
+ .u_boot_list_2_cmd_2_nvt_bootm
+                0x000000000393f53c       0x1c board/novatek/nvt-na51023/built-in.o
+                0x000000000393f53c                _u_boot_list_2_cmd_2_nvt_bootm
+ .u_boot_list_2_cmd_2_nvt_update_all
+                0x000000000393f558       0x1c board/novatek/nvt-na51023/built-in.o
+                0x000000000393f558                _u_boot_list_2_cmd_2_nvt_update_all
+ .u_boot_list_2_cmd_2_printenv
+                0x000000000393f574       0x1c common/built-in.o
+                0x000000000393f574                _u_boot_list_2_cmd_2_printenv
+ .u_boot_list_2_cmd_2_question_mark
+                0x000000000393f590       0x1c common/built-in.o
+                0x000000000393f590                _u_boot_list_2_cmd_2_question_mark
+ .u_boot_list_2_cmd_2_rename
+                0x000000000393f5ac       0x1c common/built-in.o
+                0x000000000393f5ac                _u_boot_list_2_cmd_2_rename
+ .u_boot_list_2_cmd_2_reset
+                0x000000000393f5c8       0x1c common/built-in.o
+                0x000000000393f5c8                _u_boot_list_2_cmd_2_reset
+ .u_boot_list_2_cmd_2_rm
+                0x000000000393f5e4       0x1c common/built-in.o
+                0x000000000393f5e4                _u_boot_list_2_cmd_2_rm
+ .u_boot_list_2_cmd_2_setenv
+                0x000000000393f600       0x1c common/built-in.o
+                0x000000000393f600                _u_boot_list_2_cmd_2_setenv
+ .u_boot_list_2_cmd_2_sf
+                0x000000000393f61c       0x1c common/built-in.o
+                0x000000000393f61c                _u_boot_list_2_cmd_2_sf
+ .u_boot_list_2_cmd_2_version
+                0x000000000393f638       0x1c common/built-in.o
+                0x000000000393f638                _u_boot_list_2_cmd_2_version
+ .u_boot_list_2_cmd_2_write
+                0x000000000393f654       0x1c common/built-in.o
+                0x000000000393f654                _u_boot_list_2_cmd_2_write
+ .u_boot_list_2_cmd_3
+                0x000000000393f670        0x0 common/built-in.o
+ .u_boot_list_2_env_clbk_1
+                0x000000000393f670        0x0 common/built-in.o
+ .u_boot_list_2_env_clbk_2_baudrate
+                0x000000000393f670        0x8 drivers/serial/built-in.o
+                0x000000000393f670                _u_boot_list_2_env_clbk_2_baudrate
+ .u_boot_list_2_env_clbk_2_callbacks
+                0x000000000393f678        0x8 common/built-in.o
+                0x000000000393f678                _u_boot_list_2_env_clbk_2_callbacks
+ .u_boot_list_2_env_clbk_2_console
+                0x000000000393f680        0x8 common/built-in.o
+                0x000000000393f680                _u_boot_list_2_env_clbk_2_console
+ .u_boot_list_2_env_clbk_2_flags
+                0x000000000393f688        0x8 common/built-in.o
+                0x000000000393f688                _u_boot_list_2_env_clbk_2_flags
+ .u_boot_list_2_env_clbk_2_loadaddr
+                0x000000000393f690        0x8 common/built-in.o
+                0x000000000393f690                _u_boot_list_2_env_clbk_2_loadaddr
+ .u_boot_list_2_env_clbk_3
+                0x000000000393f698        0x0 common/built-in.o
+                0x000000000393f698                . = ALIGN (0x4)
+                0x000000000393f698                __image_copy_end = .
+                0x000000000393f698                __init_end = .
+
+.rel.dyn        0x000000000393f698     0x1a90
+                0x000000000393f698                __rel_dyn_start = .
+ *(.rel.dyn)
+ .rel.dyn       0x000000000393f698     0x1a90 arch/mips/cpu/mips32/start.o
+                0x0000000003941128                __rel_dyn_end = .
+ .rel.plt       0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+                0x0000000003941128                . = ALIGN (0x4)
+
+.BIN_END        0x0000000003941128        0x4
+ board/novatek/nvt-na51023/built-in.o(.BinEnd)
+ .BinEnd        0x0000000003941128        0x4 board/novatek/nvt-na51023/built-in.o
+                0x0000000003941128                gBinEnd
+                0x000000000394112c                _end = .
+                0x000000000004112c                uboot_bin_size = (_end - 0x3900000)
+
+.bss            0x000000000393f698   0x136708
+                0x000000000393f698                __bss_start = .
+ *(.sbss.*)
+ *(.bss.*)
+ .bss.SDIO_SDR104_MODE_CMD_DRIVING
+                0x000000000393f698        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f698                SDIO_SDR104_MODE_CMD_DRIVING
+ .bss.SDIO_SDR104_MODE_DATA_DRIVING
+                0x000000000393f69c        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f69c                SDIO_SDR104_MODE_DATA_DRIVING
+ .bss.SDIO_SDR104_MODE_CLK_DRIVING
+                0x000000000393f6a0        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6a0                SDIO_SDR104_MODE_CLK_DRIVING
+ .bss.SDIO_SDR50_MODE_CMD_DRIVING
+                0x000000000393f6a4        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6a4                SDIO_SDR50_MODE_CMD_DRIVING
+ .bss.SDIO_SDR50_MODE_DATA_DRIVING
+                0x000000000393f6a8        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6a8                SDIO_SDR50_MODE_DATA_DRIVING
+ .bss.SDIO_SDR50_MODE_CLK_DRIVING
+                0x000000000393f6ac        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6ac                SDIO_SDR50_MODE_CLK_DRIVING
+ .bss.SDIO_HS_MODE_CMD_DRIVING
+                0x000000000393f6b0        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6b0                SDIO_HS_MODE_CMD_DRIVING
+ .bss.SDIO_HS_MODE_DATA_DRIVING
+                0x000000000393f6b4        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6b4                SDIO_HS_MODE_DATA_DRIVING
+ .bss.SDIO_HS_MODE_CLK_DRIVING
+                0x000000000393f6b8        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6b8                SDIO_HS_MODE_CLK_DRIVING
+ .bss.SDIO_DS_MODE_CMD_DRIVING
+                0x000000000393f6bc        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6bc                SDIO_DS_MODE_CMD_DRIVING
+ .bss.SDIO_DS_MODE_DATA_DRIVING
+                0x000000000393f6c0        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6c0                SDIO_DS_MODE_DATA_DRIVING
+ .bss.SDIO_DS_MODE_CLK_DRIVING
+                0x000000000393f6c4        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6c4                SDIO_DS_MODE_CLK_DRIVING
+ .bss.p_ldinfo_reserve
+                0x000000000393f6c8        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6c8                p_ldinfo_reserve
+ .bss.nvt_bin_name_modelext
+                0x000000000393f6cc        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6cc                nvt_bin_name_modelext
+ .bss.nvt_bin_name_t
+                0x000000000393f6d0        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6d0                nvt_bin_name_t
+ .bss.nvt_bin_name
+                0x000000000393f6d4        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6d4                nvt_bin_name
+ .bss.nvt_binfo_comm_fw_update_len
+                0x000000000393f6d8        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6d8                nvt_binfo_comm_fw_update_len
+ .bss.nvt_binfo_comm_fw_update_addr
+                0x000000000393f6dc        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6dc                nvt_binfo_comm_fw_update_addr
+ .bss.nvt_binfo_comm_itron_comp_len
+                0x000000000393f6e0        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6e0                nvt_binfo_comm_itron_comp_len
+ .bss.nvt_binfo_comm_itron_comp_addr
+                0x000000000393f6e4        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6e4                nvt_binfo_comm_itron_comp_addr
+ .bss.nvt_binfo_comm_core2_start
+                0x000000000393f6e8        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6e8                nvt_binfo_comm_core2_start
+ .bss.nvt_binfo_comm_core1_start
+                0x000000000393f6ec        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6ec                nvt_binfo_comm_core1_start
+ .bss.nvt_binfo_comm_uboot_boot_func
+                0x000000000393f6f0        0x4 board/novatek/nvt-na51023/built-in.o
+                0x000000000393f6f0                nvt_binfo_comm_uboot_boot_func
+ .bss.disp_pinmux_config
+                0x000000000393f6f4       0x10 board/novatek/nvt-na51023/built-in.o
+ .bss.mi_display
+                0x000000000393f704        0x4 board/novatek/nvt-na51023/built-in.o
+ .bss.mipi_lvds_sensor
+                0x000000000393f708       0x20 board/novatek/nvt-na51023/built-in.o
+ .bss.ota_fw_name.5968
+                0x000000000393f728       0x20 board/novatek/nvt-na51023/built-in.o
+ .bss.ldr_fw_name.5967
+                0x000000000393f748       0x20 board/novatek/nvt-na51023/built-in.o
+ .bss.timestamp
+                0x000000000393f768        0x4 arch/mips/cpu/mips32/built-in.o
+ .bss.board_init_spi_flash
+                0x000000000393f76c        0x4 arch/mips/lib/built-in.o
+                0x000000000393f76c                board_init_spi_flash
+ .bss.linux_env_idx
+                0x000000000393f770        0x4 arch/mips/lib/built-in.o
+ .bss.linux_env_p
+                0x000000000393f774        0x4 arch/mips/lib/built-in.o
+ .bss.linux_env
+                0x000000000393f778        0x4 arch/mips/lib/built-in.o
+ .bss.linux_argp
+                0x000000000393f77c        0x4 arch/mips/lib/built-in.o
+ .bss.linux_argv
+                0x000000000393f780        0x4 arch/mips/lib/built-in.o
+ .bss.linux_argc
+                0x000000000393f784        0x4 arch/mips/lib/built-in.o
+ .bss.tmp_buf.3369
+                0x000000000393f788      0x200 common/built-in.o
+ .bss.tmp_buf   0x000000000393f988      0x400 common/built-in.o
+ .bss.lastcommand.3405
+                0x000000000393fd88      0x400 common/built-in.o
+ .bss.initted.3481
+                0x0000000003940188        0x4 common/built-in.o
+ .bss.hist_lines
+                0x000000000394018c     0x5014 common/built-in.o
+ .bss.hist_list
+                0x00000000039451a0       0x50 common/built-in.o
+ .bss.hist_num  0x00000000039451f0        0x4 common/built-in.o
+ .bss.hist_add_idx
+                0x00000000039451f4        0x4 common/built-in.o
+ .bss.hist_max  0x00000000039451f8        0x4 common/built-in.o
+ .bss.stored_bootdelay
+                0x00000000039451fc        0x4 common/built-in.o
+ .bss.callback_list
+                0x0000000003945200        0x4 common/built-in.o
+ .bss.flags_list
+                0x0000000003945204        0x4 common/built-in.o
+ .bss.base_address
+                0x0000000003945208        0x4 common/built-in.o
+ .bss.mm_last_size
+                0x000000000394520c        0x4 common/built-in.o
+ .bss.mm_last_addr
+                0x0000000003945210        0x4 common/built-in.o
+ .bss.dp_last_size
+                0x0000000003945214        0x4 common/built-in.o
+ .bss.dp_last_addr
+                0x0000000003945218        0x4 common/built-in.o
+ .bss.initialized.4107
+                0x000000000394521c        0x4 common/built-in.o
+ .bss.current_mtd_partnum
+                0x0000000003945220        0x1 common/built-in.o
+                0x0000000003945220                current_mtd_partnum
+ *fill*         0x0000000003945221        0x3 
+ .bss.current_mtd_dev
+                0x0000000003945224        0x4 common/built-in.o
+                0x0000000003945224                current_mtd_dev
+ .bss.devices   0x0000000003945228        0x8 common/built-in.o
+ .bss.mtdids    0x0000000003945230        0x8 common/built-in.o
+ .bss.last_partition
+                0x0000000003945238       0x10 common/built-in.o
+ .bss.last_parts
+                0x0000000003945248      0x200 common/built-in.o
+ .bss.last_ids  0x0000000003945448       0x80 common/built-in.o
+ .bss.flash     0x00000000039454c8        0x4 common/built-in.o
+ .bss.ctrlc_was_pressed
+                0x00000000039454cc        0x4 common/built-in.o
+ .bss.ctrlc_disabled
+                0x00000000039454d0        0x4 common/built-in.o
+ .bss.current_mallinfo
+                0x00000000039454d4       0x28 common/built-in.o
+ .bss.max_total_mem
+                0x00000000039454fc        0x4 common/built-in.o
+ .bss.max_sbrked_mem
+                0x0000000003945500        0x4 common/built-in.o
+ .bss.top_pad   0x0000000003945504        0x4 common/built-in.o
+ .bss.mem_malloc_brk
+                0x0000000003945508        0x4 common/built-in.o
+                0x0000000003945508                mem_malloc_brk
+ .bss.mem_malloc_end
+                0x000000000394550c        0x4 common/built-in.o
+                0x000000000394550c                mem_malloc_end
+ .bss.mem_malloc_start
+                0x0000000003945510        0x4 common/built-in.o
+                0x0000000003945510                mem_malloc_start
+ .bss.load_addr
+                0x0000000003945514        0x4 common/built-in.o
+                0x0000000003945514                load_addr
+ .bss.stdio_devices
+                0x0000000003945518        0xc common/built-in.o
+                0x0000000003945518                stdio_devices
+ .bss.devs      0x0000000003945524       0x3c common/built-in.o
+ .bss.mmc_devices
+                0x0000000003945560        0x8 drivers/mmc/built-in.o
+ .bss.cur_clk.4393
+                0x0000000003945568        0x4 drivers/mmc/built-in.o
+ .bss.cur_clk.4410
+                0x000000000394556c        0x4 drivers/mmc/built-in.o
+ .bss.led_on    0x0000000003945570        0x4 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003945570                led_on
+ .bss.flicker_count
+                0x0000000003945574        0x4 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003945574                flicker_count
+ .bss.flicker_base
+                0x0000000003945578        0x4 drivers/mtd/nvt_flash_spi/built-in.o
+                0x0000000003945578                flicker_base
+ .bss.RESTORE_GPIO_DIR
+                0x000000000394557c        0x4 drivers/mtd/nvt_flash_spi/built-in.o
+                0x000000000394557c                RESTORE_GPIO_DIR
+ .bss.spi_flash_dev_name
+                0x0000000003945580        0x8 drivers/mtd/spiflash/built-in.o
+ .bss.serial_current
+                0x0000000003945588        0x4 drivers/serial/built-in.o
+ .bss.serial_devices
+                0x000000000394558c        0x4 drivers/serial/built-in.o
+ .bss.fs_type   0x0000000003945590        0x4 fs/built-in.o
+ .bss.fs_partition
+                0x0000000003945594       0x50 fs/built-in.o
+ .bss.fs_dev_desc
+                0x00000000039455e4        0x4 fs/built-in.o
+ .bss.empty_dentptr
+                0x00000000039455e8        0x4 fs/built-in.o
+ .bss.dir_curclust
+                0x00000000039455ec        0x8 fs/built-in.o
+ .bss.num_of_fats
+                0x00000000039455f4        0x1 fs/built-in.o
+ *fill*         0x00000000039455f5        0x3 
+ .bss.total_sector
+                0x00000000039455f8        0x8 fs/built-in.o
+ .bss.cur_part_info
+                0x0000000003945600       0xa0 fs/built-in.o
+ .bss.cur_dev   0x00000000039456a0        0x8 fs/built-in.o
+ .bss.exdentptr_remove
+                0x00000000039456a8        0x4 fs/built-in.o
+ .bss.empty_exdentptr
+                0x00000000039456ac        0x4 fs/built-in.o
+ .bss.errno     0x00000000039456b0        0x4 lib/built-in.o
+                0x00000000039456b0                errno
+ .bss.local.3532
+                0x00000000039456b4       0x18 lib/built-in.o
+ *(COMMON)
+ COMMON         0x00000000039456cc       0x3c board/novatek/nvt-na51023/built-in.o
+                0x00000000039456cc                top_reg9
+                0x00000000039456d0                top_reg3
+                0x00000000039456d4                top_reg4
+                0x00000000039456d8                top_reg7
+                0x00000000039456dc                top_reg_sgpio0
+                0x00000000039456e0                top_reg2
+                0x00000000039456e4                top_reg_cgpio0
+                0x00000000039456e8                top_reg_dgpio0
+                0x00000000039456ec                top_reg5
+                0x00000000039456f0                top_reg8
+                0x00000000039456f4                top_reg_lgpio0
+                0x00000000039456f8                top_reg_hgpi0
+                0x00000000039456fc                top_reg_pgpio0
+                0x0000000003945700                top_reg6
+                0x0000000003945704                top_reg1
+ COMMON         0x0000000003945708        0x8 arch/mips/lib/built-in.o
+                0x0000000003945708                monitor_flash_len
+                0x000000000394570c                na51023_time_start
+ COMMON         0x0000000003945710      0x540 common/built-in.o
+                0x0000000003945710                console_buffer
+                0x0000000003945b14                save_addr
+                0x0000000003945b18                env_ptr
+                0x0000000003945b1c                images
+                0x0000000003945c4c                save_size
+ COMMON         0x0000000003945c50       0x88 drivers/mtd/built-in.o
+                0x0000000003945c50                mtd_partitions
+                0x0000000003945c58                mtd_table
+ COMMON         0x0000000003945cd8       0xb8 drivers/mtd/spiflash/built-in.o
+                0x0000000003945cd8                info
+                0x0000000003945ce0                spi_flash_info
+ *fill*         0x0000000003945d90       0x10 
+ COMMON         0x0000000003945da0   0x130000 fs/built-in.o
+                0x0000000003945da0                get_exdentunused_block
+                0x0000000003985da0                get_exdentfromdir_block
+                0x00000000039c5da0                do_exfat_read_at_block
+                0x0000000003a05da0                do_fat_read_at_block
+                0x0000000003a15da0                get_contents_vexfatname_block
+                0x0000000003a55da0                get_dentfromdir_block
+                0x0000000003a65da0                get_contents_vfatname_block
+                0x0000000003a75da0                . = ALIGN (0x4)
+                0x0000000003a75da0                __bss_end = .
+
+.dynsym         0x000000000394112c     0x1dd0
+ *(.dynsym)
+ .dynsym        0x000000000394112c     0x1dd0 arch/mips/cpu/mips32/start.o
+
+.dynbss         0x0000000003942efc        0x0
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+
+.dynstr         0x0000000003942efc     0x1b6e
+ *(.dynstr)
+ .dynstr        0x0000000003942efc     0x1b6e arch/mips/cpu/mips32/start.o
+
+.dynamic        0x0000000003944a6c       0xc0
+ *(.dynamic)
+ .dynamic       0x0000000003944a6c       0xc0 arch/mips/cpu/mips32/start.o
+                0x0000000003944a6c                _DYNAMIC
+
+.plt            0x0000000003944b2c        0x0
+ *(.plt)
+ .plt           0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+
+.interp         0x0000000003944b2c       0x13
+ *(.interp)
+ .interp        0x0000000003944b2c       0x13 arch/mips/cpu/mips32/start.o
+
+.gnu            0x0000000003944b40      0x100
+ *(.gnu*)
+ .gnu.version_d
+                0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+ .gnu.version   0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+ .gnu.version_r
+                0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+ .gnu.attributes
+                0x0000000003944b40       0x10 board/novatek/nvt-na51023/built-in.o
+ .gnu.attributes
+                0x0000000003944b50       0x10 arch/mips/cpu/mips32/built-in.o
+ .gnu.attributes
+                0x0000000003944b60       0x10 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .gnu.attributes
+                0x0000000003944b70       0x10 arch/mips/lib/built-in.o
+ .gnu.attributes
+                0x0000000003944b80       0x10 common/built-in.o
+ .gnu.attributes
+                0x0000000003944b90       0x10 disk/built-in.o
+ .gnu.attributes
+                0x0000000003944ba0       0x10 drivers/built-in.o
+ .gnu.attributes
+                0x0000000003944bb0       0x10 drivers/mmc/built-in.o
+ .gnu.attributes
+                0x0000000003944bc0       0x10 drivers/mtd/built-in.o
+ .gnu.attributes
+                0x0000000003944bd0       0x10 drivers/mtd/nvt_flash_spi/built-in.o
+ .gnu.attributes
+                0x0000000003944be0       0x10 drivers/mtd/spiflash/built-in.o
+ .gnu.attributes
+                0x0000000003944bf0       0x10 drivers/serial/built-in.o
+ .gnu.attributes
+                0x0000000003944c00       0x10 fs/built-in.o
+ .gnu.attributes
+                0x0000000003944c10       0x10 lib/built-in.o
+ .gnu.attributes
+                0x0000000003944c20       0x10 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .gnu.attributes
+                0x0000000003944c30       0x10 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.MIPS.stubs     0x0000000003944c40        0x0
+ *(.MIPS.stubs)
+ .MIPS.stubs    0x0000000000000000        0x0 arch/mips/cpu/mips32/start.o
+
+.hash           0x0000000003944c40      0xb98
+ *(.hash)
+ .hash          0x0000000003944c40      0xb98 arch/mips/cpu/mips32/start.o
+LOAD arch/mips/cpu/mips32/start.o
+START GROUP
+LOAD arch/mips/cpu/mips32/built-in.o
+LOAD arch/mips/cpu/mips32/nvt-na51023/built-in.o
+LOAD arch/mips/lib/built-in.o
+LOAD board/novatek/nvt-na51023/built-in.o
+LOAD common/built-in.o
+LOAD disk/built-in.o
+LOAD drivers/built-in.o
+LOAD drivers/dma/built-in.o
+LOAD drivers/gpio/built-in.o
+LOAD drivers/i2c/built-in.o
+LOAD drivers/input/built-in.o
+LOAD drivers/mmc/built-in.o
+LOAD drivers/mtd/built-in.o
+LOAD drivers/mtd/nvt_flash_spi/built-in.o
+LOAD drivers/mtd/onenand/built-in.o
+LOAD drivers/mtd/spiflash/built-in.o
+LOAD drivers/net/built-in.o
+LOAD drivers/net/phy/built-in.o
+LOAD drivers/pci/built-in.o
+LOAD drivers/power/built-in.o
+LOAD drivers/power/battery/built-in.o
+LOAD drivers/power/fuel_gauge/built-in.o
+LOAD drivers/power/mfd/built-in.o
+LOAD drivers/power/pmic/built-in.o
+LOAD drivers/serial/built-in.o
+LOAD drivers/spi/built-in.o
+LOAD drivers/usb/eth/built-in.o
+LOAD drivers/usb/gadget/built-in.o
+LOAD drivers/usb/host/built-in.o
+LOAD drivers/usb/musb-new/built-in.o
+LOAD drivers/usb/musb/built-in.o
+LOAD drivers/usb/phy/built-in.o
+LOAD drivers/usb/ulpi/built-in.o
+LOAD fs/built-in.o
+LOAD lib/built-in.o
+LOAD lib/libfdt/built-in.o
+LOAD net/built-in.o
+LOAD test/built-in.o
+LOAD test/dm/built-in.o
+END GROUP
+LOAD /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a
+OUTPUT(u-boot elf32-tradlittlemips)
+
+.comment        0x0000000000000000       0x36
+ .comment       0x0000000000000000       0x36 board/novatek/nvt-na51023/built-in.o
+                                        0x3de (松开之前的大小)
+ .comment       0x0000000000000000       0xa5 arch/mips/cpu/mips32/built-in.o
+ .comment       0x0000000000000000       0x37 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .comment       0x0000000000000000       0xa5 arch/mips/lib/built-in.o
+ .comment       0x0000000000000000      0x82a common/built-in.o
+ .comment       0x0000000000000000       0x6e disk/built-in.o
+ .comment       0x0000000000000000       0x6e drivers/built-in.o
+ .comment       0x0000000000000000       0xdc drivers/mmc/built-in.o
+ .comment       0x0000000000000000       0x6e drivers/mtd/built-in.o
+ .comment       0x0000000000000000       0x6e drivers/mtd/nvt_flash_spi/built-in.o
+ .comment       0x0000000000000000       0x37 drivers/mtd/spiflash/built-in.o
+ .comment       0x0000000000000000       0x37 drivers/serial/built-in.o
+ .comment       0x0000000000000000       0xdc fs/built-in.o
+ .comment       0x0000000000000000      0x596 lib/built-in.o
+ .comment       0x0000000000000000       0x37 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .comment       0x0000000000000000       0x37 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 board/novatek/nvt-na51023/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 arch/mips/cpu/mips32/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 arch/mips/lib/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 common/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 disk/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/mmc/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/mtd/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/mtd/nvt_flash_spi/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/mtd/spiflash/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 drivers/serial/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 fs/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 lib/built-in.o
+ .mdebug.abi32  0x0000000000000000        0x0 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.debug_line     0x0000000000000000    0x16afb
+ .debug_line    0x0000000000000000      0x136 arch/mips/cpu/mips32/start.o
+ .debug_line    0x0000000000000136     0x4900 board/novatek/nvt-na51023/built-in.o
+ .debug_line    0x0000000000004a36      0x4ac arch/mips/cpu/mips32/built-in.o
+ .debug_line    0x0000000000004ee2      0x1de arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .debug_line    0x00000000000050c0      0x7b4 arch/mips/lib/built-in.o
+ .debug_line    0x0000000000005874     0x67e7 common/built-in.o
+ .debug_line    0x000000000000c05b      0x713 disk/built-in.o
+ .debug_line    0x000000000000c76e      0x267 drivers/built-in.o
+ .debug_line    0x000000000000c9d5     0x1aa4 drivers/mmc/built-in.o
+ .debug_line    0x000000000000e479      0x88e drivers/mtd/built-in.o
+ .debug_line    0x000000000000ed07     0x11da drivers/mtd/nvt_flash_spi/built-in.o
+ .debug_line    0x000000000000fee1      0x5b5 drivers/mtd/spiflash/built-in.o
+ .debug_line    0x0000000000010496      0x37e drivers/serial/built-in.o
+ .debug_line    0x0000000000010814     0x22d0 fs/built-in.o
+ .debug_line    0x0000000000012ae4     0x3f52 lib/built-in.o
+ .debug_line    0x0000000000016a36       0x60 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000000000016a96       0x65 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.debug_info     0x0000000000000000    0x626c9
+ .debug_info    0x0000000000000000       0x84 arch/mips/cpu/mips32/start.o
+ .debug_info    0x0000000000000084    0x15ffd board/novatek/nvt-na51023/built-in.o
+ .debug_info    0x0000000000016081      0xd08 arch/mips/cpu/mips32/built-in.o
+ .debug_info    0x0000000000016d89      0x534 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .debug_info    0x00000000000172bd     0x1f14 arch/mips/lib/built-in.o
+ .debug_info    0x00000000000191d1    0x1d460 common/built-in.o
+ .debug_info    0x0000000000036631     0x1d26 disk/built-in.o
+ .debug_info    0x0000000000038357      0x733 drivers/built-in.o
+ .debug_info    0x0000000000038a8a     0x8395 drivers/mmc/built-in.o
+ .debug_info    0x0000000000040e1f     0x2b3b drivers/mtd/built-in.o
+ .debug_info    0x000000000004395a     0x6511 drivers/mtd/nvt_flash_spi/built-in.o
+ .debug_info    0x0000000000049e6b     0x27e4 drivers/mtd/spiflash/built-in.o
+ .debug_info    0x000000000004c64f      0xc7c drivers/serial/built-in.o
+ .debug_info    0x000000000004d2cb     0x9d07 fs/built-in.o
+ .debug_info    0x0000000000056fd2     0xb3c4 lib/built-in.o
+ .debug_info    0x0000000000062396      0x199 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_info    0x000000000006252f      0x19a /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.debug_abbrev   0x0000000000000000    0x10c03
+ .debug_abbrev  0x0000000000000000       0x12 arch/mips/cpu/mips32/start.o
+ .debug_abbrev  0x0000000000000012     0x2e70 board/novatek/nvt-na51023/built-in.o
+ .debug_abbrev  0x0000000000002e82      0x4ba arch/mips/cpu/mips32/built-in.o
+ .debug_abbrev  0x000000000000333c      0x20e arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .debug_abbrev  0x000000000000354a      0x6da arch/mips/lib/built-in.o
+ .debug_abbrev  0x0000000000003c24     0x5d89 common/built-in.o
+ .debug_abbrev  0x00000000000099ad      0x620 disk/built-in.o
+ .debug_abbrev  0x0000000000009fcd      0x270 drivers/built-in.o
+ .debug_abbrev  0x000000000000a23d     0x11c5 drivers/mmc/built-in.o
+ .debug_abbrev  0x000000000000b402      0x70d drivers/mtd/built-in.o
+ .debug_abbrev  0x000000000000bb0f      0x8e4 drivers/mtd/nvt_flash_spi/built-in.o
+ .debug_abbrev  0x000000000000c3f3      0x3f8 drivers/mtd/spiflash/built-in.o
+ .debug_abbrev  0x000000000000c7eb      0x350 drivers/serial/built-in.o
+ .debug_abbrev  0x000000000000cb3b      0xf25 fs/built-in.o
+ .debug_abbrev  0x000000000000da60     0x2fc1 lib/built-in.o
+ .debug_abbrev  0x0000000000010a21       0xf1 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000000000010b12       0xf1 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.debug_aranges  0x0000000000000000     0x2570
+ .debug_aranges
+                0x0000000000000000       0x28 arch/mips/cpu/mips32/start.o
+ .debug_aranges
+                0x0000000000000028      0x568 board/novatek/nvt-na51023/built-in.o
+ .debug_aranges
+                0x0000000000000590       0xe0 arch/mips/cpu/mips32/built-in.o
+ .debug_aranges
+                0x0000000000000670       0x48 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .debug_aranges
+                0x00000000000006b8       0xc0 arch/mips/lib/built-in.o
+ .debug_aranges
+                0x0000000000000778      0xb50 common/built-in.o
+ .debug_aranges
+                0x00000000000012c8       0xa0 disk/built-in.o
+ .debug_aranges
+                0x0000000000001368       0x48 drivers/built-in.o
+ .debug_aranges
+                0x00000000000013b0      0x2d8 drivers/mmc/built-in.o
+ .debug_aranges
+                0x0000000000001688      0x168 drivers/mtd/built-in.o
+ .debug_aranges
+                0x00000000000017f0      0x1d0 drivers/mtd/nvt_flash_spi/built-in.o
+ .debug_aranges
+                0x00000000000019c0       0x78 drivers/mtd/spiflash/built-in.o
+ .debug_aranges
+                0x0000000000001a38       0xc0 drivers/serial/built-in.o
+ .debug_aranges
+                0x0000000000001af8      0x398 fs/built-in.o
+ .debug_aranges
+                0x0000000000001e90      0x6a0 lib/built-in.o
+ .debug_aranges
+                0x0000000000002530       0x20 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x0000000000002550       0x20 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.debug_ranges   0x0000000000000000     0x7248
+ .debug_ranges  0x0000000000000000       0x20 arch/mips/cpu/mips32/start.o
+ .debug_ranges  0x0000000000000020     0x1400 board/novatek/nvt-na51023/built-in.o
+ .debug_ranges  0x0000000000001420       0x90 arch/mips/cpu/mips32/built-in.o
+ .debug_ranges  0x00000000000014b0       0x58 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .debug_ranges  0x0000000000001508      0x150 arch/mips/lib/built-in.o
+ .debug_ranges  0x0000000000001658     0x20e0 common/built-in.o
+ .debug_ranges  0x0000000000003738      0x258 disk/built-in.o
+ .debug_ranges  0x0000000000003990       0x20 drivers/built-in.o
+ .debug_ranges  0x00000000000039b0      0x9b0 drivers/mmc/built-in.o
+ .debug_ranges  0x0000000000004360      0x2b0 drivers/mtd/built-in.o
+ .debug_ranges  0x0000000000004610      0x268 drivers/mtd/nvt_flash_spi/built-in.o
+ .debug_ranges  0x0000000000004878      0x200 drivers/mtd/spiflash/built-in.o
+ .debug_ranges  0x0000000000004a78       0xc8 drivers/serial/built-in.o
+ .debug_ranges  0x0000000000004b40     0x10f0 fs/built-in.o
+ .debug_ranges  0x0000000000005c30     0x1618 lib/built-in.o
+
+.debug_frame    0x0000000000000000     0x73f4
+ .debug_frame   0x0000000000000000     0x10a4 board/novatek/nvt-na51023/built-in.o
+ .debug_frame   0x00000000000010a4      0x138 arch/mips/cpu/mips32/built-in.o
+ .debug_frame   0x00000000000011dc       0x9c arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .debug_frame   0x0000000000001278      0x200 arch/mips/lib/built-in.o
+ .debug_frame   0x0000000000001478     0x22bc common/built-in.o
+ .debug_frame   0x0000000000003734      0x288 disk/built-in.o
+ .debug_frame   0x00000000000039bc       0x50 drivers/built-in.o
+ .debug_frame   0x0000000000003a0c      0xac8 drivers/mmc/built-in.o
+ .debug_frame   0x00000000000044d4      0x378 drivers/mtd/built-in.o
+ .debug_frame   0x000000000000484c      0x678 drivers/mtd/nvt_flash_spi/built-in.o
+ .debug_frame   0x0000000000004ec4      0x1ac drivers/mtd/spiflash/built-in.o
+ .debug_frame   0x0000000000005070      0x22c drivers/serial/built-in.o
+ .debug_frame   0x000000000000529c      0xf6c fs/built-in.o
+ .debug_frame   0x0000000000006208     0x11ac lib/built-in.o
+ .debug_frame   0x00000000000073b4       0x20 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_frame   0x00000000000073d4       0x20 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+
+.debug_str      0x0000000000000000    0x13115
+ .debug_str     0x0000000000000000     0x95fa board/novatek/nvt-na51023/built-in.o
+                                      0x1172c (松开之前的大小)
+ .debug_str     0x00000000000095fa      0x17c arch/mips/cpu/mips32/built-in.o
+                                        0xb2a (松开之前的大小)
+ .debug_str     0x0000000000009776      0x115 arch/mips/cpu/mips32/nvt-na51023/built-in.o
+                                        0x47a (松开之前的大小)
+ .debug_str     0x000000000000988b      0xccf arch/mips/lib/built-in.o
+                                       0x1bd5 (松开之前的大小)
+ .debug_str     0x000000000000a55a     0x2f9f common/built-in.o
+                                       0xfce0 (松开之前的大小)
+ .debug_str     0x000000000000d4f9      0x2ae disk/built-in.o
+                                        0xbf8 (松开之前的大小)
+ .debug_str     0x000000000000d7a7       0x78 drivers/built-in.o
+                                        0x6eb (松开之前的大小)
+ .debug_str     0x000000000000d81f     0x12ad drivers/mmc/built-in.o
+                                       0x2cc7 (松开之前的大小)
+ .debug_str     0x000000000000eacc      0x37d drivers/mtd/built-in.o
+                                       0x1157 (松开之前的大小)
+ .debug_str     0x000000000000ee49     0x1a97 drivers/mtd/nvt_flash_spi/built-in.o
+                                       0x37ee (松开之前的大小)
+ .debug_str     0x00000000000108e0      0x2f4 drivers/mtd/spiflash/built-in.o
+                                       0x16e5 (松开之前的大小)
+ .debug_str     0x0000000000010bd4      0x15b drivers/serial/built-in.o
+                                        0x659 (松开之前的大小)
+ .debug_str     0x0000000000010d2f     0x10d9 fs/built-in.o
+                                       0x2840 (松开之前的大小)
+ .debug_str     0x0000000000011e08     0x117a lib/built-in.o
+                                       0x6755 (松开之前的大小)
+ .debug_str     0x0000000000012f82      0x189 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+                                        0x234 (松开之前的大小)
+ .debug_str     0x000000000001310b        0xa /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)
+                                        0x234 (松开之前的大小)
+
+.debug_loc      0x0000000000000000    0x38de3
+ .debug_loc     0x0000000000000000     0x8605 board/novatek/nvt-na51023/built-in.o
+ .debug_loc     0x0000000000008605      0x1de arch/mips/cpu/mips32/built-in.o
+ .debug_loc     0x00000000000087e3      0x14d arch/mips/cpu/mips32/nvt-na51023/built-in.o
+ .debug_loc     0x0000000000008930      0x6c9 arch/mips/lib/built-in.o
+ .debug_loc     0x0000000000008ff9     0xfe45 common/built-in.o
+ .debug_loc     0x0000000000018e3e     0x10b5 disk/built-in.o
+ .debug_loc     0x0000000000019ef3      0x216 drivers/built-in.o
+ .debug_loc     0x000000000001a109     0x40e9 drivers/mmc/built-in.o
+ .debug_loc     0x000000000001e1f2     0x183d drivers/mtd/built-in.o
+ .debug_loc     0x000000000001fa2f     0x26cf drivers/mtd/nvt_flash_spi/built-in.o
+ .debug_loc     0x00000000000220fe      0xb44 drivers/mtd/spiflash/built-in.o
+ .debug_loc     0x0000000000022c42      0x504 drivers/serial/built-in.o
+ .debug_loc     0x0000000000023146     0x8eb9 fs/built-in.o
+ .debug_loc     0x000000000002bfff     0xccac lib/built-in.o
+ .debug_loc     0x0000000000038cab       0xf4 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_loc     0x0000000000038d9f       0x44 /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/../lib/gcc/mipsel-24kec-linux-gnu/4.9.3/libgcc.a(_ashldi3.o)

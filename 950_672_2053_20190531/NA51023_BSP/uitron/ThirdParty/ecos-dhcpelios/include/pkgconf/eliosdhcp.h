@@ -1,0 +1,24 @@
+#ifndef CYGONCE_PKGCONF_ELIOSDHCP_H
+#define CYGONCE_PKGCONF_ELIOSDHCP_H
+/*
+ * File <pkgconf/eliosdhcp.h>
+ *
+ * This file is generated automatically by the configuration
+ * system. It should not be edited. Any changes to this file
+ * may be overwritten.
+ */
+
+#define CYGNUM_ELIOSDHCP_PORT 67
+#define CYGNUM_ELIOSDHCP_PORT_67
+#define CYGNUM_ELIOSDHCP_INTERFACE "eth0"
+#define CYGNUM_ELIOSDHCP_START_ADDR_IP "192.168.0.12"  //"192.168.0.2"
+#define CYGNUM_ELIOSDHCP_END_ADDR_IP   "192.168.0.100"   //"192.168.0.253"
+#define CYGNUM_ELIOSDHCP_END_ADDR_MASK "255.255.255.0"
+#define CYGNUM_ELIOSDHCP_LEASETIME 600
+#define CYGNUM_ELIOSDHCP_LEASETIME_600
+#define CYGNUM_ELIOSDHCP_THREAD_PRIORITY 16
+#define CYGNUM_ELIOSDHCP_THREAD_PRIORITY_16
+#define CYGNUM_ELIOSDHCP_THREAD_STACK_SIZE 0x00004000
+#define CYGNUM_ELIOSDHCP_THREAD_STACK_SIZE_0x00004000
+
+#endif

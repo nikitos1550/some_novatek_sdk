@@ -1,0 +1,7 @@
+bootm.c:67:13:linux_cmdline_set	40	static
+bootm.c:114:13:boot_cmdline_linux	104	static
+bootm.c:171:13:linux_env_set	48	static
+bootm.c:194:13:boot_prep_linux	64	static
+bootm.c:242:13:boot_jump_linux.isra.0	32	static
+bootm.c:47:6:arch_lmb_reserve	0	static
+bootm.c:265:5:do_bootm_linux	40	static

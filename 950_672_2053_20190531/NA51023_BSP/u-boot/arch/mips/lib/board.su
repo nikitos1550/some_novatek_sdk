@@ -1,0 +1,8 @@
+board.c:37:5:__board_early_init_f	0	static
+board.c:65:12:display_banner	32	static
+board.c:80:12:init_baudrate	32	static
+board.c:47:12:init_func_ram	32	static
+board.c:123:6:board_init_f	168	static
+board.c:225:5:initr_spiflash	32	static
+board.c:244:6:board_init_r	32	static
+board.c:357:6:_machine_restart	40	static

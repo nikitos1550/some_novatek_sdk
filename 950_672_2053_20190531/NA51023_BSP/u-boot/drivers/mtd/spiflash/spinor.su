@@ -1,0 +1,12 @@
+spinor.c:159:13:spi_flash_mtd_sync	0	static
+spinor.c:199:12:spi_flash_mtd_write	40	static
+spinor.c:185:12:spi_flash_mtd_read	40	static
+spinor.c:388:5:nvt_spinor_read_ops	48	static
+spinor.c:401:5:nvt_spinor_erase_ops	56	static
+spinor.c:428:5:nvt_spinor_write_ops	48	static
+spinor.c:163:12:spi_flash_mtd_erase	40	static
+spinor.c:377:12:nvt_spinor_status_ops	32	static
+spinor.c:366:5:nvt_spinor_write_status	32	static
+spinor.c:628:5:spi_flash_mtd_register	40	static
+spinor.c:781:19:spi_flash_probe	80	static
+spinor.c:811:6:spi_flash_free	0	static

@@ -1,0 +1,5 @@
+time.c:21:5:timer_init	0	static
+time.c:29:7:get_timer	0	static
+time.c:45:6:__udelay	0	static
+time.c:58:20:get_ticks	32	static
+time.c:67:7:get_tbclk	0	static

@@ -1,0 +1,1803 @@
+make[1]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/MakeCommon'
+make[2]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAC108'
+
+Checking eCos - Audio_ExtAC108 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAC108'
+Compiling ac108.c
+Compiling ac108_ver.c
+Creating library Audio_ExtAC108.a ...
+Audio_ExtAC108.a: SHA.D8FB3F89
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAC108'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAC108'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAIC3254'
+
+Checking eCos - Audio_ExtAIC3254 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAIC3254'
+Compiling AIC3254.c
+Creating library Audio_ExtAIC3254.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAIC3254'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtAIC3254'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtEMU'
+
+Checking eCos - Audio_ExtEMU release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtEMU'
+Compiling AudExtEMU.c
+Compiling AudExtEMU_ver.c
+Creating library Audio_ExtEMU.a ...
+Audio_ExtEMU.a: SHA.288D4410
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtEMU'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtEMU'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtWM8978'
+
+Checking eCos - Audio_ExtWM8978 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtWM8978'
+Compiling WM8978.c
+Compiling WM8978_ver.c
+Creating library Audio_ExtWM8978.a ...
+Audio_ExtWM8978.a: SHA.0668C27A
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtWM8978'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Audio/Audio_ExtWM8978'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/BlueTooth/Broadcom'
+
+Checking eCos - BT_Brcm release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/BlueTooth/Broadcom'
+Compiling BT_Brcm.c
+Compiling BT_BrcmID.c
+Compiling wiced_bt_cfg.c
+Compiling bt_rfc_server.c
+Compiling rfc_sdp_db.c
+Compiling bt_le_reporter.c
+Compiling wiced_bt_rfcbte_gatt_db.c
+Compiling hoGP.c
+Compiling bt_smart_service.c
+Compiling upio_uITRON.c
+Compiling brcm_patch-43438-26M.c
+Compiling userial_uITRON.c
+Compiling utron_utils.c
+Creating library BT_Brcm.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/BlueTooth/Broadcom'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/BlueTooth/Broadcom'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_AUCN01'
+
+Checking eCos - Disp_IF8B_LCD1_AUCN01 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_AUCN01'
+Compiling dispdev_IF8bits.c
+Compiling AUCN01.c
+Creating library Disp_IF8B_LCD1_AUCN01.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_AUCN01'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_AUCN01'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_ILI9342C'
+
+Checking eCos - Disp_IF8B_LCD1_ILI9342C release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_ILI9342C'
+Compiling dispdev_IF8bits.c
+Compiling ILI9342C.c
+Creating library Disp_IF8B_LCD1_ILI9342C.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_ILI9342C'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_ILI9342C'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_LC4300DBW'
+
+Checking eCos - Disp_IF8B_LCD1_LC4300DBW release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_LC4300DBW'
+Compiling dispdev_IF8bits.c
+Compiling LC4300DBW.c
+Creating library Disp_IF8B_LCD1_LC4300DBW.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_LC4300DBW'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_LC4300DBW'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_PW35P00_HX8238D'
+
+Checking eCos - Disp_IF8B_LCD1_PW35P00_HX8238D release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_PW35P00_HX8238D'
+Compiling dispdev_IF8bits.c
+Compiling PW35P00.c
+Creating library Disp_IF8B_LCD1_PW35P00_HX8238D.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_PW35P00_HX8238D'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_PW35P00_HX8238D'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6'
+
+Checking eCos - Disp_IF8B_LCD1_TXDT270C_8961_6A6 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6'
+Compiling dispdev_IF8bits.c
+Compiling TXDT270C.c
+Creating library Disp_IF8B_LCD1_TXDT270C_8961_6A6.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6_R2'
+
+Checking eCos - Disp_IF8B_LCD1_TXDT270C_8961_6A6_R2 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6_R2'
+Compiling dispdev_IF8bits.c
+Compiling TXDT270C_R2.c
+Creating library Disp_IF8B_LCD1_TXDT270C_8961_6A6_R2.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6_R2'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IF8B_LCD1_TXDT270C_8961_6A6_R2'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_A030VN01'
+
+Checking eCos - Disp_IFPA_LCD1_A030VN01 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_A030VN01'
+Compiling dispdev_IFParal.c
+Compiling A030VN01.c
+Creating library Disp_IFPA_LCD1_A030VN01.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_A030VN01'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_A030VN01'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_NT53001'
+
+Checking eCos - Disp_IFPA_LCD1_NT53001 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_NT53001'
+Compiling dispdev_IFParal.c
+Compiling NT53001.c
+Creating library Disp_IFPA_LCD1_NT53001.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_NT53001'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_NT53001'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_SII9024'
+
+Checking eCos - Disp_IFPA_LCD1_SII9024A release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_SII9024'
+Compiling dispdev_IFParal.c
+Compiling SII9024A.c
+Creating library Disp_IFPA_LCD1_SII9024A.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_SII9024'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_SII9024'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T30P106'
+
+Checking eCos - Disp_IFPA_LCD1_T30P106 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T30P106'
+Compiling dispdev_IFParal.c
+Compiling T30P106.c
+Creating library Disp_IFPA_LCD1_T30P106.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T30P106'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T30P106'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T397P04'
+
+Checking eCos - Disp_IFPA_LCD1_T397P04 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T397P04'
+Compiling dispdev_IFParal.c
+Compiling T397P04.c
+Creating library Disp_IFPA_LCD1_T397P04.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T397P04'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_IFPA_LCD1_T397P04'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_PANELCOMMON'
+
+Checking eCos - Disp_PANELCOMMON release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_PANELCOMMON'
+Compiling dispdev_panlcomn.c
+Creating library Disp_PANELCOMMON.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_PANELCOMMON'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_PANELCOMMON'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_VIRTUAL_LCD1_OFF'
+
+Checking eCos - Disp_VIRTUAL_LCD1_OFF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_VIRTUAL_LCD1_OFF'
+Compiling OFF.c
+Creating library Disp_VIRTUAL_LCD1_OFF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_VIRTUAL_LCD1_OFF'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevPanel/Disp_VIRTUAL_LCD1_OFF'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevTV/Disp_TV'
+
+Checking eCos - Disp_TV release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevTV/Disp_TV'
+Compiling dispdev_tv.c
+Creating library Disp_TV.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevTV/Disp_TV'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/DispDevTV/Disp_TV'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GPS'
+
+Checking eCos - GPS release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GPS'
+Compiling GPS.c
+Creating library GPS.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GPS'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GPS'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_BMA253'
+
+Checking eCos - GSensor_BMA253 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_BMA253'
+Compiling GSensor.c
+Compiling GSensor_BMA253.c
+Creating library GSensor_BMA253.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_BMA253'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_BMA253'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_Combo'
+
+Checking eCos - GSensor_Combo release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_Combo'
+Compiling GSensor.c
+Compiling GSensor_Combo.c
+Compiling GSensor_None.c
+Compiling GSensor_BMA253.c
+Compiling Gsensor_SC7A30E.c
+Compiling GSensor_SC7A20.c
+Creating library GSensor_Combo.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_Combo'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_Combo'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_DRAMD07'
+
+Checking eCos - GSensor_DRAMD07 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_DRAMD07'
+Compiling GSensor.c
+Compiling GSensor_DRAMD07.c
+Creating library GSensor_DRAMD07.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_DRAMD07'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_DRAMD07'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_GMA301'
+
+Checking eCos - GSensor_GMA301 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_GMA301'
+Compiling GSensor.c
+Compiling GSensor_GMA301.c
+Creating library GSensor_GMA301.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_GMA301'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_GMA301'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_KXTJ2'
+
+Checking eCos - GSensor_KXTJ2 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_KXTJ2'
+Compiling GSensor.c
+Compiling GSensor_KXTJ2.c
+Creating library GSensor_KXTJ2.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_KXTJ2'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_KXTJ2'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_LIS3DH'
+
+Checking eCos - GSensor_LIS3DH release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_LIS3DH'
+Compiling GSensor.c
+Compiling GSensor_LIS3DH.c
+Creating library GSensor_LIS3DH.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_LIS3DH'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_LIS3DH'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_None'
+
+Checking eCos - GSensor_None release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_None'
+Compiling GSensor.c
+Compiling GSensor_None.c
+Creating library GSensor_None.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_None'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/GSensor/GSensor_None'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_EWTS9PDN21'
+
+Checking eCos - Gyro_EWTS9PDN21 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_EWTS9PDN21'
+Compiling Gyro_EWTS9PDN21.c
+Creating library Gyro_EWTS9PDN21.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_EWTS9PDN21'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_EWTS9PDN21'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20630'
+
+Checking eCos - Gyro_ICG20630 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20630'
+Compiling Gyro_ICG20630.c
+Creating library Gyro_ICG20630.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20630'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20630'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20660'
+
+Checking eCos - Gyro_ICG20660 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20660'
+Compiling Gyro_ICG20660.c
+Creating library Gyro_ICG20660.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20660'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ICG20660'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG1010A'
+
+Checking eCos - Gyro_ITG1010A release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG1010A'
+Compiling Gyro_ITG1010A.c
+Creating library Gyro_ITG1010A.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG1010A'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG1010A'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG3500A'
+
+Checking eCos - Gyro_ITG3500A release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG3500A'
+Compiling Gyro_ITG3500A.c
+Creating library Gyro_ITG3500A.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG3500A'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_ITG3500A'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_LSM6DS33'
+
+Checking eCos - Gyro_LSM6DS33 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_LSM6DS33'
+Compiling Gyro_LSM6DS33.c
+Creating library Gyro_LSM6DS33.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_LSM6DS33'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_LSM6DS33'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_None'
+
+Checking eCos - Gyro_None release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_None'
+Compiling Gyro_None.c
+Creating library Gyro_None.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_None'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Gyro/Gyro_None'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_AN41908'
+
+Checking eCos - LENSDRV_AN41908 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_AN41908'
+Compiling LensDrv_AN41908.c
+Compiling LensMotor_AN41908.c
+Creating library LENSDRV_AN41908.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_AN41908'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_AN41908'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_LV8044'
+
+Checking eCos - LENSDRV_LV8044 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_LV8044'
+Compiling LensDrv_LV8044.c
+Compiling LensMotor_LV8044.c
+Creating library LENSDRV_LV8044.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_LV8044'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Lens/LensDrv_LV8044'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/A7_N75'
+
+Checking eCos - MODELEXT_A7_N75 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/A7_N75'
+Compiling DxCfg.c
+Compiling IntDirCfg.c
+Compiling PinmuxCfg.c
+Compiling IOCfg.c
+Compiling DxStorage_Card.c
+Compiling DxStorage_EmbMem.c
+Compiling DxInput_Key.c
+Compiling DxCamera_Lens.c
+Compiling DxCamera_Sensor.c
+Compiling DxDisplay_LCD.c
+Compiling DxDisplay_TV.c
+Compiling DxOutput_LED.c
+Compiling DxCmd.c
+Compiling DxUsb.c
+Compiling DxWiFi.c
+Compiling PartitionInfo.c
+Compiling DxSound_Audio.c
+Compiling DxIPL.c
+Compiling dx_ipl_cal.c
+Compiling DxPower_Battery.c
+Compiling DxPower_DC.c
+Compiling DxPQs.c
+Compiling DxMCU.c
+Compiling MCUCtrlTsk.c
+Compiling MCU2CtrlTsk.c
+Compiling MCUCtrlID.c
+Compiling MCU2CtrlID.c
+Compiling modelext_info.c
+Compiling bin_info.c
+Compiling pinmux_cfg.c
+Compiling intdir_cfg.c
+Compiling emb_partition_info.c
+Compiling gpio_info.c
+Compiling dram_partition_info.c
+Compiling model_cfg.c
+Creating library MODELEXT_A7_N75.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/A7_N75'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/A7_N75'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/EVB'
+
+Checking eCos - MODELEXT_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/EVB'
+Compiling DxCfg.c
+Compiling IntDirCfg.c
+Compiling PinmuxCfg.c
+Compiling IOCfg.c
+Compiling DxStorage_Card.c
+Compiling DxStorage_EmbMem.c
+Compiling DxInput_Key.c
+Compiling DxCamera_Lens.c
+Compiling DxCamera_Sensor.c
+Compiling DxDisplay_LCD.c
+Compiling DxDisplay_TV.c
+Compiling DxOutput_LED.c
+Compiling DxCmd.c
+Compiling DxUsb.c
+Compiling DxWiFi.c
+Compiling PartitionInfo.c
+Compiling DxSound_Audio.c
+Compiling DxIPL.c
+Compiling dx_ipl_cal.c
+Compiling DxPower_Battery.c
+Compiling DxPower_DC.c
+Compiling DxPQs.c
+Compiling DxMCU.c
+Compiling MCUCtrlTsk.c
+Compiling MCU2CtrlTsk.c
+Compiling MCUCtrlID.c
+Compiling MCU2CtrlID.c
+Compiling modelext_info.c
+Compiling bin_info.c
+Compiling pinmux_cfg.c
+Compiling intdir_cfg.c
+Compiling emb_partition_info.c
+Compiling gpio_info.c
+Compiling dram_partition_info.c
+Compiling model_cfg.c
+Creating library MODELEXT_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/EVB'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/EVB'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/G600'
+
+Checking eCos - MODELEXT_G600 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/G600'
+Compiling DxCfg.c
+Compiling IntDirCfg.c
+Compiling PinmuxCfg.c
+Compiling IOCfg.c
+Compiling DxStorage_Card.c
+Compiling DxStorage_EmbMem.c
+Compiling DxInput_Key.c
+Compiling DxCamera_Lens.c
+Compiling DxCamera_Sensor.c
+Compiling DxDisplay_LCD.c
+Compiling DxDisplay_TV.c
+Compiling DxOutput_LED.c
+Compiling DxCmd.c
+Compiling DxUsb.c
+Compiling DxWiFi.c
+Compiling DxGSensor.c
+Compiling DxGPS.c
+Compiling PartitionInfo.c
+Compiling DxSound_Audio.c
+Compiling DxIPL.c
+Compiling dx_ipl_cal.c
+Compiling DxPower_Battery.c
+Compiling DxPower_DC.c
+Compiling DxPQs.c
+Compiling DxMCU.c
+Compiling MCUCtrlTsk.c
+Compiling MCU2CtrlTsk.c
+Compiling MCUCtrlID.c
+Compiling MCU2CtrlID.c
+Compiling modelext_info.c
+Compiling bin_info.c
+Compiling pinmux_cfg.c
+Compiling intdir_cfg.c
+Compiling emb_partition_info.c
+Compiling gpio_info.c
+Compiling dram_partition_info.c
+Compiling model_cfg.c
+Creating library MODELEXT_G600.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/G600'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/G600'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/Q09_2'
+
+Checking eCos - MODELEXT_Q09_2 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/Q09_2'
+Compiling DxCfg.c
+Compiling IntDirCfg.c
+Compiling PinmuxCfg.c
+Compiling IOCfg.c
+Compiling DxStorage_Card.c
+Compiling DxStorage_EmbMem.c
+Compiling DxInput_Key.c
+Compiling DxCamera_Lens.c
+Compiling DxCamera_Sensor.c
+Compiling DxDisplay_LCD.c
+Compiling DxDisplay_TV.c
+Compiling DxOutput_LED.c
+Compiling DxCmd.c
+Compiling DxUsb.c
+Compiling DxWiFi.c
+Compiling DxGSensor.c
+Compiling DxGPS.c
+Compiling PartitionInfo.c
+Compiling DxSound_Audio.c
+Compiling DxIPL.c
+Compiling dx_ipl_cal.c
+Compiling DxPower_Battery.c
+Compiling DxPower_DC.c
+Compiling DxPQs.c
+Compiling DxMCU.c
+Compiling MCUCtrlTsk.c
+Compiling MCU2CtrlTsk.c
+Compiling MCUCtrlID.c
+Compiling MCU2CtrlID.c
+Compiling modelext_info.c
+Compiling bin_info.c
+Compiling pinmux_cfg.c
+Compiling intdir_cfg.c
+Compiling emb_partition_info.c
+Compiling gpio_info.c
+Compiling dram_partition_info.c
+Compiling model_cfg.c
+Creating library MODELEXT_Q09_2.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/Q09_2'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/Q09_2'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/R2'
+
+Checking eCos - MODELEXT_R2 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/R2'
+Compiling DxCfg.c
+Compiling IntDirCfg.c
+Compiling PinmuxCfg.c
+Compiling IOCfg.c
+Compiling DxStorage_Card.c
+Compiling DxStorage_EmbMem.c
+Compiling DxInput_Key.c
+Compiling DxCamera_Lens.c
+Compiling DxCamera_Sensor.c
+Compiling DxDisplay_LCD.c
+Compiling DxDisplay_TV.c
+Compiling DxOutput_LED.c
+Compiling DxCmd.c
+Compiling DxUsb.c
+Compiling DxWiFi.c
+Compiling DxGSensor.c
+Compiling DxGPS.c
+Compiling PartitionInfo.c
+Compiling DxSound_Audio.c
+Compiling DxIPL.c
+Compiling dx_ipl_cal.c
+Compiling DxPower_Battery.c
+Compiling DxPower_DC.c
+Compiling DxPQs.c
+Compiling DxMCU.c
+Compiling MCUCtrlTsk.c
+Compiling MCU2CtrlTsk.c
+Compiling MCUCtrlID.c
+Compiling MCU2CtrlID.c
+Compiling modelext_info.c
+Compiling bin_info.c
+Compiling pinmux_cfg.c
+Compiling intdir_cfg.c
+Compiling emb_partition_info.c
+Compiling gpio_info.c
+Compiling dram_partition_info.c
+Compiling model_cfg.c
+Creating library MODELEXT_R2.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/R2'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/R2'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/X1'
+
+Checking eCos - MODELEXT_X1 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/X1'
+Compiling DxCfg.c
+Compiling IntDirCfg.c
+Compiling PinmuxCfg.c
+Compiling IOCfg.c
+Compiling DxStorage_Card.c
+Compiling DxStorage_EmbMem.c
+Compiling DxInput_Key.c
+Compiling DxCamera_Lens.c
+Compiling DxCamera_Sensor.c
+Compiling DxDisplay_LCD.c
+Compiling DxDisplay_TV.c
+Compiling DxOutput_LED.c
+Compiling DxCmd.c
+Compiling DxUsb.c
+Compiling DxWiFi.c
+Compiling DxGSensor.c
+Compiling PartitionInfo.c
+Compiling DxSound_Audio.c
+Compiling DxIPL.c
+Compiling dx_ipl_cal.c
+Compiling DxPower_Battery.c
+Compiling DxPower_DC.c
+Compiling DxPQs.c
+Compiling DxMCU.c
+Compiling MCUCtrlTsk.c
+Compiling MCU2CtrlTsk.c
+Compiling MCUCtrlID.c
+Compiling MCU2CtrlID.c
+Compiling modelext_info.c
+Compiling bin_info.c
+Compiling pinmux_cfg.c
+Compiling intdir_cfg.c
+Compiling emb_partition_info.c
+Compiling gpio_info.c
+Compiling dram_partition_info.c
+Compiling model_cfg.c
+Creating library MODELEXT_X1.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/X1'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/ModelExt/X1'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/PMU'
+
+Checking eCos - PMU release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/PMU'
+Compiling AXP_cfg.c
+Compiling axp-sply.c
+Creating library PMU.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/PMU'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/PMU'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/CMOC_gc2053p'
+
+Checking eCos - CMOS_GC2053P release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/CMOC_gc2053p'
+Compiling gc2053p.c
+Compiling gc2053p_param.c
+Creating library CMOS_GC2053P.a ...
+CMOS_GC2053P.a: SHA.68BCD4B4
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/CMOC_gc2053p'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/CMOC_gc2053p'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/cmos_tp2825'
+
+Checking eCos - CMOS_TP2825 release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/cmos_tp2825'
+Compiling tp2825.c
+Compiling tp2825_param.c
+Creating library CMOS_TP2825.a ...
+CMOS_TP2825.a: SHA.D91F2A85
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/cmos_tp2825'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt/DrvExt_src/Sensor/cmos_tp2825'
+make[2]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/DrvExt'
+make[2]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamCAL/ipl_cal_sample_ff'
+
+Checking eCos - IPL_CAL_SAMPLE_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamCAL/ipl_cal_sample_ff'
+Compiling ipl_cal_ctrl_sample_ff.c
+Compiling ipl_cal_cmd_sample_ff.c
+Compiling ipl_cal_setting_sample_ff.c
+Creating library IPL_CAL_SAMPLE_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamCAL/ipl_cal_sample_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamCAL/ipl_cal_sample_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/dev_cam_ipl_ext_com'
+
+Checking eCos - IPL_DEV_CAM_COM release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/dev_cam_ipl_ext_com'
+Compiling ipl_ext_cmd.c
+Compiling ipl_ext_isr.c
+Compiling ipl_ext_buffer.c
+Compiling ipl_ext_ctrl.c
+Compiling ipl_ext_ctrl_flow_common.c
+Compiling ipl_ext_flow_cb.c
+Compiling ipl_ext_d2d_cb.c
+Compiling ipl_ext_extend_func.c
+Creating library IPL_DEV_CAM_COM.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/dev_cam_ipl_ext_com'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/dev_cam_ipl_ext_com'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_GC2053_ff'
+
+Checking eCos - IPL_GC2053_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_GC2053_ff'
+Compiling ipl_mode_GC2053_ff.c
+Compiling ipl_dzoom_tab_GC2053_ff.c
+Creating library IPL_GC2053_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_GC2053_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_GC2053_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ahd_ff'
+
+Checking eCos - IPL_AHD_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ahd_ff'
+Compiling ipl_mode_ahd_ff.c
+Compiling ipl_dzoom_tab_ahd_ff.c
+Creating library IPL_AHD_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ahd_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ahd_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0237_ff'
+
+Checking eCos - IPL_AR0237_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0237_ff'
+Compiling ipl_mode_ar0237_ff.c
+Compiling ipl_dzoom_tab_ar0237_ff.c
+Creating library IPL_AR0237_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0237_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0237_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0330_ff'
+
+Checking eCos - IPL_AR0330_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0330_ff'
+Compiling ipl_mode_ar0330_ff.c
+Compiling ipl_dzoom_tab_ar0330_ff.c
+Creating library IPL_AR0330_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0330_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0330_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0521_ff'
+
+Checking eCos - IPL_AR0521_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0521_ff'
+Compiling ipl_mode_ar0521_ff.c
+Compiling ipl_dzoom_tab_ar0521_ff.c
+Creating library IPL_AR0521_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0521_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ar0521_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_fake'
+
+Checking eCos - IPL_FAKE release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_fake'
+Compiling ipl_fake.c
+Creating library IPL_FAKE.a ...
+IPL_FAKE.a: SHA.A5627C16
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_fake'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_fake'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_os05a10m_ff'
+
+Checking eCos - IPL_OS05A10M_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_os05a10m_ff'
+Compiling ipl_mode_os05a10m_ff.c
+Compiling ipl_dzoom_tab_os05a10m_ff.c
+Creating library IPL_OS05A10M_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_os05a10m_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_os05a10m_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ov4689_ff'
+
+Checking eCos - IPL_OV4689_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ov4689_ff'
+Compiling ipl_mode_ov4689_ff.c
+Compiling ipl_dzoom_tab_ov4689_ff.c
+Creating library IPL_OV4689_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ov4689_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_ov4689_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sample_ff'
+
+Checking eCos - IPL_SAMPLE_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sample_ff'
+Compiling ipl_mode_sample_ff.c
+Compiling ipl_dzoom_tab_sample_ff.c
+Creating library IPL_SAMPLE_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sample_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sample_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sim_ff'
+
+Checking eCos - IPL_SIM_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sim_ff'
+Compiling ipl_mode_sim_ff.c
+Compiling ipl_dzoom_tab_sim_ff.c
+Creating library IPL_SIM_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sim_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sim_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sp2307_ff'
+
+Checking eCos - IPL_SP2307LQJ_FF release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sp2307_ff'
+Compiling ipl_mode_sp2307lqj_ff.c
+Compiling ipl_dzoom_tab_sp2307lqj_ff.c
+Creating library IPL_SP2307LQJ_FF.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sp2307_ff'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIPL/ipl_sp2307_ff'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_GC2053_evb'
+
+Checking eCos - IQ_PARAM_GC2053_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_GC2053_evb'
+Compiling iq_param_table1_GC2053_evb.c
+Compiling iq_param_mode_GC2053_evb.c
+Compiling iq_param_common_GC2053_evb.c
+Creating library IQ_PARAM_GC2053_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_GC2053_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_GC2053_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_evb'
+
+Checking eCos - IQ_PARAM_AR0237_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_evb'
+Compiling iq_param_table1_ar0237_evb.c
+Compiling iq_param_mode_ar0237_evb.c
+Compiling iq_param_common_ar0237_evb.c
+Creating library IQ_PARAM_AR0237_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_rgbir_evb'
+
+Checking eCos - IQ_PARAM_AR0237_RGBIR_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_rgbir_evb'
+Compiling iq_param_table1_ar0237_rgbir_evb.c
+Compiling iq_param_mode_ar0237_rgbir_evb.c
+Compiling iq_param_common_ar0237_rgbir_evb.c
+Creating library IQ_PARAM_AR0237_RGBIR_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_rgbir_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0237_rgbir_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0330_evb'
+
+Checking eCos - IQ_PARAM_AR0330_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0330_evb'
+Compiling iq_param_table1_ar0330_evb.c
+Compiling iq_param_mode_ar0330_evb.c
+Compiling iq_param_common_ar0330_evb.c
+Creating library IQ_PARAM_AR0330_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0330_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0330_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0521_evb'
+
+Checking eCos - IQ_PARAM_AR0521_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0521_evb'
+Compiling iq_param_table1_ar0521_evb.c
+Compiling iq_param_mode_ar0521_evb.c
+Compiling iq_param_common_ar0521_evb.c
+Creating library IQ_PARAM_AR0521_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0521_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ar0521_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ccir_evb'
+
+Checking eCos - IQ_PARAM_CCIR_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ccir_evb'
+Compiling iq_param_table1_ccir_evb.c
+Compiling iq_param_mode_ccir_evb.c
+Compiling iq_param_common_ccir_evb.c
+Creating library IQ_PARAM_CCIR_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ccir_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ccir_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx290_evb'
+
+Checking eCos - IQ_PARAM_IMX290_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx290_evb'
+Compiling iq_param_table1_imx290_evb.c
+Compiling iq_param_mode_imx290_evb.c
+Compiling iq_param_common_imx290_evb.c
+Creating library IQ_PARAM_IMX290_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx290_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx290_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx291_evb'
+
+Checking eCos - IQ_PARAM_IMX291_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx291_evb'
+Compiling iq_param_table1_imx291_evb.c
+Compiling iq_param_mode_imx291_evb.c
+Compiling iq_param_common_imx291_evb.c
+Creating library IQ_PARAM_IMX291_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx291_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx291_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx307_evb'
+
+Checking eCos - IQ_PARAM_IMX307_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx307_evb'
+Compiling iq_param_table1_imx307_evb.c
+Compiling iq_param_mode_imx307_evb.c
+Compiling iq_param_common_imx307_evb.c
+Creating library IQ_PARAM_IMX307_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx307_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx307_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx317_evb'
+
+Checking eCos - IQ_PARAM_IMX317_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx317_evb'
+Compiling iq_param_table1_imx317_evb.c
+Compiling iq_param_mode_imx317_evb.c
+Compiling iq_param_common_imx317_evb.c
+Creating library IQ_PARAM_IMX317_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx317_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx317_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx335_evb'
+
+Checking eCos - IQ_PARAM_IMX335_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx335_evb'
+Compiling iq_param_table1_imx335_evb.c
+Compiling iq_param_mode_imx335_evb.c
+Compiling iq_param_common_imx335_evb.c
+Creating library IQ_PARAM_IMX335_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx335_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx335_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx377_evb'
+
+Checking eCos - IQ_PARAM_IMX377_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx377_evb'
+Compiling iq_param_table1_imx377_evb.c
+Compiling iq_param_mode_imx377_evb.c
+Compiling iq_param_common_imx377_evb.c
+Creating library IQ_PARAM_IMX377_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx377_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_imx377_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk02_evb'
+
+Checking eCos - IQ_PARAM_JXK02_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk02_evb'
+Compiling iq_param_table1_jxk02_evb.c
+Compiling iq_param_mode_jxk02_evb.c
+Compiling iq_param_common_jxk02_evb.c
+Creating library IQ_PARAM_JXK02_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk02_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk02_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk03_evb'
+
+Checking eCos - IQ_PARAM_JXK03_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk03_evb'
+Compiling iq_param_table1_jxk03_evb.c
+Compiling iq_param_mode_jxk03_evb.c
+Compiling iq_param_common_jxk03_evb.c
+Creating library IQ_PARAM_JXK03_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk03_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_jxk03_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os05a10_evb'
+
+Checking eCos - IQ_PARAM_OS05A10_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os05a10_evb'
+Compiling iq_param_table1_os05a10_evb.c
+Compiling iq_param_mode_os05a10_evb.c
+Compiling iq_param_common_os05a10_evb.c
+Creating library IQ_PARAM_OS05A10_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os05a10_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os05a10_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os08a10_evb'
+
+Checking eCos - IQ_PARAM_OS08A10_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os08a10_evb'
+Compiling iq_param_table1_os08a10_evb.c
+Compiling iq_param_mode_os08a10_evb.c
+Compiling iq_param_common_os08a10_evb.c
+Creating library IQ_PARAM_OS08A10_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os08a10_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_os08a10_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov2735_evb'
+
+Checking eCos - IQ_PARAM_OV2735_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov2735_evb'
+Compiling iq_param_table1_ov2735_evb.c
+Compiling iq_param_mode_ov2735_evb.c
+Compiling iq_param_common_ov2735_evb.c
+Creating library IQ_PARAM_OV2735_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov2735_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov2735_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov4689_evb'
+
+Checking eCos - IQ_PARAM_OV4689_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov4689_evb'
+Compiling iq_param_table1_ov4689_evb.c
+Compiling iq_param_mode_ov4689_evb.c
+Compiling iq_param_common_ov4689_evb.c
+Creating library IQ_PARAM_OV4689_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov4689_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov4689_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov5658_evb'
+
+Checking eCos - IQ_PARAM_OV5658_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov5658_evb'
+Compiling iq_param_table1_ov5658_evb.c
+Compiling iq_param_mode_ov5658_evb.c
+Compiling iq_param_common_ov5658_evb.c
+Creating library IQ_PARAM_OV5658_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov5658_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ov5658_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ps5250_evb'
+
+Checking eCos - IQ_PARAM_PS5250_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ps5250_evb'
+Compiling iq_param_table1_ps5250_evb.c
+Compiling iq_param_mode_ps5250_evb.c
+Compiling iq_param_common_ps5250_evb.c
+Creating library IQ_PARAM_PS5250_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ps5250_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_ps5250_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sample_evb'
+
+Checking eCos - IQ_PARAM_SAMPLE_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sample_evb'
+Compiling iq_param_table1_sample_evb.c
+Compiling iq_param_mode_sample_evb.c
+Compiling iq_param_common_sample_evb.c
+Creating library IQ_PARAM_SAMPLE_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sample_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sample_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2235_evb'
+
+Checking eCos - IQ_PARAM_SC2235_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2235_evb'
+Compiling iq_param_table1_sc2235_evb.c
+Compiling iq_param_mode_sc2235_evb.c
+Compiling iq_param_common_sc2235_evb.c
+Creating library IQ_PARAM_SC2235_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2235_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2235_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2310_evb'
+
+Checking eCos - IQ_PARAM_SC2310_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2310_evb'
+Compiling iq_param_table1_sc2310_evb.c
+Compiling iq_param_mode_sc2310_evb.c
+Compiling iq_param_common_sc2310_evb.c
+Creating library IQ_PARAM_SC2310_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2310_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc2310_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc4236_evb'
+
+Checking eCos - IQ_PARAM_SC4236_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc4236_evb'
+Compiling iq_param_table1_sc4236_evb.c
+Compiling iq_param_mode_sc4236_evb.c
+Compiling iq_param_common_sc4236_evb.c
+Creating library IQ_PARAM_SC4236_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc4236_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc4236_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc5035_evb'
+
+Checking eCos - IQ_PARAM_SC5035_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc5035_evb'
+Compiling iq_param_table1_sc5035_evb.c
+Compiling iq_param_mode_sc5035_evb.c
+Compiling iq_param_common_sc5035_evb.c
+Creating library IQ_PARAM_SC5035_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc5035_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sc5035_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sp2307_evb'
+
+Checking eCos - IQ_PARAM_SP2307_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sp2307_evb'
+Compiling iq_param_table1_sp2307_evb.c
+Compiling iq_param_mode_sp2307_evb.c
+Compiling iq_param_common_sp2307_evb.c
+Creating library IQ_PARAM_SP2307_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sp2307_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_param/iq_param_sp2307_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_proc'
+
+Checking eCos - IQ_PROC_NVT release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_proc'
+Compiling iq_proc.c
+Compiling iq_func.c
+Compiling iq_effect_table.c
+Compiling iq_tuning.c
+Creating library IQ_PROC_NVT.a ...
+IQ_PROC_NVT.a: SHA.93992289
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_proc'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevCamIQ/iq_proc'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevLens'
+
+Checking eCos - LensTask release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevLens'
+Compiling LensAPI.c
+Compiling LensTask.c
+Compiling LensTaskID.c
+Compiling LensUartCmd.c
+Creating library LensTask.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevLens'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/DevLens'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_evb'
+
+Checking eCos - AE_PARAM_AR0237_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_evb'
+Compiling ae_param_ar0237_evb.c
+Creating library AE_PARAM_AR0237_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_rgbir_evb'
+
+Checking eCos - AE_PARAM_AR0237_RGBIR_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_rgbir_evb'
+Compiling ae_param_ar0237_rgbir_evb.c
+Creating library AE_PARAM_AR0237_RGBIR_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_rgbir_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0237_rgbir_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0330_evb'
+
+Checking eCos - AE_PARAM_AR0330_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0330_evb'
+Compiling ae_param_ar0330_evb.c
+Creating library AE_PARAM_AR0330_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0330_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0330_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0521_evb'
+
+Checking eCos - AE_PARAM_AR0521_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0521_evb'
+Compiling ae_param_ar0521_evb.c
+Creating library AE_PARAM_AR0521_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0521_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ar0521_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_gc2053_evb'
+
+Checking eCos - AE_PARAM_GC2053_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_gc2053_evb'
+Compiling ae_param_GC2053_evb.c
+Creating library AE_PARAM_GC2053_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_gc2053_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_gc2053_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx290_evb'
+
+Checking eCos - AE_PARAM_IMX290_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx290_evb'
+Compiling ae_param_imx290_evb.c
+Creating library AE_PARAM_IMX290_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx290_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx290_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx291_evb'
+
+Checking eCos - AE_PARAM_IMX291_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx291_evb'
+Compiling ae_param_imx291_evb.c
+Creating library AE_PARAM_IMX291_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx291_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx291_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx307_evb'
+
+Checking eCos - AE_PARAM_IMX307_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx307_evb'
+Compiling ae_param_imx307_evb.c
+Creating library AE_PARAM_IMX307_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx307_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx307_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx317_evb'
+
+Checking eCos - AE_PARAM_IMX317_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx317_evb'
+Compiling ae_param_imx317_evb.c
+Creating library AE_PARAM_IMX317_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx317_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx317_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx335_evb'
+
+Checking eCos - AE_PARAM_IMX335_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx335_evb'
+Compiling ae_param_imx335_evb.c
+Creating library AE_PARAM_IMX335_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx335_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx335_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx377_evb'
+
+Checking eCos - AE_PARAM_IMX377_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx377_evb'
+Compiling ae_param_imx377_evb.c
+Creating library AE_PARAM_IMX377_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx377_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_imx377_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk02_evb'
+
+Checking eCos - AE_PARAM_JXK02_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk02_evb'
+Compiling ae_param_jxk02_evb.c
+Creating library AE_PARAM_JXK02_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk02_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk02_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk03_evb'
+
+Checking eCos - AE_PARAM_JXK03_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk03_evb'
+Compiling ae_param_jxk03_evb.c
+Creating library AE_PARAM_JXK03_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk03_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_jxk03_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os05a10_evb'
+
+Checking eCos - AE_PARAM_OS05A10_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os05a10_evb'
+Compiling ae_param_os05a10_evb.c
+Creating library AE_PARAM_OS05A10_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os05a10_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os05a10_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os08a10_evb'
+
+Checking eCos - AE_PARAM_OS08A10_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os08a10_evb'
+Compiling ae_param_os08a10_evb.c
+Creating library AE_PARAM_OS08A10_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os08a10_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_os08a10_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov2735_evb'
+
+Checking eCos - AE_PARAM_OV2735_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov2735_evb'
+Compiling ae_param_ov2735_evb.c
+Creating library AE_PARAM_OV2735_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov2735_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov2735_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov4689_evb'
+
+Checking eCos - AE_PARAM_OV4689_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov4689_evb'
+Compiling ae_param_ov4689_evb.c
+Creating library AE_PARAM_OV4689_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov4689_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov4689_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov5658_evb'
+
+Checking eCos - AE_PARAM_OV5658_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov5658_evb'
+Compiling ae_param_ov5658_evb.c
+Creating library AE_PARAM_OV5658_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov5658_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ov5658_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ps5250_evb'
+
+Checking eCos - AE_PARAM_PS5250_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ps5250_evb'
+Compiling ae_param_ps5250_evb.c
+Creating library AE_PARAM_PS5250_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ps5250_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_ps5250_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sample_evb'
+
+Checking eCos - AE_PARAM_SAMPLE_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sample_evb'
+Compiling ae_param_sample_evb.c
+Creating library AE_PARAM_SAMPLE_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sample_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sample_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2235_evb'
+
+Checking eCos - AE_PARAM_SC2235_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2235_evb'
+Compiling ae_param_sc2235_evb.c
+Creating library AE_PARAM_SC2235_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2235_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2235_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2310_evb'
+
+Checking eCos - AE_PARAM_SC2310_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2310_evb'
+Compiling ae_param_sc2310_evb.c
+Creating library AE_PARAM_SC2310_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2310_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc2310_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc4236_evb'
+
+Checking eCos - AE_PARAM_SC4236_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc4236_evb'
+Compiling ae_param_sc4236_evb.c
+Creating library AE_PARAM_SC4236_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc4236_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc4236_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc5035_evb'
+
+Checking eCos - AE_PARAM_SC5035_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc5035_evb'
+Compiling ae_param_sc5035_evb.c
+Creating library AE_PARAM_SC5035_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc5035_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sc5035_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sp2307_evb'
+
+Checking eCos - AE_PARAM_SP2307_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sp2307_evb'
+Compiling ae_param_sp2307_evb.c
+Creating library AE_PARAM_SP2307_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sp2307_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_param/ae_param_sp2307_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_proc/ae_proc_nvt'
+
+Checking eCos - AE_PROC_NVT release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_proc/ae_proc_nvt'
+Compiling ae_proc_nvt.c
+Creating library AE_PROC_NVT.a ...
+AE_PROC_NVT.a: SHA.72DDC9AF
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_proc/ae_proc_nvt'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAE/ae_proc/ae_proc_nvt'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAF/af_proc/af_proc_nvt'
+
+Checking eCos - AF_PROC_NVT release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAF/af_proc/af_proc_nvt'
+Compiling af_proc_nvt.c
+Creating library AF_PROC_NVT.a ...
+AF_PROC_NVT.a: SHA.1A811671
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAF/af_proc/af_proc_nvt'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAF/af_proc/af_proc_nvt'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_GC2053_evb'
+
+Checking eCos - AWB_PARAM_GC2053_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_GC2053_evb'
+Compiling awb_param_GC2053_evb.c
+Creating library AWB_PARAM_GC2053_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_GC2053_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_GC2053_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_evb'
+
+Checking eCos - AWB_PARAM_AR0237_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_evb'
+Compiling awb_param_ar0237_evb.c
+Creating library AWB_PARAM_AR0237_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_rgbir_evb'
+
+Checking eCos - AWB_PARAM_AR0237_RGBIR_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_rgbir_evb'
+Compiling awb_param_ar0237_rgbir_evb.c
+Creating library AWB_PARAM_AR0237_RGBIR_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_rgbir_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0237_rgbir_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0330_evb'
+
+Checking eCos - AWB_PARAM_AR0330_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0330_evb'
+Compiling awb_param_ar0330_evb.c
+Creating library AWB_PARAM_AR0330_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0330_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0330_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0521_evb'
+
+Checking eCos - AWB_PARAM_AR0521_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0521_evb'
+Compiling awb_param_ar0521_evb.c
+Creating library AWB_PARAM_AR0521_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0521_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ar0521_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx290_evb'
+
+Checking eCos - AWB_PARAM_IMX290_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx290_evb'
+Compiling awb_param_imx290_evb.c
+Creating library AWB_PARAM_IMX290_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx290_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx290_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx291_evb'
+
+Checking eCos - AWB_PARAM_IMX291_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx291_evb'
+Compiling awb_param_imx291_evb.c
+Creating library AWB_PARAM_IMX291_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx291_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx291_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx307_evb'
+
+Checking eCos - AWB_PARAM_IMX307_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx307_evb'
+Compiling awb_param_imx307_evb.c
+Creating library AWB_PARAM_IMX307_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx307_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx307_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx317_evb'
+
+Checking eCos - AWB_PARAM_IMX317_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx317_evb'
+Compiling awb_param_imx317_evb.c
+Creating library AWB_PARAM_IMX317_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx317_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx317_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx335_evb'
+
+Checking eCos - AWB_PARAM_IMX335_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx335_evb'
+Compiling awb_param_imx335_evb.c
+Creating library AWB_PARAM_IMX335_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx335_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx335_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx377_evb'
+
+Checking eCos - AWB_PARAM_IMX377_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx377_evb'
+Compiling awb_param_imx377_evb.c
+Creating library AWB_PARAM_IMX377_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx377_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_imx377_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk02_evb'
+
+Checking eCos - AWB_PARAM_JXK02_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk02_evb'
+Compiling awb_param_jxk02_evb.c
+Creating library AWB_PARAM_JXK02_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk02_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk02_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk03_evb'
+
+Checking eCos - AWB_PARAM_JXK03_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk03_evb'
+Compiling awb_param_jxk03_evb.c
+Creating library AWB_PARAM_JXK03_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk03_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_jxk03_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os05a10_evb'
+
+Checking eCos - AWB_PARAM_OS05A10_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os05a10_evb'
+Compiling awb_param_os05a10_evb.c
+Creating library AWB_PARAM_OS05A10_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os05a10_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os05a10_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os08a10_evb'
+
+Checking eCos - AWB_PARAM_OS08A10_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os08a10_evb'
+Compiling awb_param_os08a10_evb.c
+Creating library AWB_PARAM_OS08A10_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os08a10_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_os08a10_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov2735_evb'
+
+Checking eCos - AWB_PARAM_OV2735_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov2735_evb'
+Compiling awb_param_ov2735_evb.c
+Creating library AWB_PARAM_OV2735_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov2735_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov2735_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov4689_evb'
+
+Checking eCos - AWB_PARAM_OV4689_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov4689_evb'
+Compiling awb_param_ov4689_evb.c
+Creating library AWB_PARAM_OV4689_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov4689_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov4689_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov5658_evb'
+
+Checking eCos - AWB_PARAM_OV5658_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov5658_evb'
+Compiling awb_param_ov5658_evb.c
+Creating library AWB_PARAM_OV5658_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov5658_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ov5658_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ps5250_evb'
+
+Checking eCos - AWB_PARAM_PS5250_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ps5250_evb'
+Compiling awb_param_ps5250_evb.c
+Creating library AWB_PARAM_PS5250_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ps5250_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_ps5250_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sample_evb'
+
+Checking eCos - AWB_PARAM_SAMPLE_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sample_evb'
+Compiling awb_param_sample_evb.c
+Creating library AWB_PARAM_SAMPLE_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sample_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sample_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2235_evb'
+
+Checking eCos - AWB_PARAM_SC2235_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2235_evb'
+Compiling awb_param_sc2235_evb.c
+Creating library AWB_PARAM_SC2235_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2235_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2235_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2310_evb'
+
+Checking eCos - AWB_PARAM_SC2310_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2310_evb'
+Compiling awb_param_sc2310_evb.c
+Creating library AWB_PARAM_SC2310_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2310_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc2310_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc4236_evb'
+
+Checking eCos - AWB_PARAM_SC4236_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc4236_evb'
+Compiling awb_param_sc4236_evb.c
+Creating library AWB_PARAM_SC4236_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc4236_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc4236_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc5035_evb'
+
+Checking eCos - AWB_PARAM_SC5035_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc5035_evb'
+Compiling awb_param_sc5035_evb.c
+Creating library AWB_PARAM_SC5035_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc5035_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sc5035_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sp2307_evb'
+
+Checking eCos - AWB_PARAM_SP2307_EVB release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sp2307_evb'
+Compiling awb_param_sp2307_evb.c
+Creating library AWB_PARAM_SP2307_EVB.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sp2307_evb'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_param/awb_param_sp2307_evb'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_proc/awb_proc_nvt'
+
+Checking eCos - awb_proc_nvt release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_proc/awb_proc_nvt'
+Compiling awb_proc_nvt.c
+Creating library awb_proc_nvt.a ...
+awb_proc_nvt.a: SHA.3F835C7F
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_proc/awb_proc_nvt'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginAWB/awb_proc/awb_proc_nvt'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginPhoto/md_sample'
+
+Checking eCos - md_sample release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginPhoto/md_sample'
+Compiling md_alg.c
+Compiling md_sample.c
+Creating library md_sample.a ...
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginPhoto/md_sample'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginPhoto/md_sample'
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginWifi/WifiCmdParser'
+
+Checking eCos - WifiCmdParser release target ...
+make[4]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginWifi/WifiCmdParser'
+Compiling WifiCmdParser.c
+Compiling WifiCmdParserID.c
+Creating library WifiCmdParser.a ...
+WifiCmdParser.a: SHA.A910B50D
+make[4]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginWifi/WifiCmdParser'
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt/LibExt_src/PluginWifi/WifiCmdParser'
+make[2]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/LibExt'
+make[2]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/Alg'
+make[2]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/Alg'
+make[2]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/Project/DemoKit'
+
+Checking eCos - DemoKit release target ...
+make[3]: Entering directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/Project/DemoKit'
+Assembling CodeInfo.s
+Compiling _main.c
+Compiling BinInfo.c
+Compiling SysCfg.c
+Compiling eCos_main.c
+Compiling ecos_FileSys.c
+Compiling ecos_PStore.c
+Compiling main.c
+Compiling SysMain.c
+Compiling SysMain_Exe.c
+Compiling SysMain_Flow_Init.c
+Compiling SysMain_Flow_Exit.c
+Compiling SysMain_Flow_Mode.c
+Compiling SysMain_Flow_Sleep.c
+Compiling SysMain_State.c
+Compiling SysMain_cmd.c
+Compiling SysLock.c
+Compiling SysVideo_Exe.c
+Compiling SysVideo_CB.c
+Compiling SysVideo_cmd.c
+Compiling SysAudio_Exe.c
+Compiling SysAudio_CB.c
+Compiling SysStrg_Exe.c
+Compiling SysStrg_CB.c
+Compiling SysStrg_cmd.c
+Compiling SysSensor_Exe.c
+Compiling SysSensor_CB.c
+Compiling SysSensor_cmd.c
+Compiling SysLens_Exe.c
+Compiling SysLens_CB.c
+Compiling SysIpc_Exe.c
+Compiling SysUctrl_Exe.c
+Compiling SysBT.c
+Compiling ProjectInfo.c
+Compiling MovieUdtaVendor.c
+Compiling MsdcNvtCb.c
+Compiling MsdcNvtCb_Photo.c
+Compiling MsdcNvtCb_Adj.c
+Compiling MsdcNvtCb_UpdFw.c
+Compiling MsdcNvtCb_CustomSi.c
+Compiling MsdcNvtCb_IQSim.c
+Compiling MsdcNvtCb_TimeSi.c
+Compiling nvtrtspd.c
+Compiling SysInput_Exe.c
+Compiling SysInput_CB.c
+Compiling SysInput_cmd.c
+Compiling SysOutput_Exe.c
+Compiling SysOutput_cmd.c
+Compiling SysPower_Exe.c
+Compiling SysPower_CB.c
+Compiling SysPower_cmd.c
+Compiling SysUsb_Exe.c
+Compiling SysUsb_CB.c
+Compiling SysUsb_cmd.c
+Compiling SysExam_cmd.c
+Compiling SysUICB.c
+Compiling UIDisplay.c
+Compiling UIGraphics.c
+Compiling UIGraphicsID.c
+Compiling UIView.c
+Compiling PlaybackView.c
+Compiling PhotoView.c
+Compiling MovieView.c
+Compiling UIBuffer.c
+Compiling UniFont.c
+Compiling UserCmd.c
+Compiling UserCmdID.c
+Compiling AppDisp_PipView.c
+Compiling AppDisp_SbsView.c
+Compiling AppDisp_MoviePlayView.c
+Compiling AppDisp_MoviePlayViewID.c
+Compiling AppDisp_3DNRView.c
+Compiling AppDisp_PBView.c
+Compiling AppDisp_View.c
+Compiling ASR.c
+Compiling ExifVendor.c
+Compiling MovieStamp.c
+Compiling MovieStampID.c
+Compiling MovieStampTsk.c
+Compiling DateStampFont10x16.c
+Compiling DateStampFont12x20.c
+Compiling DateStampFont18x30.c
+Compiling DateStampFont20x44.c
+Compiling DateStampFont26x44.c
+Compiling DateStampFontTbl10x16.c
+Compiling DateStampFontTbl12x20.c
+Compiling DateStampFontTbl18x30.c
+Compiling DateStampFontTbl20x44.c
+Compiling DateStampFontTbl26x44.c
+Compiling DateStampFontTbl36x60.c
+Compiling DateStampFontTbl42x72.c
+Compiling DateStampFontTbl56x96.c
+Compiling UIMode.c
+Compiling UIMode_cmd.c
+Compiling UIModeMain.c
+Compiling UIModeSleep.c
+Compiling UIModeWifi.c
+Compiling FlowCommon.c
+Compiling MenuCommonItem.c
+Compiling MenuCommonOption.c
+Compiling TabMenu.c
+Compiling MenuMovie.c
+Compiling MenuPhoto.c
+Compiling UIMenuWndPhotoExposure.c
+Compiling UIMenuWndPhotoWB.c
+Compiling UIMenuWndPhotoColor.c
+Compiling MenuPlayback.c
+Compiling UIMenuWndPlayDel.c
+Compiling UIMenuWndPlayConfirmDel.c
+Compiling UIMenuWndPlaySlideShow.c
+Compiling UIMenuWndPlaySlideShowCB.c
+Compiling MenuSetup.c
+Compiling UIMenuWndSetupDateTime.c
+Compiling UIMenuWndSetupDefaultSetting.c
+Compiling UIMenuWndSetupFormat.c
+Compiling UIMenuWndSetupFormatConfirm.c
+Compiling UIMenuWndSetupVersion.c
+Compiling UIMenuWndWiFiWait.c
+Compiling UIMenuWndWiFiModuleLink.c
+Compiling UIMenuWndWiFiMobileLinkOK.c
+Compiling UIMenuWndUSB.c
+Compiling UIFlowWndWrnMsg.c
+Compiling UIFlowWndWaitMoment.c
+Compiling UIFlowWndUSB.c
+Compiling UIFlowWndPhoto.c
+Compiling UIFlowPhotoFuncs.c
+Compiling UIFlowPhotoIcons.c
+Compiling UIFlowWndMovie.c
+Compiling UIFlowMovieFuncs.c
+Compiling UIFlowMovieIcons.c
+Compiling UIFlowWndPlay.c
+Compiling UIFlowWndPlayThumb.c
+Compiling UIFlowWndPlayMagnify.c
+Compiling UIFlowCBSlideShow.c
+Compiling UIFlowPlayIcons.c
+Compiling UIFlowPlayFuncs.c
+Compiling UIFlowPhotoParams.c
+Compiling CalibrationWnd.c
+Compiling Engineer_ID.c
+Compiling EngineerModeTbl.c
+Compiling DynamicMenu.c
+Compiling Cal_Header.c
+Compiling CalibrationItem.c
+Compiling UIMovieMapping.c
+Compiling UIPhotoMapping.c
+Compiling UIInfo.c
+Compiling DateTimeInfo.c
+Compiling GSInfo.c
+Compiling UIAppObj.c
+Compiling UIAppNetwork.c
+Compiling UIAppNetwork_cmd.c
+Compiling WifiAppXML.c
+Compiling WifiAppCmd.c
+Compiling UIAppWiFiCmd_Exe.c
+Compiling UIAppWiFiCmdMovie_Exe.c
+Compiling UIAppWiFiCmdPhoto_Exe.c
+Compiling WifiAppCmdMapping.c
+Compiling NetFs.c
+Compiling UIModeMovie.c
+Compiling UIAppMovie_Exe.c
+Compiling UIAppMovie_CB.c
+Compiling UIAppMovie_cmd.c
+Compiling UIAppMovie_GetFreeRecSec.c
+Compiling UIAppMovie_SetUserData.c
+Compiling UIAppMovie_AudNR_Spec_Zoom.c
+Compiling UIAppMovie_AudNR_Spec_Focus.c
+Compiling UIAppMovie_AudNR_Spec_Iris.c
+Compiling UIAppMovie_CvHostEx.c
+Compiling UIAppMovie_NvtCvEx.c
+Compiling UIAppMovie_Param.c
+Compiling UIAppMovie_CommPoolTbl.c
+Compiling UIAppMovie_RecSetting.c
+Compiling UIAppMovie_TimelapseLPR.c
+Compiling UIModePhoto.c
+Compiling UIAppPhoto_Exe.c
+Compiling UIAppPhoto_CB.c
+Compiling UIAppPhoto_cmd.c
+Compiling UIAppPhoto_Param.c
+Compiling UIDateImprint.c
+Compiling UIDateImprintID.c
+Compiling UIStorageCheck.c
+Compiling UIPhotoFuncInfo.c
+Compiling cmd_iperf.c
+Compiling test_wifi.c
+Compiling test_ping.c
+Compiling UIModePlayback.c
+Compiling UIAppPlay_Exe.c
+Compiling UIAppPlay_CB.c
+Compiling UIAppPlay_cmd.c
+Compiling UIAppMoviePlay_Exe.c
+Compiling UIPlaySlide.c
+Compiling UIPlayWallpaper.c
+Compiling UIPlayComm.c
+Compiling UIModeUpdFw.c
+Compiling UISetup_Exe.c
+Compiling UIBackgroundObj.c
+Compiling UIModeUsbCam.c
+Compiling UIAppUsbCam_Exe.c
+Compiling UsbCmd.c
+Compiling UsbCmdID.c
+Compiling UsbCmdTsk.c
+Compiling UIModeUsbDisk.c
+Compiling UIAppUsbDisk_Exe.c
+Compiling UIAppUsbPrint_Exe.c
+Compiling UIModeUsbPTP.c
+Compiling UIModeUsbCharge.c
+Compiling UIAppUsbCharge_Exe.c
+Compiling UIModeUsbMenu.c
+Compiling UCtrlMain.c
+Compiling UCtrlMainID.c
+Compiling UCtrlMode.c
+Compiling UCtrlAppSetup.c
+Compiling UCtrlAppSystem.c
+Compiling UCtrlAppMovie.c
+Compiling UCtrlAppMovieIni.c
+Compiling UCtrlAppOnvif.c
+Compiling UCtrlAppOnvifID.c
+Compiling UCtrlAppImage.c
+Compiling uctrlapp_nvt_status.c
+Compiling UCtrlAppPhoto.c
+Compiling UCtrlAppPhotoID.c
+Compiling UIResource.c
+Compiling BG_Images.c
+Compiling BG_Opening.c
+Compiling BG_Watermark.c
+Compiling Demo_BigFont.c
+Compiling Demo_SmallFont.c
+Compiling DemoKit_Font.c
+Compiling DemoKit_Image.c
+Compiling DemoKit_Palette.c
+Compiling DemoKit_String_EN.c
+Compiling DemoKit_String_DE.c
+Compiling DemoKit_String_ES.c
+Compiling DemoKit_String_PO.c
+Compiling DemoKit_String_IT.c
+Compiling DemoKit_String_FR.c
+Compiling DemoKit_String_SC.c
+Compiling DemoKit_String_TC.c
+Compiling DemoKit_String_JP.c
+Compiling DemoKit_String_RU.c
+Compiling SoundData.c
+Compiling alg_id.c
+Compiling alg_VdoOut.c
+Compiling alg_CvHostEx.c
+Compiling alg_MovieStamp.c
+Compiling alg_Photo_PhotoFuncInfo.c
+Compiling alg_Movie_PhotoFuncInfo.c
+Compiling alg_UIFlowWndMovie.c
+Compiling alg_MovieExe.c
+Compiling hello_world.cpp
+Creating modelext DemoKit_Data/Release/FW96672A.ext.bin
+Append modelext_info into DemoKit_Data/Release/FW96672A.ext.bin.
+Append bin_info into DemoKit_Data/Release/FW96672A.ext.bin.
+Append pinmux_cfg into DemoKit_Data/Release/FW96672A.ext.bin.
+Append intdir_cfg into DemoKit_Data/Release/FW96672A.ext.bin.
+Append emb_partition_info into DemoKit_Data/Release/FW96672A.ext.bin.
+Append gpio_info into DemoKit_Data/Release/FW96672A.ext.bin.
+Append dram_partition_info into DemoKit_Data/Release/FW96672A.ext.bin.
+Append model_cfg into DemoKit_Data/Release/FW96672A.ext.bin.
+Reading 'DemoKit_Data/Release/FW96672A.ext.bin'...
+File size = 2628
+
+==Display binary file info== Begin
+Model Name: NT96672
+VersionNumber: 00000001
+ReleaseDate: 20190610
+==Display binary file info== End
+
+Total binary size after padding: 2628
+
+##ui32BinDataSumValue: 0x00F0B3BE
+CheckSum: 0x4C42
+
+Writing 'DemoKit_Data/Release/FW96672A.ext.bin'...
+Write size = 2628
+Save binary OK.
+Copying ObjectLds: MODELEXT_X1.a
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/modelext_info.o
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/bin_info.o
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/pinmux_cfg.o
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/intdir_cfg.o
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/emb_partition_info.o
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/gpio_info.o
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/dram_partition_info.o
+Extracting: DemoKit_Data/Release/ObjectLds/MODELEXT_X1/model_cfg.o
+Copying ObjectLds: Driver_Sys.a
+Extracting: DemoKit_Data/Release/ObjectLds/Driver_Sys/clock_power_down.o
+make lds extern string ...
+Linking ...
+Creating image DemoKit_Data/Release/DemoKit.axf ...
+Creating executable DemoKit_Data/Release/FW96672A.bin ...
+Encrypt binary file DemoKit_Data/Release/FW96672A.bin ...
+Reading 'DemoKit_Data/Release/FW96672A.bin'...
+File size = 9042112
+
+==Display binary file info== Begin
+Model Name: NT96672
+VersionNumber: FFFFFFFF
+ReleaseDate: 20190610
+==Display binary file info== End
+
+Total binary size after padding: 9042112
+
+##ui32BinDataSumValue: 0x4D683125
+CheckSum: 0xCEDB
+
+Writing 'DemoKit_Data/Release/FW96672A.bin'...
+Write size = 9042112
+Save binary OK.
+bfc.exe: 2018-04-5
+full load version
+compress DemoKit_Data/Release/FW96672A.bin to tmp...
+Input file: 9042112 bytes
+Compressed data: 3137065 bytes (34.7%)
+Alignment on, padding to 4 bytes!
+Full compress, new file size = outsize + 16bytes = 3137084
+Calculate and write back checksum...
+Checksum = 0xcc69
+make[3]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/Project/DemoKit'
+make[2]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/Project/DemoKit'
+make[1]: Leaving directory '/home/sda3/share2/2019-6-10/950_672_2053_20190531/NA51023_BSP/uitron/MakeCommon'

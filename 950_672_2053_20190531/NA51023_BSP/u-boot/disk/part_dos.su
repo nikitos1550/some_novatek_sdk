@@ -1,0 +1,6 @@
+part_dos.c:61:12:test_block_type	40	static
+part_dos.c:105:13:print_partition_extended	104	dynamic
+part_dos.c:167:12:get_partition_info_extended.constprop	80	dynamic
+part_dos.c:88:5:test_part_dos	40	dynamic
+part_dos.c:280:6:print_part_dos	40	static
+part_dos.c:286:5:get_partition_info_dos	40	static

@@ -1,0 +1,9 @@
+/*
+ * Novatek Ltd. NA51023 BSP part of dts
+ */
+
+/dts-v1/;
+#include "nvt-na51023-evb-default.dtsi"
+
+/ {
+};

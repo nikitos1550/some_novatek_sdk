@@ -1,0 +1,15 @@
+pwm.c:290:12:pwm_isValidId	0	static
+pwm.c:325:13:pwm_clk_set_rate	0	static
+pwm.c:42:5:pwm_enable	0	static
+pwm.c:71:6:pwm_disable	0	static
+pwm.c:95:5:pwm_config	80	static
+pwm.c:410:5:pwm_pwmConfigClockDiv	32	static
+pwm.c:472:5:pwm_wait	48	static
+pwm.c:511:5:pwm_pwmEnable	32	static
+pwm.c:540:5:pwm_pwmDisable	32	static
+pwm.c:572:5:pwm_pwmConfig	48	static
+pwm.c:646:5:pwm_pwmReload	32	static
+pwm.c:873:5:pwm_open	32	static
+pwm.c:992:6:pwm_setup_start	104	static
+pwm.c:1002:6:pwm_reload	96	static
+pwm.c:1012:5:pwm_close	64	static

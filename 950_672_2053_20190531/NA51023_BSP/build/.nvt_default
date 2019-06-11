@@ -1,0 +1,3 @@
+export NVT_PRJCFG_CFG=DemoKit
+export NVT_PRJCFG_MODEL_CFG=${UITRON_DIR}/Project/DemoKit/ModelConfig_X1.txt
+export NVT_CROSS=mipsel-24kec-linux-glibc-4.9-2017.08

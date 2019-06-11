@@ -1,0 +1,7 @@
+cpu.c:25:28:_machine_restart	0	static
+cpu.c:29:5:do_reset	32	static
+cpu.c:73:6:flush_cache	0	static
+cpu.c:117:6:flush_dcache_range	0	static
+cpu.c:131:6:invalidate_dcache_range	0	static
+cpu.c:145:6:write_one_tlb	0	static
+cpu.c:155:5:cpu_eth_init	0	static

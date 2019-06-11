@@ -1,0 +1,356 @@
+ðNPI<T
+config dma done
+
+UNZOK
+Loader Start ...
+i-cache line[00000080]
+d-cache line[00000080]
+
+W00000000
+96672A_507_512Gb 11/14/2018 18:05:30 
+
+RRRWR key chk
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+RC
+Check SRAM fw
+get modelext partition ok
+emb modelext addr 0x002000A4
+emb modelext size 0x00000A44
+ipc addr 0x00002000
+ld.LdCtrl2 0x00000004
+uboot_addr 0x03900000
+uboot_size 0x00700000
+bl_core2_start
+uboot_entry 0x03900000
+reset core2
+wait core2 copy uItronNrml
+uiUpdateFileLen 0x008A25D8
+uiFwBaseAddr 0x00101000
+uitron start 0x00101000
+
+F/W NA51023-NT96672 Start ...
+CPU2 None
+HwClock is use RTC.
+usb_PowerOnInit: enter
+usb_PowerOnInit: exit
+WRN:graph_setConfig() PLL13 open in grph
+CPU/CPU2/DSP clk = 639/0/80 Mhz
+DMA clk = 507 Mhz
+WRN:[PRI] inv
+PwrLost = 0, PwrSrc = 2
+
+=========================================================
+  NA51023 SDK
+  Copyright (c) 2017 Novatek Microelectronic Corp.
+=========================================================
+open RTC!
+gNANDTypeSelect = 2
+Hello, World!
+DbgUt_Init is init done.
+> System Boot begin
+
+---------------------------------------------------------
+LD VERISON: LD_NVT
+FW --- Daily Build: Jun  1 2019, 11:35:44
+---------------------------------------------------------
+
+FW Full loaded, force used Safe mode.
+Power On Sequence = Safe
+gNANDTypeSelect = 2
+
+Device ID = 0xef 0x40 0x16 0x00 0x01
+===================================== video fixed [Display_TV]
+ERR:disp_setDisp1DeviceCtrl() Cant chg obj of act dev!
+PStore uiBufSize=262144
+WRN:PStore_Open() PStore_Init not set,use PS_TYPE_EMBEDED as default
+ERR:spiflash_enableQuadMode() TBD... ucword 0x0
+PS_DESC_BLOCK=1
+USB 1.5A
+CONNECT to CHARGER
+System Boot end
+On Boot begin
+Boot from temp file, use default flags
+===Movie Rec Set Vol = 100
+ERR: MovieExe_OnGSENSOR =2
+ ERR: MovieExe_OnGSENSOR =2
+ ===================================== video setmode [Display_TV] 0
+ERR:fs_FindFileOpenEx() GetHandle failed
+WRN:sdioHost_setBusClk() SDIO host0 : real clock (398340Hz) is not equal to desired (399000Hz)
+WRN:sdioHost_setBusClk() SDIO host0 : real clock (398340Hz) is not equal to desired (399000Hz)
+HS
+SDIO0 open: func grp1: 0x8003
+sdioPrtcl_setSDSpeedMode= 0x80fffff1
+Mode {MOVIE} Open begin
+mode:3
+WRN:System_EnableDisp() Set mode, force change!
+ERR:disp_setDisp1DeviceCtrl() Cant chg obj of act dev!
+ACC_ShuntDownCnt = 1
+ -display count=1, insert_mask=01, attach_mask=01
+mode:3
+ERR:usb_chkCharger() line sts check: disconnect
+ERR:DxUSB_UpdateConnectType() CONNECTION UNKNOWN!
+ -sensor count=1, insert_mask=0001, attach_mask=0001, disp_mask=0001
+ -lens count=0
+[0]blk_size=0x239c80, blk_cnt=4, ddr=0
+[1]blk_size=0x70c00, blk_cnt=4, ddr=0
+[2]blk_size=0x95500, blk_cnt=5, ddr=0
+uiMovieSize = 11USB Unplug
+     uiSensor = 1   +++++++++++
+CHK: 465, MovieExe_CheckMovieSizeBySensorConnect
+[IMGCAP][0] exif_func = 1
+root[0] A:\Novatek\
+root[2] A:\Novatek\
+Set id5 MOVIEMULTI_PARAM_SIZE - 848/480(ret=0)
+Set id5 MOVIEMULTI_PARAM_FRAMERATE - 1(ret=0)
+Set id0 MOVIEMULTI_PARAM_SIZE - 1920/1080(ret=0)
+Set id0 MOVIEMULTI_PARAM_FRAMERATE - 30(ret=0)
+Set id0 MOVIEMULTI_PARAM_DAR - 0(ret=0)
+Set id13 MOVIEMULTI_PARAM_SIZE - 848/480(ret=0)
+Set id13 MOVIEMULTI_PARAM_FRAMERATE - 30(ret=0)
+Set id13 MOVIEMULTI_PARAM_DAR - 0(ret=0)
+id0:
+rec1 = 1920/1080@30
+rec2 = 848/480@30
+wifi = 848/480@30
+disp = 640/336@30
+alg  = 848/480@30 (AlgEn = 1)
+SWITCH: total 3 result
+SWITCH: in[0] 1920 x 1080 . 3. 30
+SWITCH: in[1] 848 x 480 . 3. 30
+SWITCH: in[2] 640 x 336 . 3. 30
+SWITCH: connect in 6 to out 12
+SWITCH: connect in 7 to out 13
+SWITCH: connect in 8 to out 14
+SWITCH: connect in 7 to out 15
+SWITCH: connect in 7 to out 16
+gSwitchLink[0][]=0/1/2/1/1/-1
+gUserProcMap[0][]=0/1/2/-1
+gMainRecDataPort[0]   = 0
+gStreamingDataPort[0] = 1
+gDispDataPort[0][]    = 2/-1
+gAlgDataPort[0]       = 1
+[PQ] pqs_libext_search--> search pqs libext name = IQ_PARAM_GC2053_EVB 
+[PQ] ae_libext_search--> search ae libext name = AE_PARAM_GC2053_EVB 
+[PQ] awb_libext_search--> search awb libext name = AWB_PARAM_GC2053_EVB 
+========== AE_CBMSG_PREVIEWSTABLE ==========
+******GSENSOR_INIT====3===ERR:GSensor_Init()  ============SC7A30E_DEVICE IRT = OK=========
+[GSensor] SC7A20 is opened OK!!
+USB 1.5A
+CONNECT to CHARGER
+Show Preview! (IPL > AE stable > Video VSync)
+LogFile Crefile A:\Novatek\LOG\20190601_115854.log 
+===Movie Rec Set Vol = 100
+ERR: MovieExe_OnGSENSOR =2
+ ERR: MovieExe_OnGSENSOR =2
+ free=0x38cd90000, 5=0x180b59, sec=9676!
+MovieExe_GetMaxRecSec(): tmp max sec 9676
+Mode {MOVIE} Open end
+On Boot end
+ACC is Insert!!!!!!!! 
+USBConnectType=2
+ACC is remove!!!!!!!! 
+free=0x38cd90000, 5=0x180b59, sec=9676!
+MovieExe_GetMaxRecSec(): tmp max sec 9676
+ACC is Insert!!!!!!!! 
+USBConnectType=2
+Getmin0 = 12203 KB, sec=7
+gISF_BsMuxMemPool[0]  b12e0c ++
+Getmin0 = 12203 KB, sec=7
+ remain size 7f820
+BSM:gNMR_Mdatbuffer2Sec[0]=7
+ [BSMUXER] Open(0)-B
+NMR_BsMuxer_GetValidNum()=0
+ TIME OK!!
+maker444[0]=0
+ SETbuf[0]=0x42798540
+ BSM:[0] vid w=1920, h=1080, vfr=30, emr=0
+ BSM:[0] aud en=1, sr=16000, tbr=1450 KB
+ BSM:[0] vcodec=3 seamless=60
+ BSM:[0] filetype 4 
+ BSM:[0] recformat=2 endtype=2
+ BSM:[0] rollbacksec=3 keep=5
+ BSM:[0] adts=7
+ BSM:ver=190123, 1057
+ver.string = 19012357
+ [BSMUXER] Open(0)-E
+ [FILEOUT] Open(0)
+[AUDENC][0] Action = 0, Codec = 2, Mode = 2, Sr = 16000, Ch = 1, Bits = 16, Fix Sample = 0, ADTS = 1, Buf = (0x427773c0, 0x42794880, 0x427938e0)
+ WaitFSrelease[0]ok11 
+ [FILEOUT] Start(0)
+[FILEOUT] port 128 create free queue 0 success.
+[VDOENC][0] Action = 0, Codec = 3, Mode = 2, Size = (1920, 1080), ByteRate = 1484800, Fr = 30, Trig = 0, Dis = 0, Alloc size = (0, 3460876, 4454400), Enc Buf = (3000 ms, 0 ms, 0x436d038c, 0x43b0fb88, 0x43b0fb88, 4454396), Min Size(I, P) = (1484800, 1484800)
+[H265ENC][0] Init Codec = (0x43383480, 3460876), W = 1920, H = 1080, Prof = 1, Br = 11878400, Fps = 30, Gop = 15, SVC = 0, IQP = (26, 10, 40), PQP = (26, 10, 40), Sta = 4, Wei = 0, RowRc = (1, 1, 4), LTR = (0, 0), MultiT = 0, Rot = 0, FastSr = 1, ColorR = 1, Mode = 1, SEI = 0
+h26x clk : 320
+uih26xClock = 0x00000010
+PLL_CLKSEL_H265_240 = 0x00000000
+PLL_CLKSEL_H265_320 = 0x00000010
+PLL_CLKSEL_H265_PLL13 = 0x00000030
+H26X Version = 0x20170526
+[H265ENC][0] Set CBR
+KEY DEL PRESS!!!!!
+[VDOTRIG][0] vid queue is empty
+AP start
+Network mod:0 
+UINet_WifiInit(): set wifi 0  1 
+[H265ENC][0] Reset I OK, idx = 0, Frame Type = 3, Frame = (0x436d038c, 126521), Buf = (0x436d038c, 0x43b0fb88), t = 2976334 us
+[BSMUXER0]firstIN-[0]
+ key[0]TBR=2 KB, wanted=725 KB ra=0
+[trig_thumb] path_id=0, w=640, h=368, user_id=0, thumb=1, exif=0
+kick thm step22
+sdio lookup 3
+SDIO1 open: switch to 48MHz
+sdio lookup 4
+funcs = 0x1
+=====>>INSIDE rtl8192cd_in JPEG Enc OK, a=0x43ba4c80, s=0x1f08, user_id=0
+thumb!
+ [0]AddTHM 0x43ba4c80 0x1f08
+ [0]headerok=0
+mdat_geth[0][0] type=2, adr=0x43258640
+ [0]tempHDR=0x431d8640
+ save [0]header M HDR with THUMB[0]
+it_one <<=====
+InitPON OK
+EFUSE_USERS_DEFINE_MAP(20180822)
+=====>>EXIT rtl8192cd_init_one <<=====
+ ThumbReady!0x1f08, time=127 ms
+[0] sec=0
+UINet_WifiInit(): wifi init succesful 
+UINet_WifiInit(): wlan0 efuse mac [74:ee:2a:13:c9:e4]
+WIFI-----SSID :CarDV_WIFIc9e4-----------WIFI-----SSID :CarDV_WIFIc9e4-----------Available Channles:
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] 
+Available Channles:
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] 
+ key[0]TBR=735 KB, wanted=725 KB ra=10
+ gNMR_hdr_temp_last[1126532672]=0xa457f0
+gISF_BsMuxMdatPool  b12f88 ++ size a000
+ key[0]TBR=706 KB, wanted=725 KB ra=9
+[0] sec=1
+[FILEOUT] Q[0] CREATE A:\Novatek\Movie\20190601115857_000003.MP4
+[no apply k free]
+UINet_WifiInit():  setip=192.168.1.254 -
+ key[0]TBR=733 KB, wanted=725 KB ra=10
+UINet_DHCP_Start(): isCli 0
+=== Set host-name=nvtsys01srv
+UINet_WifiInit(): Default IP=192.168.1.254
+ERR:nvtssl_init(): ssl not supported
+ERR:nvtssl_ctx_new(): ssl not supported
+hfs cyg_hfs_init(): ssl_ctx_new 
+hfs: listening on ports 80 (http) and 443 (https)
+WifiCmd_ReceiveCmd(): WifiCmd_ReceiveCmd 1
+Run nvtrtspd_ecos main...
+live555 start.
+
+nvtrtspd_ecos main return 0.
+MSDCNVT port=1968
+BackgroundWiFiOn 0 result 0
+get event NVTEVT_OPEN_WINDOW UIMenuWndWiFiModuleLink!
+free=0x38cd50000, 5=0x180b59, sec=9676!
+MovieExe_GetMaxRecSec(): tmp max sec 9676
+ key[0]TBR=731 KB, wanted=725 KB ra=10
+[0] sec=2
+ Q[0] CONT_WRITE 1374 > 400 ms
+[STRMSND][0] OPEN
+[VDOENC][4] Action = 0, Codec = 2, Mode = 7, Size = (848, 480), ByteRate = 307200, Fr = 30, Trig = 1, Dis = 0, Alloc size = (0, 701684, 921600), Enc Buf = (3000 ms, 0 ms, 0x43cf3374, 0x43dd4370, 0x43dd4370, 921596), Min Size(I, P) = (307200, 307200)
+[H264ENC][4] Init Codec = (0x43c47e80, 701684), W = 848, H = 480, Prof = 2, Br = 2457600, Fps = 30, Gop = 15, SVC = 0, IQP = (26, 10, 40), PQP = (26, 10, 40), Sta = 4, Wei = 0, RowRc = (1, 1, 4), LTR = (0, 0), Rot = 0, FastSr = 0, ColorR = 1, Mode = 0, SEI = 0
+H26xEnc don't need to init, 2, 589
+[H264ENC][4] Set CBR
+[H264ENC][4] Reset I OK, idx = 0, Frame Type = 3, Frame = (0x43cf3374, 21498), Buf = (0x43cf3374, 0x43dd4370), t = 5625992 us
+[STRMSND] auto rel 1
+[strmsnd] auto_rel 1
+[strmsnd] V0 SlotNum = 30
+[0] sec=3
+[0] sec=4
+[0] sec=5
+Auto channel choose ch:2
+AP ready, total period = 5575103 us
+[0] sec=6
+[0] sec=7
+USB Unplug
+ACC is remove!!!!!!!! 
+ACC_ShuntDownCnt = 1
+[0] sec=8
+ACC_ShuntDownCnt = 2
+[0] sec=9
+ACC_ShuntDownCnt = 3
+****** f ACC is unplug, after 3S will be shutdown any way!!!!
+On Shutdown begin
+Mode {MOVIE} Close begin
+[VDOENC][4] Action = 1
+[VDOTRIG] wait idle finished
+[H264ENC][4] close
+H26xEnc don't need to close, 1, 369
+[STRMSND][0] CLOSE
+[strmsnd] V0 SlotNum = 30
+[strmsnd] A0 SlotNum = 30
+WRN:NvtIPC_MsgRcv() MsgQue is released
+WRN:NvtIPC_MsgRcv() MsgQue is released
+
+IPL_RT: Id: 0[Path2], en: 0
+WRN:_LinkPortCntDec() Count is already changed but not set yet!
+WRN:_LinkPortCntDec() Count is already changed but not set yet!
+WRN:_LinkPortCntDec() Count is already changed but not set yet!
+
+IPL_RT: Id: 0[Path3], en: 0
+[0] sec=10
+ [FILEOUT] Stop(0)
+[BSMUXER]stop-B(0)
+getalllast 0 1
+ mdat=0 stopped
+ BSQ:mdatBB[0] 0x42b98540, s=0x606b0.
+use 32 bits mdat atom
+ BSM:Gettotal2card[0] total =0xea06b0
+[BSMUXER]stop-E(0)
+[VDOENC][0] Action = 1
+[VDOTRIG] wait idle finished
+[H265ENC][0] close
+[AUDENC][0] Action = 1, Codec = 2, Mode = 2, Sr = 16000, Ch = 1, Bits = 16, Fix Sample = 0, ADTS = 1, Buf = (0x427773c0, 0x42794880, 0x427938e0)
+
+IPL_RT: Id: 0[Path1], en: 0
+ [FILEOUT] Close(0)
+gISF_BsMuxMemPool[0]  b12e0c --
+gISF_BsMuxMdatPool  b12f88 -- 0
+[BSMUXER]CLOSE(0)-B
+A:\Novatek\Movie\20190601115857_000003.MP4 added to FileDB
+[FILEOUT] Q[0] CLOSE 
+[FILEOUT] port 128 release queue 0 success.
+[FILEOUT] Port release success
+. WaitFSrelease[0]ok22 
+ WaitFSrelease[1]ok11 
+ WaitFSrelease[2]ok11 
+ WaitFSrelease[3]ok11 
+ WaitFSrelease[4]ok11 
+ WaitFSrelease[5]ok11 
+ WaitFSrelease[6]ok11 
+ WaitFSrelease[7]ok11 
+open but no IN
+Mdatstop-B
+Mdatstop-E
+ Bsmuxer[0] callback result = 0
+[BSMUXER]CLOSE(0)-E
+[VDOENC] close enc task
+[VDOTRIG] wait close finished
+Mode {MOVIE} Close end
+_TODO -> System_OnShutdown:445, task(5a,) caller(0x239864F)
+===================  gsensor Parking mode open!!  ===================
+ACC_ShuntDownCnt = 4
+ERR:wdt_trigger() WDT is not opened!
+Boot from temp file, skip Save_MenuInfo
+On ShutdoERR:dai_setTxDMAPara() Previous DMA size must be multiples of 2 words (1)(10553)
+wn end
+System Shutdown begin
+Power Off Sequence = Safe
+ACC_ShuntDownCnt = 5
+ERR:wdt_trigger() WDT is not opened!
+ACC_ShuntDownCnt = 6
+ERR:wdt_trigger() WDT is not opened!
+System Shutdown end
+
+Byebye, World!
+
+=========================================================
+  NA51023 SDK
+  Copyright (c) 2017 Novatek Microelectronic Corp.
+=========================================================
+(pwr-off)
+(pwr-off)
+ASSERT FAIL: <E

@@ -1,0 +1,1 @@
+cmd_lib/lzma/built-in.o :=  /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/mipsel-24kec-linux-gnu-ld.bfd   -G 0 -static -n -nostdlib -EL -m elf32ltsmip   -r -o lib/lzma/built-in.o lib/lzma/LzmaDec.o lib/lzma/LzmaTools.o 

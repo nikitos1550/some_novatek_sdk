@@ -1,0 +1,1 @@
+cmd_tools/env/fw_printenv_unstripped := /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/mipsel-24kec-linux-gnu-gcc  -o tools/env/fw_printenv_unstripped tools/env/fw_env.o tools/env/fw_env_main.o tools/env/crc32.o tools/env/ctype.o tools/env/linux_string.o tools/env/env_attr.o tools/env/env_flags.o tools/env/aes.o  

@@ -1,0 +1,12 @@
+na51023_utils.c:1999:5:do_nvt_bootm_cmd	288	static
+na51023_utils.c:576:12:nvt_on_partition_enum_copy_to_dest	56	static
+na51023_utils.c:531:12:nvt_on_itron_partition_enum_copy_to_dest	48	static
+na51023_utils.c:2060:5:do_nvt_update_all_cmd	48	static
+na51023_utils.c:644:12:nvt_runfw_bin_unpack_to_dest.constprop	120	static
+na51023_utils.c:510:12:nvt_runfw_bin_chk_valid.constprop	64	static
+na51023_utils.c:1092:12:nvt_boot_itron_bin_auto	240	static
+na51023_utils.c:2022:5:do_nvt_booti_cmd	32	static
+na51023_utils.c:2041:5:do_nvt_bootd_cmd	32	static
+na51023_utils.c:56:6:parsing_sdio_driving	0	static
+na51023_utils.c:1863:5:do_nvt_boot_cmd	2448	static
+na51023_utils.c:276:5:nvt_flash_mtdpart_config	2128	static

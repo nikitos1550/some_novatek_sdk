@@ -1,0 +1,1 @@
+cmd_u-boot.srec := /opt/ivot/mipsel-24kec-linux-glibc-4.9-2017.08/usr/bin/mipsel-24kec-linux-gnu-objcopy  -j .text -j .rodata -j .data -j .got -j .u_boot_list -j .rel.dyn -j .START_UP -j .CODE_INFO -j .BIN_INFO -j .BIN_END --gap-fill=0xff -O srec u-boot u-boot.srec

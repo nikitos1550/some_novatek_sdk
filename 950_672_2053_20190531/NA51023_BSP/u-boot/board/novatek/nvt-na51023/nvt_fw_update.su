@@ -1,0 +1,13 @@
+nvt_fw_update.c:265:15:MemCheck_CalcCheckSum16Bit	0	static
+nvt_fw_update.c:119:12:nvt_read_partitions	184	static
+nvt_fw_update.c:591:12:nvt_on_partition_enum_mtd_readback	184	static
+nvt_fw_update.c:58:13:nvt_update_partitions	184	static
+nvt_fw_update.c:537:12:nvt_on_partition_enum_update	184	static
+nvt_fw_update.c:468:5:nvt_chk_all_in_one_valid	160	static
+nvt_fw_update.c:511:12:nvt_on_partition_enum_sanity	32	static
+nvt_fw_update.c:645:5:nvt_check_should_rename_updfw	40	static
+nvt_fw_update.c:664:5:nvt_rename_updfw	48	static
+nvt_fw_update.c:714:5:nvt_create_delfw	32	static
+nvt_fw_update.c:727:5:nvt_delete_delfw	32	static
+nvt_fw_update.c:740:5:nvt_process_all_in_one	168	static
+nvt_fw_update.c:962:5:nvt_fw_update	56	static

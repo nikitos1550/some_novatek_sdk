@@ -1,0 +1,1 @@
+../../ARC_eCos/Drv/Release/MODELEXT_X1.a ../../ARC_eCos/Drv/Release/Driver_Sys.a 

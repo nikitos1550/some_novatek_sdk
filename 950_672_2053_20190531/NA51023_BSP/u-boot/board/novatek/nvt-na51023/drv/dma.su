@@ -1,0 +1,2 @@
+dma.c:1528:4:dma_enableChannel	0	static
+dma.c:1767:4:dma_setAXIRequestCount	48	static

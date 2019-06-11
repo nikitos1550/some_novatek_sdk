@@ -1,0 +1,16 @@
+nvt_common.c:134:12:nvt_modelext_init_bininfo_replace	200	static
+nvt_common.c:233:6:nvt_modelext_bininfo_init	32	static
+nvt_common.c:254:13:nvt_ipc_init	32	static
+nvt_common.c:579:5:nvt_detect_fw_tbin	32	static
+nvt_common.c:289:5:nvt_modelext_init	40	static
+nvt_common.c:641:6:lz_uncompress	0	static
+nvt_common.c:693:5:get_part	64	static
+nvt_common.c:724:6:nvt_disable_mem_protect	0	static
+nvt_common.c:729:15:get_nvt_timer0_cnt	0	static
+nvt_common.c:741:7:get_nvt_bin_name	56	static
+nvt_common.c:790:5:nvt_check_is_fw_update_fw	0	static
+nvt_common.c:508:5:nvt_board_init	40	static
+nvt_common.c:799:5:nvt_fs_set_blk_dev	40	static
+nvt_common.c:552:5:nvt_fw_load_tbin	40	static
+nvt_common.c:811:5:nvt_get_cpu_os_type	32	static
+nvt_common.c:824:11:nvt_get_32bits_data	0	static

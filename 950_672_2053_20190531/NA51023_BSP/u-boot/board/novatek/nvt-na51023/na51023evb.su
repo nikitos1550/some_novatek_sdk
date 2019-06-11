@@ -1,0 +1,9 @@
+na51023evb.c:241:12:nvt_handle_fw_auto	4144	static
+na51023evb.c:20:13:initdram	0	static
+na51023evb.c:25:5:checkboard	32	static
+na51023evb.c:46:5:board_early_init_f	32	static
+na51023evb.c:58:5:board_mmc_init	40	static
+na51023evb.c:80:5:board_eth_init	0	static
+na51023evb.c:296:5:misc_init_r	48	static
+na51023evb.c:359:5:get_board_rev	0	static
+na51023evb.c:364:5:board_late_init	0	static

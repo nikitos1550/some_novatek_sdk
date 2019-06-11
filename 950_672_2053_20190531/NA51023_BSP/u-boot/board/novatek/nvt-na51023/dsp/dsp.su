@@ -1,0 +1,4 @@
+dsp.c:212:13:dsp_setReg	0	static
+dsp.c:186:10:dsp_getReg	0	static
+dsp.c:236:4:dsp_setConfig	40	static
+dsp.c:373:4:dsp_open	32	static

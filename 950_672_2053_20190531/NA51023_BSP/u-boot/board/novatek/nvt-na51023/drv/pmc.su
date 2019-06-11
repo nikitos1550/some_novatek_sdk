@@ -1,0 +1,3 @@
+pmc.c:61:12:pmc_getPWRStatus	0	static
+pmc.c:119:6:pmc_turnonPower	56	static
+pmc.c:237:6:pmc_turnoffPower	48	static

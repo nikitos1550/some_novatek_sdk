@@ -1,0 +1,3 @@
+pll.c:467:4:pll_setPLLEn	32	static
+pll.c:2246:6:pll_enableClock	32	static
+pll.c:3263:6:pll_disableSystemReset	32	static

@@ -1,0 +1,5 @@
+sdhci.c:358:6:sdhci_set_ios	48	static
+sdhci.c:396:5:sdhci_init	40	static
+sdhci.c:18:13:sdhci_reset	40	static
+sdhci.c:127:5:sdhci_send_command	64	static
+sdhci.c:440:5:add_sdhci	32	static
